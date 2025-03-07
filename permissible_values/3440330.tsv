@@ -1,4 +1,4 @@
-PERMITTED_VALUE	DESCRIPTION	DEFINITION
+PERMITTED_VALUE	LONG_NAME	DEFINITION
 N0	N0 Stage Finding	A regional lymph node TNM finding indicating that there is no evidence of regional lymph node metastasis.
 N0 (i+)	N0 (i+) Stage Finding	A regional lymph node TNM finding indicating that there are malignant cells in regional lymph node(s) no greater than 0.2 mm and are detected by hematoxylin and eosin stain or immunohistochemistry.
 N0 (i-)	N0 (i-) Stage Finding	A regional lymph node TNM finding indicating that there is no evidence of regional lymph node metastasis histologically, and immunohistochemistry is negative.
@@ -23,5 +23,5 @@ N3b	N3b Stage Finding	A general term that refers to a TNM finding of cancer meta
 N3c	N3c Stage Finding	A general term that refers to a TNM finding of cancer metastases in multiple lymph nodes.  The definition of N3c TNM finding depends on the specific type of cancer that it refers to; for example, for breast cancer it refers to metastases in ipsilateral supraclavicular lymph nodes.
 N4	N4 Stage Finding	A general term that refers to a TNM finding of cancer metastases in multiple lymph nodes. The definition of N4 TNM finding depends on the specific type of cancer that it refers to; for example, for ocular adnexal lymphoma it refers to metastases to central lymph nodes.
 NX	NX Stage Finding	A regional lymph node TNM finding indicating that the status of regional lymph nodes cannot be assessed.
-Not Reported	None	Not provided or available.
-Unknown	None	Not known, not observed, not recorded, or refused.
+Not Reported	Not Reported	Not provided or available.
+Unknown	Unknown	Not known, not observed, not recorded, or refused.

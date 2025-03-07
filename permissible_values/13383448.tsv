@@ -1,12 +1,12 @@
-PERMITTED_VALUE	DESCRIPTION	DEFINITION
-Complete Response	None	Complete disappearance of all clinical evidence of disease with skin, nodes, blood and viscera categories having complete response or noninvolvement.
-No Evidence of Disease	None	Diagnostic tests fail to detect presence of disease.
-No Response	None	No apparent change or worsening in tumor staging classification.
-Not Applicable	None	Determination of a value is not relevant in the current context.
-Not Evaluable	None	Unable to be evaluated.
-Not Reported	None	Not provided or available.
-Partial Response	None	A finding indicating that there is a decrease in the size and the extent of tissue involvement by a malignant tumor in a patient.
-Persistent Disease	None	A disease that does not go to remission despite treatment.
-Progressive Disease	None	A clinical, pathologic, and/or molecular finding indicating that the course of a disease is worsening in terms of extent or severity.
-Stable Disease	None	Cancer that is neither decreasing nor increasing in extent or severity.
-Unknown	None	Not known, not observed, not recorded, or refused.
+PERMITTED_VALUE	LONG_NAME	DEFINITION
+Complete Response	Global Complete Response	Complete disappearance of all clinical evidence of disease with skin, nodes, blood and viscera categories having complete response or noninvolvement.
+No Evidence of Disease	No Evidence of Disease	Diagnostic tests fail to detect presence of disease.
+No Response	No Response	No apparent change or worsening in tumor staging classification.
+Not Applicable	Not Applicable	Determination of a value is not relevant in the current context.
+Not Evaluable	Not Evaluable	Unable to be evaluated.
+Not Reported	Not Reported	Not provided or available.
+Partial Response	Partial Remission	A finding indicating that there is a decrease in the size and the extent of tissue involvement by a malignant tumor in a patient.
+Persistent Disease	Persistent disease (Hematologic persistence)	A disease that does not go to remission despite treatment.
+Progressive Disease	Progressive Disease	A clinical, pathologic, and/or molecular finding indicating that the course of a disease is worsening in terms of extent or severity.
+Stable Disease	Stable Disease	Cancer that is neither decreasing nor increasing in extent or severity.
+Unknown	Unknown	Not known, not observed, not recorded, or refused.

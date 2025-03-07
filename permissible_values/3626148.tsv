@@ -1,4 +1,4 @@
-PERMITTED_VALUE	DESCRIPTION	DEFINITION
+PERMITTED_VALUE	LONG_NAME	DEFINITION
 Current Every-Day Smoker	Current Every Day Smoker	Indicates a person that currently smokes every day.
 Current Some-Day Smoker	Current Some Day Smoker	Indicates a person who has smoked at least 100 cigarettes in his or her lifetime, who smokes now, but does not smoke every day.
 Current smoker	Current smoker	An adult who has smoked 100 cigarettes in his or her lifetime and who currently smokes cigarettes. Includes daily smokers and non-daily smokers (also known as occasional smokers).

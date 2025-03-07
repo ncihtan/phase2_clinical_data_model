@@ -49,17 +49,17 @@ for id in id_list:
             permissibleValues = valueDomain["PermissibleValues"]
             for permitted in permissibleValues:
                 value = replace_illegal_quoting(permitted["value"])
-                description = replace_illegal_quoting(permitted["valueDescription"])
+                long_name = replace_illegal_quoting(permitted["ValueMeaning"]["longName"])
                 definition = replace_illegal_quoting(permitted["ValueMeaning"]["definition"])
-                permitted_list.append((value, description, definition.strip()))
+                permitted_list.append((value, long_name, definition.strip()))
 
         if len(permitted_list) > 0:
             permitted_list.sort(key=lambda x: x[0])
             out_path = "permissible_values/%s.tsv" % id
             print("Writing to:  %s" % out_path)
             out = open(out_path, "w")
-            out.write("PERMITTED_VALUE\tDESCRIPTION\tDEFINITION\n")
+            out.write("PERMITTED_VALUE\tLONG_NAME\tDEFINITION\n")
             for permitted in permitted_list:
-                (value, description, definition) = permitted
-                out.write("%s\t%s\t%s\n" % (value, description, definition))
+                (value, long_name, definition) = permitted
+                out.write("%s\t%s\t%s\n" % (value, long_name, definition))
             out.close()

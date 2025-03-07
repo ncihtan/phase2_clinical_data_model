@@ -1,5 +1,5 @@
-PERMITTED_VALUE	DESCRIPTION	DEFINITION
-Alive	Life	Showing characteristics of life; displaying signs of life.
+PERMITTED_VALUE	LONG_NAME	DEFINITION
+Alive	Alive	Showing characteristics of life; displaying signs of life.
 Dead	Death	The absence of life or state of being dead.
 Not reported	Not Reported	Not provided or available.
 Unknown	Unknown	Not known, not observed, not recorded, or refused.

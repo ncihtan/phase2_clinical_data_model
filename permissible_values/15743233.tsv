@@ -1,6 +1,6 @@
-PERMITTED_VALUE	DESCRIPTION	DEFINITION
-Combination Drug Therapy	None	Drug therapy with two or more drugs given separately or together for a combined effect.
-Not Applicable	None	Determination of a value is not relevant in the current context.
-Not Reported	None	Not provided or available.
-Single Drug Therapy	None	Pharmacotherapy consisting of a single agent.
-Unknown	None	Not known, observed, recorded; or reported as unknown by the data contributor.
+PERMITTED_VALUE	LONG_NAME	DEFINITION
+Combination Drug Therapy	Combination Drug Therapy	Drug therapy with two or more drugs given separately or together for a combined effect.
+Not Applicable	Not applicable	Determination of a value is not relevant in the current context.
+Not Reported	Not Reported	Not provided or available.
+Single Drug Therapy	Single Agent Therapy	Pharmacotherapy consisting of a single agent.
+Unknown	Unknown	Not known, observed, recorded; or reported as unknown by the data contributor.

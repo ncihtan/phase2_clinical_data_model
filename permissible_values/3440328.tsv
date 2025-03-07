@@ -1,5 +1,5 @@
-PERMITTED_VALUE	DESCRIPTION	DEFINITION
-Not Reported	None	Not provided or available.
+PERMITTED_VALUE	LONG_NAME	DEFINITION
+Not Reported	Not Reported	Not provided or available.
 T0	T0 Stage Finding	A primary tumor TNM finding indicating that there is no evidence of primary tumor.
 T1	T1 Stage Finding	A clinical and/or pathologic primary tumor TNM finding indicating that the cancer is limited to the site of growth.
 T1a	T1a Stage Finding	A general term that refers to a TNM finding of a primary tumor limited to the site of growth.  The definition of T1a TNM finding depends on the specific type of cancer that it refers to; for example, for breast cancer it refers to a primary tumor that is more than 0.1cm, but not more than 0.5 cm in greatest dimension; for kidney cancer it refers to a primary tumor that is 4 cm or less in greatest dimension; and for thyroid cancer it refers to a primary tumor that is 1 cm or less in greatest dimension.
@@ -31,8 +31,8 @@ T4e	T4e Stage Finding	Any tumor size category with extraocular extension more th
 T5	T5 Stage Finding	An antiquated primary tumor finding term that refers to colorectal cancer which has spread by direct extension beyond the immediately adjacent organs or tissues. (AJCC 1st Ed.)
 TX	TX Stage Finding	A primary tumor TNM finding indicating that the status of the primary tumor cannot be assessed.
 Ta	Ta Stage Finding	A term that refers to a TNM finding of a primary, non-invasive, papillary cancer.
-Tis	Tis Stage Finding	Breast cancer with a finding of carcinoma in situ. (from AJCC 6th and 7th Eds.)
+Tis	Breast Cancer pTis TNM Finding v6 and v7	Breast cancer with a finding of carcinoma in situ. (from AJCC 6th and 7th Eds.)
 Tis (DCIS)	Tis Stage Finding Ductal Breast Carcinoma In Situ	A term that refers to a TNM finding of a primary tumor microscopically defined as carcinoma in situ.: A carcinoma entirely confined to the mammary ducts. It is also known as DCIS. There is no evidence of invasion of the basement membrane. Currently, it is classified into three categories: High-grade DCIS, intermediate-grade DCIS and low-grade DCIS. In this classification the DCIS grade is defined by a combination of nuclear grade, architectural growth pattern and presence of necrosis. The size of the lesion as well as the grade and the clearance margins play a major role in dictating the most appropriate therapy for DCIS.
 Tis (LCIS)	Tis Stage Finding Lobular Breast Carcinoma In Situ	A term that refers to a TNM finding of a primary tumor microscopically defined as carcinoma in situ.: A non-invasive adenocarcinoma of the breast characterized by a proliferation of monomorphic cells completely filling the lumina.  The overall lobular architecture is preserved.  It is frequently multifocal (90% in some series) and bilateral.  It seldom becomes invasive; however there is an increased risk of infiltrating ductal adenocarcinoma.
 Tis (Paget's)	Tis Stage Finding Paget Disease of the Breast without Invasive Carcinoma	A term that refers to a TNM finding of a primary tumor microscopically defined as carcinoma in situ.: Paget disease involving the skin overlying the mammary gland, without accompanying invasive ductal or lobular breast carcinoma.
-Unknown	None	Not known, not observed, not recorded, or refused.
+Unknown	Unknown	Not known, not observed, not recorded, or refused.

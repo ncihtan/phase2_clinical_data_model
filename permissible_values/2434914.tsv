@@ -1,5 +1,5 @@
-PERMITTED_VALUE	DESCRIPTION	DEFINITION
-Menopausal	None	The permanent cessation of menses, usually defined by 6 to 12 months of amenorrhea in a woman over 45 years of age.
+PERMITTED_VALUE	LONG_NAME	DEFINITION
+Menopausal	Menopause	The permanent cessation of menses, usually defined by 6 to 12 months of amenorrhea in a woman over 45 years of age.
 Not Applicable	Not Applicable	Determination of a value is not relevant in the current context.
 Not Reported	Not Reported	Not provided or available.
 Perimenopausal	Perimenopausal	The time of a woman's life when menstrual periods become irregular. Refers to the time near menopause.
