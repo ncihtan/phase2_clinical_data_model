@@ -1,0 +1,2 @@
+PERMITTED_VALUE	DESCRIPTION	DEFINITION
+https://www.cdc.gov/nchs/icd/icd-10-cm/files.html?CDC_AAref_Val=https://www.cdc.gov/nchs/icd/Comprehensive-Listing-of-ICD-10-CM-Files.htm	None	An extension of the ICD-10 created by the U.S. National Center for Health Statistics so that the system could be used to capture more morbidity data. This extension included a section of procedure codes.

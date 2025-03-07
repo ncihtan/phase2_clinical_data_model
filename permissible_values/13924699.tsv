@@ -1,0 +1,2 @@
+PERMITTED_VALUE	DESCRIPTION	DEFINITION
+ICD-10-CM (By Reference)	None	An extension of the ICD-10 created by the U.S. National Center for Health Statistics so that the system could be used to capture more morbidity data. This extension included a section of procedure codes.

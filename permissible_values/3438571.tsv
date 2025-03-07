@@ -1,0 +1,5 @@
+PERMITTED_VALUE	DESCRIPTION	DEFINITION
+Non-metastatic (unconfirmed)	Non Metastatic Unconfirmed	An operation in which a term denies or inverts the meaning of another term or construction.: A term referring to the clinical or pathologic observation of a tumor extension from its original site of growth to another anatomic site.: An operation in which a term denies or inverts the meaning of another term or construction.: Confirmed; having been established or verified.
+Non-metastatic (confirmed)	Non Metastatic Confirmed	An operation in which a term denies or inverts the meaning of another term or construction.: A term referring to the clinical or pathologic observation of a tumor extension from its original site of growth to another anatomic site.: Confirmed; having been established or verified.
+Metastatic	Metastatic	A term referring to the clinical or pathologic observation of a tumor extension from its original site of growth to another anatomic site.
+Unknown	Unknown	Not known, observed, recorded; or reported as unknown by the data contributor.

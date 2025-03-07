@@ -1,0 +1,12 @@
+PERMITTED_VALUE	DESCRIPTION	DEFINITION
+Not Reported	Not Reported	Not provided or available.
+Protein	Protein	Any of a group of complex organic macromolecules that contain carbon, hydrogen, oxygen, nitrogen, and usually sulfur and are composed of one or more chains of amino acids. Proteins are fundamental components of all living cells and include many substances, such as enzymes, hormones, and antibodies, that are necessary for the proper functioning of an organism.
+Unknown	Unknown	Not known, not observed, not recorded, or refused.
+mRNA	Messenger RNA	A class of RNA molecule containing protein-coding information in its nucleotide sequence that can be translated into the amino acid sequence of a protein.
+miRNA	MicroRNA	A sequence of single-stranded RNA, that is 20-25 nucleotides in length, which is transcribed from DNA but is not translated into a protein. This nucleic acid may regulate the transcription or translation of other genes.
+DNA	DNA	A long linear double-stranded polymer formed from nucleotides attached to a deoxyribose backbone and found in the nucleus of a cell; associated with the transmission of genetic information.
+cfDNA	None	DNA found in blood plasma and other bodily fluids that is not associated with cells.
+Nucleic RNA	None	A biological specimen comprised of the RNA isolated from the nuclei of cells.
+Total RNA	None	A biological sample comprised of all of the RNA collected from an experimental subject.
+RNA	None	A biospecimen created to contain an isolated or enriched RNA sample.
+ctDNA	None	Neoplasm-derived DNA found in blood plasma and other bodily fluids that is not associated with cells.
