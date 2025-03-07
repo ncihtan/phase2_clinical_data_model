@@ -1,11 +1,11 @@
 PERMITTED_VALUE	DESCRIPTION	DEFINITION
 Premenopausal/Perimenopausal	Premenopausal/Perimenopausal	Prior to menopause. : Used to indicate that either or both of two items or options may be valid.: Describes the time in a woman's life when menstrual periods become irregular as she approaches menopause. This is usually three to five years before menopause and is often marked by many of the symptoms of menopause, including hot flashes, mood swings, night sweats, vaginal dryness, trouble concentrating, and infertility.
 Perimenopausal	Perimenopausal	The time of a woman's life when menstrual periods become irregular. Refers to the time near menopause.
-Premenopausal	Premenopausal	Refers to the time before menopause. Menopause is the time of life when a women's menstrual periods stop permanently; also called "change of life."
+Premenopausal	Premenopausal	Refers to the time before menopause. Menopause is the time of life when a women's menstrual periods stop permanently; also called 'change of life.'
 Unknown	Unknown	Not known, not observed, not recorded, or refused.
-Postmenopausal	postmenopausal	Having to do with the time after menopause. Menopause ("change of life") is the time in a woman's life when menstrual periods stop permanently.
-Postmenopausal (prior bilateral ovariectomy)	postmenopausal	Having to do with the time after menopause. Menopause ("change of life") is the time in a woman's life when menstrual periods stop permanently.
-Postmenopausal (>12 mo since LMP with no prior ovariectomy)	postmenopausal	Having to do with the time after menopause. Menopause ("change of life") is the time in a woman's life when menstrual periods stop permanently.
+Postmenopausal	postmenopausal	Having to do with the time after menopause. Menopause ('change of life') is the time in a woman's life when menstrual periods stop permanently.
+Postmenopausal (prior bilateral ovariectomy)	postmenopausal	Having to do with the time after menopause. Menopause ('change of life') is the time in a woman's life when menstrual periods stop permanently.
+Postmenopausal (>12 mo since LMP with no prior ovariectomy)	postmenopausal	Having to do with the time after menopause. Menopause ('change of life') is the time in a woman's life when menstrual periods stop permanently.
 Not Applicable	Not Applicable	Determination of a value is not relevant in the current context.
 Not Reported	Not Reported	Not provided or available.
 Menopausal	None	The permanent cessation of menses, usually defined by 6 to 12 months of amenorrhea in a woman over 45 years of age.

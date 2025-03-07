@@ -2,6 +2,12 @@ import subprocess
 import os.path
 import json
 
+def replace_illegal_quoting(value):
+    if value:
+        return value.replace('"', "'")
+    else:
+        return value
+
 # Pulls Data from the caDSR API
 id_list = []
 fd = open("config/ca_dsr.txt")
@@ -46,8 +52,8 @@ for id in id_list:
                 out = open(out_path, "w")
                 out.write("PERMITTED_VALUE\tDESCRIPTION\tDEFINITION\n")
                 for permitted in permissibleValues:
-                    value = permitted["value"]
-                    description = permitted["valueDescription"]
-                    definition = permitted["ValueMeaning"]["definition"]
+                    value = replace_illegal_quoting(permitted["value"])
+                    description = replace_illegal_quoting(permitted["valueDescription"])
+                    definition = replace_illegal_quoting(permitted["ValueMeaning"]["definition"])
                     out.write("%s\t%s\t%s\n" % (value, description, definition.strip()))
                 out.close()
