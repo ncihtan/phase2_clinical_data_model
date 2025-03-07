@@ -1,0 +1,6 @@
+.venv/
+.idea/
+.coverage
+tests/out
+deploy/
+*.pyc

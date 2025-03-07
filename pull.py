@@ -16,7 +16,6 @@ fd = open("config/ca_dsr.txt")
 for line in fd:
     id_list.append(line.strip())
 
-
 # Cache JSON Files
 for id in id_list:
     url = "https://cadsrapi.cancer.gov/rad/NCIAPI/1.0/api/DataElement/" + id
