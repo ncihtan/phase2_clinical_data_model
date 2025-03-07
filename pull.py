@@ -2,11 +2,13 @@ import subprocess
 import os.path
 import json
 
+
 def replace_illegal_quoting(value):
     if value:
         return value.replace('"', "'")
     else:
         return value
+
 
 # Pulls Data from the caDSR API
 id_list = []
@@ -49,8 +51,12 @@ for id in id_list:
             permissibleValues = valueDomain["PermissibleValues"]
             for permitted in permissibleValues:
                 value = replace_illegal_quoting(permitted["value"])
-                long_name = replace_illegal_quoting(permitted["ValueMeaning"]["longName"])
-                definition = replace_illegal_quoting(permitted["ValueMeaning"]["definition"])
+                long_name = replace_illegal_quoting(
+                    permitted["ValueMeaning"]["longName"]
+                )
+                definition = replace_illegal_quoting(
+                    permitted["ValueMeaning"]["definition"]
+                )
                 permitted_list.append((value, long_name, definition.strip()))
 
         if len(permitted_list) > 0:
