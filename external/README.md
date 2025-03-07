@@ -9,7 +9,10 @@
 Processing:
 - Decompress mappings_sssom.tsv.gz 
 - Find uberon.ols.sssom.tsv
-- Remove header, extract subject_id (code) values and , relabel as "Permissible Value" and 
+- Use the following code to:
+    - remove header;
+    - extract unique subject_id (code) values and "subject_label"; and
+    - relabel as "Permissible Value" and "Label".
 
 ``` {bash}
 echo -e "Permissible Value\tLabel" > uberon_organ-tissue.tsv
