@@ -1,8 +1,8 @@
 PERMITTED_VALUE	DESCRIPTION	DEFINITION
-Yes	None	The affirmative response to a question.
-Unknown	None	Not known, observed, recorded; or reported as unknown by the data contributor.
-Not Reported	None	Not provided or available.
-Not Applicable	None	Determination of a value is not relevant in the current context.
-Not Allowed to Collect	None	An indicator that specifies that a collection event was not permitted.
-No	None	The non-affirmative response to a question.
+Censored	None	Points of data for which only partial information is known.
+Censored	None	Points of data for which only partial information is known.
+Censored	None	Points of data for which only partial information is known.
+Censored	None	Points of data for which only partial information is known.
+Censored	None	Points of data for which only partial information is known.
+Censored	None	Points of data for which only partial information is known.
 Censored	None	Points of data for which only partial information is known.

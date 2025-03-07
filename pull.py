@@ -39,6 +39,7 @@ for id in id_list:
 # Process the Cached JSON
 for id in id_list:
     file_path = "cache/%s.json" % id
+    permitted_list = []
 
     with open(file_path, "r") as file:
         data = json.load(file)
@@ -46,14 +47,18 @@ for id in id_list:
         valueDomain = dataElement["ValueDomain"]
         if "PermissibleValues" in valueDomain:
             permissibleValues = valueDomain["PermissibleValues"]
-            if len(permissibleValues) > 0:
-                out_path = "permissible_values/%s.tsv" % id
-                print("Writing to:  %s" % out_path)
-                out = open(out_path, "w")
-                out.write("PERMITTED_VALUE\tDESCRIPTION\tDEFINITION\n")
-                for permitted in permissibleValues:
-                    value = replace_illegal_quoting(permitted["value"])
-                    description = replace_illegal_quoting(permitted["valueDescription"])
-                    definition = replace_illegal_quoting(permitted["ValueMeaning"]["definition"])
-                    out.write("%s\t%s\t%s\n" % (value, description, definition.strip()))
-                out.close()
+            for permitted in permissibleValues:
+                value = replace_illegal_quoting(permitted["value"])
+                description = replace_illegal_quoting(permitted["valueDescription"])
+                definition = replace_illegal_quoting(permitted["ValueMeaning"]["definition"])
+                permitted_list.append((value, description, definition))
+
+        if len(permitted_list) > 0:
+            permitted_list.sort(key=lambda x: x[0])
+            out_path = "permissible_values/%s.tsv" % id
+            print("Writing to:  %s" % out_path)
+            out = open(out_path, "w")
+            out.write("PERMITTED_VALUE\tDESCRIPTION\tDEFINITION\n")
+            for permitted in permitted_list:
+                out.write("%s\t%s\t%s\n" % (value, description, definition.strip()))
+            out.close()

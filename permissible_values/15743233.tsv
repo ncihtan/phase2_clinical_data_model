@@ -1,6 +1,6 @@
 PERMITTED_VALUE	DESCRIPTION	DEFINITION
-Not Applicable	None	Determination of a value is not relevant in the current context.
-Not Reported	None	Not provided or available.
-Unknown	None	Not known, observed, recorded; or reported as unknown by the data contributor.
-Combination Drug Therapy	None	Drug therapy with two or more drugs given separately or together for a combined effect.
+Single Drug Therapy	None	Pharmacotherapy consisting of a single agent.
+Single Drug Therapy	None	Pharmacotherapy consisting of a single agent.
+Single Drug Therapy	None	Pharmacotherapy consisting of a single agent.
+Single Drug Therapy	None	Pharmacotherapy consisting of a single agent.
 Single Drug Therapy	None	Pharmacotherapy consisting of a single agent.

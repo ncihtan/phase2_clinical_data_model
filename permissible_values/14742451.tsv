@@ -1,8 +1,8 @@
 PERMITTED_VALUE	DESCRIPTION	DEFINITION
-Not Reported	Not Reported	Not provided or available.
-Unknown	Unknown	Not known, observed, recorded; or reported as unknown by the data contributor.
-Regional	Regional Disease	A disease or condition that extends beyond the site and spreads into adjacent tissues and regional lymph nodes.
-Local	Localized Disease	A disease that is confined to a specific organ or tissue and has not spread to other anatomic sites.
-Biochemical	None	An indication that biochemical markers of a disease are present.
-Distant	None	A biological process that involves the transfer and growth of cancer cells from the site of the primary tumor. Relocation of malignant cells during metastasis can be restricted to movement within a specific tissue/organ or may entail migration to a distal locus within the body. This phenotype is a characteristic of all malignant tumors.
+Locoregional	None	A disease that occurs within a specific organ or tissue and extends into adjacent areas including lymph nodes.
+Locoregional	None	A disease that occurs within a specific organ or tissue and extends into adjacent areas including lymph nodes.
+Locoregional	None	A disease that occurs within a specific organ or tissue and extends into adjacent areas including lymph nodes.
+Locoregional	None	A disease that occurs within a specific organ or tissue and extends into adjacent areas including lymph nodes.
+Locoregional	None	A disease that occurs within a specific organ or tissue and extends into adjacent areas including lymph nodes.
+Locoregional	None	A disease that occurs within a specific organ or tissue and extends into adjacent areas including lymph nodes.
 Locoregional	None	A disease that occurs within a specific organ or tissue and extends into adjacent areas including lymph nodes.

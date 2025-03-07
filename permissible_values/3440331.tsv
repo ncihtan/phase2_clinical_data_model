@@ -1,10 +1,10 @@
 PERMITTED_VALUE	DESCRIPTION	DEFINITION
-cM0 (i+)	cM0 (i+) Stage Finding	A distant metastasis TNM finding indicating that there is no evidence of distant metastasis clinically or by radiologic studies, but there are small numbers of cells detected by special studies in the blood and bone marrow, or there is tiny metastasis (no larger than 0.2 mm) detected in nonregional lymph nodes.
-M0	M0 Stage Finding	A distant metastasis TNM finding indicating that there is no evidence of distant metastasis.
-M1	M1 Stage Finding	A clinical and/or pathologic distant metastasis TNM finding indicating the spread of cancer to distant anatomic sites.
-M1a	M1a Stage Finding	A TNM finding indicating the spread of cancer to distant anatomic sites.  The definition of M1a TNM finding depends on the specific type of cancer that it refers to; for example, for colorectal cancer it refers to metastasis confined to one organ or site (e.g., liver, lung, ovary, nonregional node); for prostate cancer it refers to metastasis to non-regional lymph node(s); for bone cancer it refers to metastasis to the lung.
-M1b	M1b Stage Finding	A TNM finding indicating the spread of cancer to distant anatomic sites.  The definition of M1b TNM finding depends on the specific type of cancer that it refers to; for example, for colorectal cancer it refers to metastases in more than one organ/site or the peritoneum; for prostate cancer it refers to metastasis to bone(s); for bone cancer it refers to metastasis to distant sites other than lung.
-M1c	M1c Stage Finding	A TNM finding indicating the spread of cancer to distant anatomic sites.  The definition of M1c TNM finding depends on the specific type of cancer that it refers to; for example, for prostate cancer it refers to metastasis to anatomic site(s) other than bone, with or without bone disease; for retinoblastoma it refers to central nervous system metastasis; for melanoma of the uvea it refers to distant metastasis, with the largest diameter of the largest metastasis measuring 8.0 cm or more.
-MX	MX Stage Finding	A distant metastasis TNM finding indicating that the status of distant metastasis cannot be assessed.
-Unknown	None	Not known, not observed, not recorded, or refused.
+Not Reported	None	Not provided or available.
+Not Reported	None	Not provided or available.
+Not Reported	None	Not provided or available.
+Not Reported	None	Not provided or available.
+Not Reported	None	Not provided or available.
+Not Reported	None	Not provided or available.
+Not Reported	None	Not provided or available.
+Not Reported	None	Not provided or available.
 Not Reported	None	Not provided or available.
