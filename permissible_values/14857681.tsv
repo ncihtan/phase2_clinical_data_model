@@ -1,28 +1,28 @@
 PERMITTED_VALUE	DESCRIPTION	DEFINITION
+Autopsy	None	Autopsy; an examination and dissection of a dead body to determine cause of death or the changes produced by disease.
+Biopsy	None	The removal of tissue specimens or fluid from the living body for microscopic examination, performed to establish a diagnosis.
+Blood Sample	None	A small volume of blood removed for testing or storage.
+Bone Marrow Aspirate	None	Aspirate from bone marrow.
+Core Biopsy	None	The removal of a tissue sample using a needle with a relatively large diameter, for microscopic examination.
+Cystoscopy	None	Endoscopic examination of the urinary bladder or urethra.
+Diagnostic Imaging	None	Any method that uses a visual display of structural or functional patterns of organs or tissues for diagnostic evaluation.
+Dilation and Curettage	None	A surgical scraping and removal of the inner lining of the uterus through direct dilation of the uterine cervix.
+Enucleation	None	A surgical procedure by which tissue or an organ (usually containing a tumor) is removed without rupture from a specific anatomic site.
+Excisional Biopsy	None	A surgical procedure in which an entire lesion is removed for microscopic examination.
+Fine Needle Aspiration	None	The removal of tissue or fluid with a thin needle for examination under a microscope.
+Histopathology	None	The microscopic study of characteristic tissue abnormalities by employing various cytochemical and immunocytochemical stains.  -- 2004
+Imaging Technique	None	Any technology or method that aids in the visualization of any biological process, cell, tissue or organ for use in screening, diagnosis, surgical procedures or therapy.
+Incisional Biopsy	None	A surgical procedure in which part of a lesion is removed for microscopic examination.
+Laparoscopy	None	Laparoscopic examination of the abdominal cavity and its contents.
+Laparotomy	None	Creation of a surgical opening into the abdominal cavity.
+Magnetic Resonance Imaging Study File	None	Imaging that uses radiofrequency waves and a strong magnetic field rather than x-rays to provide amazingly clear and detailed pictures of internal organs and tissues. The technique is valuable for the diagnosis of many pathologic conditions, including cancer, heart and vascular disease, stroke, and joint and musculoskeletal disorders.
+Not Reported	None	Not provided or available.
+Pap Smear	None	A biospecimen collection and staining procedure in which secretions and superficial cells of the cervix are collected and stained with the Papanicolaou stain followed by microscopic examination to identify the presence of abnormal cells.
 Pathologic Review	None	An assessment of disease process to include cause, development, and/or structural and functional changes associated with the disease.
-Pathologic Review	None	An assessment of disease process to include cause, development, and/or structural and functional changes associated with the disease.
-Pathologic Review	None	An assessment of disease process to include cause, development, and/or structural and functional changes associated with the disease.
-Pathologic Review	None	An assessment of disease process to include cause, development, and/or structural and functional changes associated with the disease.
-Pathologic Review	None	An assessment of disease process to include cause, development, and/or structural and functional changes associated with the disease.
-Pathologic Review	None	An assessment of disease process to include cause, development, and/or structural and functional changes associated with the disease.
-Pathologic Review	None	An assessment of disease process to include cause, development, and/or structural and functional changes associated with the disease.
-Pathologic Review	None	An assessment of disease process to include cause, development, and/or structural and functional changes associated with the disease.
-Pathologic Review	None	An assessment of disease process to include cause, development, and/or structural and functional changes associated with the disease.
-Pathologic Review	None	An assessment of disease process to include cause, development, and/or structural and functional changes associated with the disease.
-Pathologic Review	None	An assessment of disease process to include cause, development, and/or structural and functional changes associated with the disease.
-Pathologic Review	None	An assessment of disease process to include cause, development, and/or structural and functional changes associated with the disease.
-Pathologic Review	None	An assessment of disease process to include cause, development, and/or structural and functional changes associated with the disease.
-Pathologic Review	None	An assessment of disease process to include cause, development, and/or structural and functional changes associated with the disease.
-Pathologic Review	None	An assessment of disease process to include cause, development, and/or structural and functional changes associated with the disease.
-Pathologic Review	None	An assessment of disease process to include cause, development, and/or structural and functional changes associated with the disease.
-Pathologic Review	None	An assessment of disease process to include cause, development, and/or structural and functional changes associated with the disease.
-Pathologic Review	None	An assessment of disease process to include cause, development, and/or structural and functional changes associated with the disease.
-Pathologic Review	None	An assessment of disease process to include cause, development, and/or structural and functional changes associated with the disease.
-Pathologic Review	None	An assessment of disease process to include cause, development, and/or structural and functional changes associated with the disease.
-Pathologic Review	None	An assessment of disease process to include cause, development, and/or structural and functional changes associated with the disease.
-Pathologic Review	None	An assessment of disease process to include cause, development, and/or structural and functional changes associated with the disease.
-Pathologic Review	None	An assessment of disease process to include cause, development, and/or structural and functional changes associated with the disease.
-Pathologic Review	None	An assessment of disease process to include cause, development, and/or structural and functional changes associated with the disease.
-Pathologic Review	None	An assessment of disease process to include cause, development, and/or structural and functional changes associated with the disease.
-Pathologic Review	None	An assessment of disease process to include cause, development, and/or structural and functional changes associated with the disease.
-Pathologic Review	None	An assessment of disease process to include cause, development, and/or structural and functional changes associated with the disease.
+Physical Examination	None	A systemic evaluation of the body and its functions using visual inspection, palpation, percussion and auscultation. The purpose is to determine the presence or absence of physical signs of disease or abnormality for an individual's health assessment.
+Surgical Resection	None	The surgical removal of an organ or a part of an organ.
+Thoracentesis	None	The removal of excess fluid via needle puncture from the thoracic cavity.
+Tumor Debulking	None	The surgical removal of as much of a malignant tumor as is reasonably possible. This procedure increases the effectiveness of the subsequent administration of chemotherapy and/or radiation therapy.
+Ultrasound Guided Biopsy	None	A biopsy procedure that uses an ultrasound imaging device to find an abnormal area of tissue and guide its removal for examination under a microscope.
+Ultrasound Imaging	None	A technique in which high-frequency sound waves are bounced off internal organs and the echo pattern is converted into a 2 dimensional picture of the structures beneath the transducer.
+Unknown	None	Not known, not observed, not recorded, or refused.

@@ -1,9 +1,9 @@
 PERMITTED_VALUE	DESCRIPTION	DEFINITION
+Current Every-Day Smoker	Current Every Day Smoker	Indicates a person that currently smokes every day.
+Current Some-Day Smoker	Current Some Day Smoker	Indicates a person who has smoked at least 100 cigarettes in his or her lifetime, who smokes now, but does not smoke every day.
+Current smoker	Current smoker	An adult who has smoked 100 cigarettes in his or her lifetime and who currently smokes cigarettes. Includes daily smokers and non-daily smokers (also known as occasional smokers).
+Former Smoker	Former Smoker	A person who was not smoking at the time of the interview but has smoked at least 100 cigarettes in their life.
+Never Smoker	Never Smoker	A person who was not smoking at the time of the interview and has smoked less than 100 cigarettes in their life.
+Non-smoker	Non-smoker	indicates a person who has smoked for an undetermined length of time or number of cigarettes, but was not smoking at the time of the interview nor habitually at any point in the past (may be less than 100 cigarettes in a lifetime).
 Not reported	Not Reported	Not provided or available.
-Not reported	Not Reported	Not provided or available.
-Not reported	Not Reported	Not provided or available.
-Not reported	Not Reported	Not provided or available.
-Not reported	Not Reported	Not provided or available.
-Not reported	Not Reported	Not provided or available.
-Not reported	Not Reported	Not provided or available.
-Not reported	Not Reported	Not provided or available.
+Unknown	Unknown	Not known, observed, recorded; or reported as unknown by the data contributor.

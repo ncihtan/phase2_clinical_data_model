@@ -51,7 +51,7 @@ for id in id_list:
                 value = replace_illegal_quoting(permitted["value"])
                 description = replace_illegal_quoting(permitted["valueDescription"])
                 definition = replace_illegal_quoting(permitted["ValueMeaning"]["definition"])
-                permitted_list.append((value, description, definition))
+                permitted_list.append((value, description, definition.strip()))
 
         if len(permitted_list) > 0:
             permitted_list.sort(key=lambda x: x[0])
@@ -60,5 +60,6 @@ for id in id_list:
             out = open(out_path, "w")
             out.write("PERMITTED_VALUE\tDESCRIPTION\tDEFINITION\n")
             for permitted in permitted_list:
-                out.write("%s\t%s\t%s\n" % (value, description, definition.strip()))
+                (value, description, definition) = permitted
+                out.write("%s\t%s\t%s\n" % (value, description, definition))
             out.close()

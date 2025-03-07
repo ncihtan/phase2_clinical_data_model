@@ -1,10 +1,10 @@
 PERMITTED_VALUE	DESCRIPTION	DEFINITION
+G1 Low Grade	None	A morphologic qualifier indicating that a cancerous lesion is well differentiated.
+G2 Intermediate Grade	None	A morphologic qualifier indicating that a cancerous lesion is moderately differentiated.
+G3 High Grade	None	A morphologic qualifier indicating that a cancerous lesion is poorly differentiated.
 G4 Anaplastic	None	A morphologic qualifier indicating that a cancerous lesion is undifferentiated.
-G4 Anaplastic	None	A morphologic qualifier indicating that a cancerous lesion is undifferentiated.
-G4 Anaplastic	None	A morphologic qualifier indicating that a cancerous lesion is undifferentiated.
-G4 Anaplastic	None	A morphologic qualifier indicating that a cancerous lesion is undifferentiated.
-G4 Anaplastic	None	A morphologic qualifier indicating that a cancerous lesion is undifferentiated.
-G4 Anaplastic	None	A morphologic qualifier indicating that a cancerous lesion is undifferentiated.
-G4 Anaplastic	None	A morphologic qualifier indicating that a cancerous lesion is undifferentiated.
-G4 Anaplastic	None	A morphologic qualifier indicating that a cancerous lesion is undifferentiated.
-G4 Anaplastic	None	A morphologic qualifier indicating that a cancerous lesion is undifferentiated.
+GB Borderline	None	A morphologic qualifier indicating that a neoplasm is of borderline malignancy.
+GX Grade Cannot Be Assessed	None	A morphologic qualifier indicating that the grade of a neoplasm cannot be assessed.
+Not Applicable	None	Determination of a value is not relevant in the current context.
+Not Reported	None	Not provided or available.
+Unknown	None	Not known, not observed, not recorded, or refused.

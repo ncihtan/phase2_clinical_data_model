@@ -1,23 +1,23 @@
 PERMITTED_VALUE	DESCRIPTION	DEFINITION
+Comparative genomic hybridization	Comparative Genomic Hybridization	Comparative genomic hybridization (CGH) is a technique that allows the detection of losses and gains in DNA copy number across the entire genome without prior knowledge of specific chromosomal abnormalities.  Comparative genomic hybridization utilizes the hybridization of differentially labeled tumor and reference DNA to generate a map of DNA copy number changes in tumor genomes. Comparative genomic hybridization is an ideal tool for analyzing chromosomal imbalances in archived tumor material and for examining possible correlations between these findings and tumor phenotypes. (from Ried et al. J Mol Med 1997 75:801-14)
+Cytogenetics, NOS	Not Otherwise Specified Cytogenetic Analysis	Not characterized in any other way.: Techniques for analysis of chromosomal and subchromosomal properties and structures, such as those to diagnose, classify, screen for, or manage genetic diseases and abnormalities.
+FISH	Fluorescence in Situ Hybridization	A physical mapping approach that uses fluorescent tags to detect hybridization of probes within metaphase chromosomes or less condensed somatic interphase chromatin. This technique can be used for identification of chromosomal abnormalities and for gene mapping.
+Flow cytometry	Flow Cytometry	A technique for counting, examining and sorting microscopic particles suspended in a stream of fluid.
+IHC	Immunohistochemistry Staining Method	Immunohistochemical staining techniques allow for the visualization of antigens via the sequential application of a specific antibody to the antigen (primary antibody), a secondary antibody to the primary antibody and an enzyme complex with a chromogenic substrate. The enzymatic activation of the chromogen results in a visible reaction product at the antigen site. The specimen may then be counterstained and coverslipped. Results are interpreted using a light microscope and aid in the differential diagnosis of pathophysiological processes, which may or may not be associated with a particular antigen.
+ISH	in situ Hybridization Staining Method	In Situ Hybridization staining is an immunohistochemistry staining procedure which allows the demonstration of specific nucleic acid sequences (genes) in their cellular environment. The DNA sequence in the host cell is detected by hybridization with a biotin-labeled cDNA probe. Used for detecting protein and gene expression, determining tissue specificity, and localizing genes and proteins within tissue samples.
+Immunofluorescence	Immunofluorescent Staining Method	A microscopy staining method that utilizes immunofluorescent markers for use with histological applications of preserved cells.
+Karyotype	Karyotyping	The preparation, analysis, and interpretation of a karyotype, the representation of the chromosome set of a cell.
+Microarray	Microarray Analysis	Analysis using microarray technology (e.g., cDNA arrays to see gene expression or protein microarrays to profile the pattern of proteins).
+Microsatellite analysis	Polymorphic Microsatellite Marker Analysis	Analysis that looks for differences in the lengths of microsatellite repeats between alleles. Polymorphic microsatellites are present in the genome every few thousand base pairs and can function as molecular markers.
+Not Reported	Not Reported	Not provided or available.
+Nuclear staining	Nuclear Staining Method	Pertaining to the nucleus.: Any of the various methods that use a dye, reagent, or other material for producing coloration in tissues or microorganisms for microscopic examination.
+Other	Other	Different than the one(s) previously specified or mentioned.
+PCR	Polymerase Chain Reaction	A method for amplifying a DNA base sequence using multiple rounds of heat denaturation of the DNA and annealing of oligonucleotide primers complementary to flanking regions in the presence of a heat-stable polymerase.  This results in duplication of the targeted DNA region. Newly synthesized DNA strands can subsequently serve as additional templates for the same primer sequences, so that successive rounds of primer annealing, strand elongation, and dissociation produce rapid and highly specific amplification of the desired sequence. PCR also can be used to detect the existence of the defined sequence in a DNA sample.
+RNA sequencing	Ribonucleic Acid Nucleic Acid Sequencing	Single-stranded long chain of nucleotides containing ribose. It is the end product of DNA transcription by the enzyme RNA polymerase. It is essential in protein synthesis.: The process of determining the sequence of purines and pyrimidines in nucleic acids and polynucleotides.
+RT-PCR	RT-PCR	RT-PCR is short for reverse transcriptase-polymerase chain reaction. It is a technique in which an RNA strand is first transcribed into a DNA complement and then subjected to PCR amplification. Transcribing an RNA strand into a DNA complement is termed reverse transcription and is done by the enzyme reverse transcriptase. (from Wikipedia)
+Sequencing, NOS	Sequencing, NOS	Not characterized in any other way.: The process of determining the sequence of purines and pyrimidines in nucleic acids and polynucleotides.
+Southern blotting	Southern Blotting	A technique for the detection of specific DNA fragments that have been separated by polyacrylamide-gel electrophoresis, transferred to a nitrocellulose or other type of paper or nylon membrane, and detected by hybridization and visualization with a labeled probe.
+Targeted sequencing	Targeted Sequencing	The process of directing an agent to a specific anatomic location.: The process of determining the sequence of purines and pyrimidines in nucleic acids and polynucleotides.
+Unknown	Unknown	Not known, not observed, not recorded, or refused.
 WGS	Whole Genome Sequencing	A procedure that can determine the DNA sequence for nearly the entire genome of an individual.
-WGS	Whole Genome Sequencing	A procedure that can determine the DNA sequence for nearly the entire genome of an individual.
-WGS	Whole Genome Sequencing	A procedure that can determine the DNA sequence for nearly the entire genome of an individual.
-WGS	Whole Genome Sequencing	A procedure that can determine the DNA sequence for nearly the entire genome of an individual.
-WGS	Whole Genome Sequencing	A procedure that can determine the DNA sequence for nearly the entire genome of an individual.
-WGS	Whole Genome Sequencing	A procedure that can determine the DNA sequence for nearly the entire genome of an individual.
-WGS	Whole Genome Sequencing	A procedure that can determine the DNA sequence for nearly the entire genome of an individual.
-WGS	Whole Genome Sequencing	A procedure that can determine the DNA sequence for nearly the entire genome of an individual.
-WGS	Whole Genome Sequencing	A procedure that can determine the DNA sequence for nearly the entire genome of an individual.
-WGS	Whole Genome Sequencing	A procedure that can determine the DNA sequence for nearly the entire genome of an individual.
-WGS	Whole Genome Sequencing	A procedure that can determine the DNA sequence for nearly the entire genome of an individual.
-WGS	Whole Genome Sequencing	A procedure that can determine the DNA sequence for nearly the entire genome of an individual.
-WGS	Whole Genome Sequencing	A procedure that can determine the DNA sequence for nearly the entire genome of an individual.
-WGS	Whole Genome Sequencing	A procedure that can determine the DNA sequence for nearly the entire genome of an individual.
-WGS	Whole Genome Sequencing	A procedure that can determine the DNA sequence for nearly the entire genome of an individual.
-WGS	Whole Genome Sequencing	A procedure that can determine the DNA sequence for nearly the entire genome of an individual.
-WGS	Whole Genome Sequencing	A procedure that can determine the DNA sequence for nearly the entire genome of an individual.
-WGS	Whole Genome Sequencing	A procedure that can determine the DNA sequence for nearly the entire genome of an individual.
-WGS	Whole Genome Sequencing	A procedure that can determine the DNA sequence for nearly the entire genome of an individual.
-WGS	Whole Genome Sequencing	A procedure that can determine the DNA sequence for nearly the entire genome of an individual.
-WGS	Whole Genome Sequencing	A procedure that can determine the DNA sequence for nearly the entire genome of an individual.
-WGS	Whole Genome Sequencing	A procedure that can determine the DNA sequence for nearly the entire genome of an individual.
+WXS	Exome Sequencing	A procedure that can determine the DNA sequence for all of the exons in an individual.
