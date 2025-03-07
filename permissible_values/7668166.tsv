@@ -1,0 +1,4 @@
+PERMITTED_VALUE	LONG_NAME	DEFINITION
+Biopsy with Histologic Confirmation	Biopsy with Histologic Confirmation	A biopsy with microscopic confirmation.
+Convincing Image (i.e. CT/PET/MRI)	Convincing Image Source	Radiologic evidence that supports a diagnosis.
+Positive Biomarkers	Biomarker Positive Malignant Neoplasm	A finding indicating the presence of a biomarker in a tumor sample from a patient with a malignant neoplasm.

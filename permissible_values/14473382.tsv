@@ -1,0 +1,6 @@
+PERMITTED_VALUE	LONG_NAME	DEFINITION
+Germline	Germline DNA	The DNA in germ cells (egg and sperm cells that join to form an embryo). Germline DNA is the source of DNA for all other cells in the body.
+Not Reported	Not Reported	Not provided or available.
+Somatic	Somatic DNA	The genomic DNA found in the non-reproductive (non-germ) cells of an organism.
+Somatic Mosaic	Somatic Mosaicism	The presence of genetic mosaicism in non-germ cells.
+Unknown	Unknown	Not known, not observed, not recorded, or refused.
