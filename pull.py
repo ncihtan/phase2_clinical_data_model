@@ -4,19 +4,20 @@ import json
 
 
 def replace_illegal_quoting(value):
+    """Replace Illegal Quoting."""
     if value:
         return value.replace('"', "'")
     else:
         return value
 
 
-# Pulls Data from the caDSR API
+# Read in caDSR IDs
 id_list = []
 fd = open("config/ca_dsr.txt")
 for line in fd:
     id_list.append(line.strip())
 
-# Cache JSON Files
+# Download and Cache JSON Docs from caDSR API
 for id in id_list:
     url = "https://cadsrapi.cancer.gov/rad/NCIAPI/1.0/api/DataElement/" + id
     output_file = "cache/%s.json" % id
@@ -36,6 +37,7 @@ for id in id_list:
         subprocess.run(curl_command, check=True)
     else:
         print("Using cached results:  %s" % output_file)
+
 
 # Process the Cached JSON
 for id in id_list:
