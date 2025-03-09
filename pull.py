@@ -34,7 +34,10 @@ for id in id_list:
             "-o",
             output_file,
         ]
+        print("Reformatting JSON File: %s" % output_file)
         subprocess.run(curl_command, check=True)
+        jq_command = ["python3", "-m", "json.tool", output_file, output_file]
+        subprocess.run(jq_command, check=True)
     else:
         print("Using cached results:  %s" % output_file)
 

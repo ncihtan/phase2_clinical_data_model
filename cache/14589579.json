@@ -1,1 +1,281 @@
-{"status":"success","message":"Record found.","DataElement":{"publicId":"14589579","version":"1","longName":"Subject Age in Days at Last Known Disease Status Count","shortName":"14589578v1.00:7069460v2.00","definition":"The age in days of the subject at the time of their last known disease status.","context":"Pediatric Cancer","origin":"CCDI:Childhood Cancer Data Initiative","workflowStatus":"DRAFT NEW","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2023-10-30","endDate":null,"changeDescription":null,"administrativeNotes":"3/6/25 Tweaked def to align w other 'Age in Days at' CDEs. mr; \r\n3/4/25 Added HTAN name and classified for the HTAN 2025 Model. sl;\r\n2/19/25 Upd concept in DEC to include 'Days' in LN, since Day Count VD was modified to Count. mr; \r\n1/12/25 Removed 'Study' from LN for consistency with data commons curation rules. mr; \r\n10/28/24 per Henry/CodeMap task, add alt table LS; 10/30/23 Created per CCDI submission template. mr","unresolvedIssues":null,"deletedIndicator":"No","createdBy":"COLBERTM","dateCreated":"2023-10-30","modifiedBy":"COLBERTM","dateModified":"2025-03-06","DataElementConcept":{"publicId":"14589578","version":"1","longName":"Study Subject Age in Days at Last Known Disease Status","shortName":"2523466v1.00:15748560v1.00","definition":"A matter or an individual that is observed, analyzed, examined, investigated, experimented upon, or/and treated in the course of a particular study.:The age of a subject, in days, at the last known disease status.","context":"Pediatric Cancer","origin":"CCDI:Childhood Cancer Data Initiative","workflowStatus":"DRAFT NEW","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2023-10-30","endDate":null,"changeDescription":null,"administrativeNotes":"10/30/23 Created per CCDI submission template. mr","unresolvedIssues":null,"deletedIndicator":"No","createdBy":"COLBERTM","dateCreated":"2023-10-30","modifiedBy":"COLBERTM","dateModified":"2025-02-19","ObjectClass":{"publicId":"2523466","version":"1","longName":"Study Subject","shortName":"C41189","definition":"A matter or person that is analyzed, examined, investigated, experimented upon, or treated in the course of particular study.","context":"NCIP","origin":"NCI Thesaurus","workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2006-09-27","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"UMLLOADER_DRUGSCREEN","dateCreated":"2006-09-27","modifiedBy":"SBREXT","dateModified":"2007-11-07","Concepts":[{"longName":"Study Subject","conceptCode":"C41189","definition":"A matter or an individual that is observed, analyzed, examined, investigated, experimented upon, or/and treated in the course of a particular study.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"Yes","displayOrder":"0"}]},"Property":{"publicId":"15748560","version":"1","longName":"Age in Days at Last Known Disease Status","shortName":"C213732","definition":"The age of a subject, in days, at the last known disease status.","context":"NCIP","origin":null,"workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2025-02-18","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"COLBERTM","dateCreated":"2025-02-18","modifiedBy":"COLBERTM","dateModified":"2025-02-18","Concepts":[{"longName":"Age in Days at Last Known Disease Status","conceptCode":"C213732","definition":"The age of a subject, in days, at the last known disease status.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"Yes","displayOrder":"0"}]},"ConceptualDomain":{"publicId":"2435018","version":"1","longName":"Clinical or Research Activity","shortName":"C16203","definition":"Any specific activity undertaken during the course of a clinical study or research protocol.","context":"NCIP","origin":"NCI Thesaurus","workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2005-12-06","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"CURTIST","dateCreated":"2005-12-06","modifiedBy":"SBR","dateModified":"2006-12-20"}},"ValueDomain":{"publicId":"7069460","version":"2","longName":"Count","shortName":"7069460v2.00","definition":"To determine the number or amount of something; the result of this activity.","context":"MCL","type":"Non-enumerated","dataType":"Integer","unitOfMeasure":"day","minLength":"1","maxLength":"5","minValue":null,"maxValue":null,"decimalPlace":null,"origin":"MCL:Molecular and Cellular Characterization of Screened Lesions","workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2019-12-02","endDate":null,"changeDescription":"1/27/10 jk released per MCL SME.  12/2/19 jk created for calculated Offset dates.","administrativeNotes":"6/7/24 Versioned in order to remove qualifer 'Day', to follow new BR/BP that non-enumerated VDs cannot have qualifiers. mr;\r\n1/18/23 Updated UOM to 'day' per CRDC DSS. mr","unresolvedIssues":null,"deletedIndicator":"No","createdBy":"COLBERTM","dateCreated":"2024-06-07","modifiedBy":"COLBERTM","dateModified":"2024-06-07","PermissibleValues":[],"ConceptualDomain":{"publicId":"2008561","version":"1","longName":"Occurrences","shortName":"OCURS","definition":"dates, times, and durations.","context":"CTEP","origin":null,"workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2003-01-27","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"MSUPLEY","dateCreated":"2003-01-27","modifiedBy":"SBR","dateModified":"2003-10-29"},"RepresentationTerm":{"publicId":"2261845","version":"1","longName":"Count","shortName":"C25463","definition":"To determine the number or amount of something; the result of this activity.","context":"NCIP","origin":"NCI Thesaurus","workflowStatus":"RELEASED","registrationStatus":"Standard","latestVersionIndicator":"Yes","beginDate":"2005-07-13","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"REEVESD","dateCreated":"2005-07-13","modifiedBy":"ONEDATA","dateModified":"2005-07-13","Concepts":[{"longName":"Count","conceptCode":"C25463","definition":"Determining the number or amount of something.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"Yes","displayOrder":"0"}]}},"ClassificationSchemes":[{"publicId":"13574489","version":"1","longName":"CCDI (Childhood Cancer Data Initiative)","context":"Pediatric Cancer","ClassificationSchemeItems":[{"publicId":"14727027","version":"1","longName":"Diagnosis","context":"Pediatric Cancer"},{"publicId":"13594093","version":"1","longName":"Sample","context":"Pediatric Cancer"}]},{"publicId":"15872542","version":"1","longName":"HTAN 2025 Model CDEs","context":"HTAN","ClassificationSchemeItems":[{"publicId":"15872543","version":"1","longName":"Model v1 CDEs","context":"HTAN"}]}],"AlternateNames":[{"name":"age_at_last_known_disease_status","type":"CCDI Alt Name","context":"Pediatric Cancer"},{"name":"diagnosis","type":"CCDI Table","context":"Pediatric Cancer"},{"name":"Age in Days at Last Known Disease Status","type":"HTAN Alt Name","context":"HTAN"}],"ReferenceDocuments":[{"documentName":"PQT","documentText":"Age at Last Known Disease Status","documentType":"Preferred Question Text","url":null,"context":"Pediatric Cancer"}]}}
+{
+    "status": "success",
+    "message": "Record found.",
+    "DataElement": {
+        "publicId": "14589579",
+        "version": "1",
+        "longName": "Subject Age in Days at Last Known Disease Status Count",
+        "shortName": "14589578v1.00:7069460v2.00",
+        "definition": "The age in days of the subject at the time of their last known disease status.",
+        "context": "Pediatric Cancer",
+        "origin": "CCDI:Childhood Cancer Data Initiative",
+        "workflowStatus": "DRAFT NEW",
+        "registrationStatus": "Application",
+        "latestVersionIndicator": "Yes",
+        "beginDate": "2023-10-30",
+        "endDate": null,
+        "changeDescription": null,
+        "administrativeNotes": "3/6/25 Tweaked def to align w other 'Age in Days at' CDEs. mr; \r\n3/4/25 Added HTAN name and classified for the HTAN 2025 Model. sl;\r\n2/19/25 Upd concept in DEC to include 'Days' in LN, since Day Count VD was modified to Count. mr; \r\n1/12/25 Removed 'Study' from LN for consistency with data commons curation rules. mr; \r\n10/28/24 per Henry/CodeMap task, add alt table LS; 10/30/23 Created per CCDI submission template. mr",
+        "unresolvedIssues": null,
+        "deletedIndicator": "No",
+        "createdBy": "COLBERTM",
+        "dateCreated": "2023-10-30",
+        "modifiedBy": "COLBERTM",
+        "dateModified": "2025-03-06",
+        "DataElementConcept": {
+            "publicId": "14589578",
+            "version": "1",
+            "longName": "Study Subject Age in Days at Last Known Disease Status",
+            "shortName": "2523466v1.00:15748560v1.00",
+            "definition": "A matter or an individual that is observed, analyzed, examined, investigated, experimented upon, or/and treated in the course of a particular study.:The age of a subject, in days, at the last known disease status.",
+            "context": "Pediatric Cancer",
+            "origin": "CCDI:Childhood Cancer Data Initiative",
+            "workflowStatus": "DRAFT NEW",
+            "registrationStatus": "Application",
+            "latestVersionIndicator": "Yes",
+            "beginDate": "2023-10-30",
+            "endDate": null,
+            "changeDescription": null,
+            "administrativeNotes": "10/30/23 Created per CCDI submission template. mr",
+            "unresolvedIssues": null,
+            "deletedIndicator": "No",
+            "createdBy": "COLBERTM",
+            "dateCreated": "2023-10-30",
+            "modifiedBy": "COLBERTM",
+            "dateModified": "2025-02-19",
+            "ObjectClass": {
+                "publicId": "2523466",
+                "version": "1",
+                "longName": "Study Subject",
+                "shortName": "C41189",
+                "definition": "A matter or person that is analyzed, examined, investigated, experimented upon, or treated in the course of particular study.",
+                "context": "NCIP",
+                "origin": "NCI Thesaurus",
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2006-09-27",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "UMLLOADER_DRUGSCREEN",
+                "dateCreated": "2006-09-27",
+                "modifiedBy": "SBREXT",
+                "dateModified": "2007-11-07",
+                "Concepts": [
+                    {
+                        "longName": "Study Subject",
+                        "conceptCode": "C41189",
+                        "definition": "A matter or an individual that is observed, analyzed, examined, investigated, experimented upon, or/and treated in the course of a particular study.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "Yes",
+                        "displayOrder": "0"
+                    }
+                ]
+            },
+            "Property": {
+                "publicId": "15748560",
+                "version": "1",
+                "longName": "Age in Days at Last Known Disease Status",
+                "shortName": "C213732",
+                "definition": "The age of a subject, in days, at the last known disease status.",
+                "context": "NCIP",
+                "origin": null,
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2025-02-18",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "COLBERTM",
+                "dateCreated": "2025-02-18",
+                "modifiedBy": "COLBERTM",
+                "dateModified": "2025-02-18",
+                "Concepts": [
+                    {
+                        "longName": "Age in Days at Last Known Disease Status",
+                        "conceptCode": "C213732",
+                        "definition": "The age of a subject, in days, at the last known disease status.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "Yes",
+                        "displayOrder": "0"
+                    }
+                ]
+            },
+            "ConceptualDomain": {
+                "publicId": "2435018",
+                "version": "1",
+                "longName": "Clinical or Research Activity",
+                "shortName": "C16203",
+                "definition": "Any specific activity undertaken during the course of a clinical study or research protocol.",
+                "context": "NCIP",
+                "origin": "NCI Thesaurus",
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2005-12-06",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "CURTIST",
+                "dateCreated": "2005-12-06",
+                "modifiedBy": "SBR",
+                "dateModified": "2006-12-20"
+            }
+        },
+        "ValueDomain": {
+            "publicId": "7069460",
+            "version": "2",
+            "longName": "Count",
+            "shortName": "7069460v2.00",
+            "definition": "To determine the number or amount of something; the result of this activity.",
+            "context": "MCL",
+            "type": "Non-enumerated",
+            "dataType": "Integer",
+            "unitOfMeasure": "day",
+            "minLength": "1",
+            "maxLength": "5",
+            "minValue": null,
+            "maxValue": null,
+            "decimalPlace": null,
+            "origin": "MCL:Molecular and Cellular Characterization of Screened Lesions",
+            "workflowStatus": "RELEASED",
+            "registrationStatus": "Application",
+            "latestVersionIndicator": "Yes",
+            "beginDate": "2019-12-02",
+            "endDate": null,
+            "changeDescription": "1/27/10 jk released per MCL SME.  12/2/19 jk created for calculated Offset dates.",
+            "administrativeNotes": "6/7/24 Versioned in order to remove qualifer 'Day', to follow new BR/BP that non-enumerated VDs cannot have qualifiers. mr;\r\n1/18/23 Updated UOM to 'day' per CRDC DSS. mr",
+            "unresolvedIssues": null,
+            "deletedIndicator": "No",
+            "createdBy": "COLBERTM",
+            "dateCreated": "2024-06-07",
+            "modifiedBy": "COLBERTM",
+            "dateModified": "2024-06-07",
+            "PermissibleValues": [],
+            "ConceptualDomain": {
+                "publicId": "2008561",
+                "version": "1",
+                "longName": "Occurrences",
+                "shortName": "OCURS",
+                "definition": "dates, times, and durations.",
+                "context": "CTEP",
+                "origin": null,
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2003-01-27",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "MSUPLEY",
+                "dateCreated": "2003-01-27",
+                "modifiedBy": "SBR",
+                "dateModified": "2003-10-29"
+            },
+            "RepresentationTerm": {
+                "publicId": "2261845",
+                "version": "1",
+                "longName": "Count",
+                "shortName": "C25463",
+                "definition": "To determine the number or amount of something; the result of this activity.",
+                "context": "NCIP",
+                "origin": "NCI Thesaurus",
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Standard",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2005-07-13",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "REEVESD",
+                "dateCreated": "2005-07-13",
+                "modifiedBy": "ONEDATA",
+                "dateModified": "2005-07-13",
+                "Concepts": [
+                    {
+                        "longName": "Count",
+                        "conceptCode": "C25463",
+                        "definition": "Determining the number or amount of something.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "Yes",
+                        "displayOrder": "0"
+                    }
+                ]
+            }
+        },
+        "ClassificationSchemes": [
+            {
+                "publicId": "13574489",
+                "version": "1",
+                "longName": "CCDI (Childhood Cancer Data Initiative)",
+                "context": "Pediatric Cancer",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "14727027",
+                        "version": "1",
+                        "longName": "Diagnosis",
+                        "context": "Pediatric Cancer"
+                    },
+                    {
+                        "publicId": "13594093",
+                        "version": "1",
+                        "longName": "Sample",
+                        "context": "Pediatric Cancer"
+                    }
+                ]
+            },
+            {
+                "publicId": "15872542",
+                "version": "1",
+                "longName": "HTAN 2025 Model CDEs",
+                "context": "HTAN",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "15872543",
+                        "version": "1",
+                        "longName": "Model v1 CDEs",
+                        "context": "HTAN"
+                    }
+                ]
+            }
+        ],
+        "AlternateNames": [
+            {
+                "name": "age_at_last_known_disease_status",
+                "type": "CCDI Alt Name",
+                "context": "Pediatric Cancer"
+            },
+            {
+                "name": "diagnosis",
+                "type": "CCDI Table",
+                "context": "Pediatric Cancer"
+            },
+            {
+                "name": "Age in Days at Last Known Disease Status",
+                "type": "HTAN Alt Name",
+                "context": "HTAN"
+            }
+        ],
+        "ReferenceDocuments": [
+            {
+                "documentName": "PQT",
+                "documentText": "Age at Last Known Disease Status",
+                "documentType": "Preferred Question Text",
+                "url": null,
+                "context": "Pediatric Cancer"
+            }
+        ]
+    }
+}

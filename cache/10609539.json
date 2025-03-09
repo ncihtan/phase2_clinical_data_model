@@ -1,1 +1,396 @@
-{"status":"success","message":"Record found.","DataElement":{"publicId":"10609539","version":"1","longName":"Subject Age at Diagnosis Integer","shortName":"10609538v1.00:10540093v1.00","definition":"The subject's age since birth at the time of diagnosis.","context":"CRDC","origin":"CRDC:Cancer Research Data Commons","workflowStatus":"RELEASED","registrationStatus":"Standard","latestVersionIndicator":"Yes","beginDate":"2022-07-15","endDate":null,"changeDescription":null,"administrativeNotes":"10/17/24 per Henry/CodeMap task, add alt table, name, csi.LS \r\n10/2/24 Added alt name and TCIA rec CDE's csi info. bf;5/29/24 Upd CDE def to match semantics. mr; \r\n5/23/24 removed UOM references in def to match semantics. jk; \r\n8/7/23 Added Alt Name for CDE with source of “DSS” in the CTDC data model. BF;1/23/23 Added CDS ref docs per metadata template. mr\r\n7/19/22 Per Smita, approved as CRDC DSS DST Standard, updated WF/RS. jk;  7/15/22 Created for CRDC DDS data element - Subject Age at Diagnosis jk","unresolvedIssues":null,"deletedIndicator":"No","createdBy":"JKNABLE","dateCreated":"2022-07-15","modifiedBy":"JKNABLE","dateModified":"2024-10-17","DataElementConcept":{"publicId":"10609538","version":"1","longName":"Subject Age at Diagnosis","shortName":"2523466v1.00:10609537v1.00","definition":"A matter or an individual that is observed, analyzed, examined, investigated, experimented upon, or/and treated in the course of a particular study.:The age of an individual at the time of initial pathologic diagnosis.","context":"CRDC","origin":"CRDC:Cancer Research Data Commons","workflowStatus":"RELEASED","registrationStatus":"Standard","latestVersionIndicator":"Yes","beginDate":"2022-07-15","endDate":null,"changeDescription":null,"administrativeNotes":"7/19/22 Per Smita, approved as CRDC DSS DST Standard, updated WF/RS. jk; \r\n 7/15/22 Created for CRDC DDS data element - Subject Age at Diagnosis jk","unresolvedIssues":null,"deletedIndicator":"No","createdBy":"JKNABLE","dateCreated":"2022-07-15","modifiedBy":"JKNABLE","dateModified":"2022-07-19","ObjectClass":{"publicId":"2523466","version":"1","longName":"Study Subject","shortName":"C41189","definition":"A matter or person that is analyzed, examined, investigated, experimented upon, or treated in the course of particular study.","context":"NCIP","origin":"NCI Thesaurus","workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2006-09-27","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"UMLLOADER_DRUGSCREEN","dateCreated":"2006-09-27","modifiedBy":"SBREXT","dateModified":"2007-11-07","Concepts":[{"longName":"Study Subject","conceptCode":"C41189","definition":"A matter or an individual that is observed, analyzed, examined, investigated, experimented upon, or/and treated in the course of a particular study.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"Yes","displayOrder":"0"}]},"Property":{"publicId":"10609537","version":"1","longName":"Age at Diagnosis","shortName":"C156420","definition":"The age of an individual at the time of initial pathologic diagnosis.","context":"NCIP","origin":null,"workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2022-07-15","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"JKNABLE","dateCreated":"2022-07-15","modifiedBy":"JKNABLE","dateModified":"2022-07-15","Concepts":[{"longName":"Age at Diagnosis","conceptCode":"C156420","definition":"The age of an individual at the time of initial pathologic diagnosis.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"Yes","displayOrder":"0"}]},"ConceptualDomain":{"publicId":"2435020","version":"1","longName":"Diagnostic, Therapeutic, and Research Equipment","shortName":"C19238","definition":"An object needed to perform a diagnostic, therapeutic or research activity.","context":"NCIP","origin":"NCI Thesaurus","workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2005-12-06","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"CURTIST","dateCreated":"2005-12-06","modifiedBy":"SBR","dateModified":"2006-12-20"}},"ValueDomain":{"publicId":"10540093","version":"1","longName":"Integer","shortName":"10540093v1.00","definition":"A number with no fractional part, including the negative and positive numbers as well as zero.","context":"CRDC","type":"Non-enumerated","dataType":"Integer","minLength":null,"maxLength":"12","minValue":null,"maxValue":null,"decimalPlace":null,"origin":"CRDC:Cancer Research Data Commons","workflowStatus":"RELEASED","registrationStatus":"Standard","latestVersionIndicator":"Yes","beginDate":"2022-06-29","endDate":null,"changeDescription":null,"administrativeNotes":"7/19/22 Per Smita, approved as DST Standard, updated WF/RS. jk; 6/29/22 created as default text VD for CRDC CDEs.","unresolvedIssues":null,"deletedIndicator":"No","createdBy":"JKNABLE","dateCreated":"2022-06-29","modifiedBy":"JKNABLE","dateModified":"2022-07-19","PermissibleValues":[],"ConceptualDomain":{"publicId":"2008541","version":"1","longName":"Numbers","shortName":"NUMS","definition":"the set of non-negative integers.","context":"CTEP","origin":null,"workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2002-12-19","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"MSUPLEY","dateCreated":"2002-12-19","modifiedBy":"SBR","dateModified":"2003-10-29"},"RepresentationTerm":{"publicId":"2433737","version":"1","longName":"Integer","shortName":"C45255","definition":"A number with no fractional part.","context":"NCIP","origin":"NCI Thesaurus","workflowStatus":"RELEASED","registrationStatus":"Standard","latestVersionIndicator":"Yes","beginDate":"2005-11-25","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"CROWLEYR","dateCreated":"2005-11-25","modifiedBy":"ONEDATA","dateModified":"2005-11-25","Concepts":[{"longName":"Integer","conceptCode":"C45255","definition":"A number with no fractional part, including the negative and positive numbers as well as zero.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"Yes","displayOrder":"0"}]}},"ClassificationSchemes":[{"publicId":"10466051","version":"1","longName":"All CRDC Standard CDEs","context":"CRDC","ClassificationSchemeItems":[{"publicId":"10466052","version":"1","longName":"Demographics","context":"CRDC"}]},{"publicId":"11518160","version":"1","longName":"CTDC (Clinical and Translational Data Commons)","context":"CRDC","ClassificationSchemeItems":[{"publicId":"14413712","version":"1","longName":"Clinical","context":"CRDC"}]},{"publicId":"13574489","version":"1","longName":"CCDI (Childhood Cancer Data Initiative)","context":"Pediatric Cancer","ClassificationSchemeItems":[{"publicId":"14727027","version":"1","longName":"Diagnosis","context":"Pediatric Cancer"}]},{"publicId":"6305258","version":"1","longName":"TCIA (The Cancer Imaging Archive)","context":"CIP","ClassificationSchemeItems":[{"publicId":"14678977","version":"1","longName":"Pretreat-MetsToBrain-Masks","context":"CIP"},{"publicId":"14928803","version":"1","longName":"Yale Glioma","context":"CIP"},{"publicId":"14540938","version":"1","longName":"Recommended CDEs","context":"CIP"},{"publicId":"14943540","version":"1","longName":"AURORA","context":"CIP"},{"publicId":"14542689","version":"1","longName":"Harmonized Clinical Data Submissions","context":"CIP"},{"publicId":"14902036","version":"1","longName":"Spine-Mets-CT-SEG","context":"CIP"}]},{"publicId":"8064110","version":"1","longName":"CDS (Cancer Data Service)","context":"CRDC","ClassificationSchemeItems":[{"publicId":"12177497","version":"1","longName":"Diagnosis","context":"CRDC"},{"publicId":"14470388","version":"1","longName":"Imaging","context":"CRDC"}]}],"AlternateNames":[{"name":"Subject Age At Diagnosis","type":"CRDC Alt Name","context":"CRDC"},{"name":"age_at_diagnosis","type":"CDS Alt Name","context":"CRDC"},{"name":"subject_age_at_diagnosis","type":"CTDC Alt Name","context":"CRDC"},{"name":"Age","type":"TCIA Alt Name","context":"CIP"},{"name":"Diagnosis Age","type":"TCIA Alt Name","context":"CIP"},{"name":"Days Primary Diagnosis","type":"TCIA Alt Name","context":"CIP"},{"name":"Age at Diagnosis","type":"TCIA Alt Name","context":"CIP"},{"name":"diagnosis","type":"CCDI Table","context":"Pediatric Cancer"},{"name":"age_at_diagnosis","type":"CCDI Alt Name","context":"Pediatric Cancer"}],"ReferenceDocuments":[{"documentName":"PQT","documentText":"Age at Diagnosis","documentType":"Preferred Question Text","url":null,"context":"CRDC"},{"documentName":"CDS","documentText":"If possible, please use natural numbers; do not use abbreviations or units","documentType":"Coding Instructions","url":null,"context":"CRDC"},{"documentName":"CDS","documentText":"Adults age in Years and Children's Age in Days or Unknown","documentType":"EXAMPLE","url":null,"context":"CRDC"}]}}
+{
+    "status": "success",
+    "message": "Record found.",
+    "DataElement": {
+        "publicId": "10609539",
+        "version": "1",
+        "longName": "Subject Age at Diagnosis Integer",
+        "shortName": "10609538v1.00:10540093v1.00",
+        "definition": "The subject's age since birth at the time of diagnosis.",
+        "context": "CRDC",
+        "origin": "CRDC:Cancer Research Data Commons",
+        "workflowStatus": "RELEASED",
+        "registrationStatus": "Standard",
+        "latestVersionIndicator": "Yes",
+        "beginDate": "2022-07-15",
+        "endDate": null,
+        "changeDescription": null,
+        "administrativeNotes": "10/17/24 per Henry/CodeMap task, add alt table, name, csi.LS \r\n10/2/24 Added alt name and TCIA rec CDE's csi info. bf;5/29/24 Upd CDE def to match semantics. mr; \r\n5/23/24 removed UOM references in def to match semantics. jk; \r\n8/7/23 Added Alt Name for CDE with source of \u201cDSS\u201d in the CTDC data model. BF;1/23/23 Added CDS ref docs per metadata template. mr\r\n7/19/22 Per Smita, approved as CRDC DSS DST Standard, updated WF/RS. jk;  7/15/22 Created for CRDC DDS data element - Subject Age at Diagnosis jk",
+        "unresolvedIssues": null,
+        "deletedIndicator": "No",
+        "createdBy": "JKNABLE",
+        "dateCreated": "2022-07-15",
+        "modifiedBy": "JKNABLE",
+        "dateModified": "2024-10-17",
+        "DataElementConcept": {
+            "publicId": "10609538",
+            "version": "1",
+            "longName": "Subject Age at Diagnosis",
+            "shortName": "2523466v1.00:10609537v1.00",
+            "definition": "A matter or an individual that is observed, analyzed, examined, investigated, experimented upon, or/and treated in the course of a particular study.:The age of an individual at the time of initial pathologic diagnosis.",
+            "context": "CRDC",
+            "origin": "CRDC:Cancer Research Data Commons",
+            "workflowStatus": "RELEASED",
+            "registrationStatus": "Standard",
+            "latestVersionIndicator": "Yes",
+            "beginDate": "2022-07-15",
+            "endDate": null,
+            "changeDescription": null,
+            "administrativeNotes": "7/19/22 Per Smita, approved as CRDC DSS DST Standard, updated WF/RS. jk; \r\n 7/15/22 Created for CRDC DDS data element - Subject Age at Diagnosis jk",
+            "unresolvedIssues": null,
+            "deletedIndicator": "No",
+            "createdBy": "JKNABLE",
+            "dateCreated": "2022-07-15",
+            "modifiedBy": "JKNABLE",
+            "dateModified": "2022-07-19",
+            "ObjectClass": {
+                "publicId": "2523466",
+                "version": "1",
+                "longName": "Study Subject",
+                "shortName": "C41189",
+                "definition": "A matter or person that is analyzed, examined, investigated, experimented upon, or treated in the course of particular study.",
+                "context": "NCIP",
+                "origin": "NCI Thesaurus",
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2006-09-27",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "UMLLOADER_DRUGSCREEN",
+                "dateCreated": "2006-09-27",
+                "modifiedBy": "SBREXT",
+                "dateModified": "2007-11-07",
+                "Concepts": [
+                    {
+                        "longName": "Study Subject",
+                        "conceptCode": "C41189",
+                        "definition": "A matter or an individual that is observed, analyzed, examined, investigated, experimented upon, or/and treated in the course of a particular study.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "Yes",
+                        "displayOrder": "0"
+                    }
+                ]
+            },
+            "Property": {
+                "publicId": "10609537",
+                "version": "1",
+                "longName": "Age at Diagnosis",
+                "shortName": "C156420",
+                "definition": "The age of an individual at the time of initial pathologic diagnosis.",
+                "context": "NCIP",
+                "origin": null,
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2022-07-15",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "JKNABLE",
+                "dateCreated": "2022-07-15",
+                "modifiedBy": "JKNABLE",
+                "dateModified": "2022-07-15",
+                "Concepts": [
+                    {
+                        "longName": "Age at Diagnosis",
+                        "conceptCode": "C156420",
+                        "definition": "The age of an individual at the time of initial pathologic diagnosis.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "Yes",
+                        "displayOrder": "0"
+                    }
+                ]
+            },
+            "ConceptualDomain": {
+                "publicId": "2435020",
+                "version": "1",
+                "longName": "Diagnostic, Therapeutic, and Research Equipment",
+                "shortName": "C19238",
+                "definition": "An object needed to perform a diagnostic, therapeutic or research activity.",
+                "context": "NCIP",
+                "origin": "NCI Thesaurus",
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2005-12-06",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "CURTIST",
+                "dateCreated": "2005-12-06",
+                "modifiedBy": "SBR",
+                "dateModified": "2006-12-20"
+            }
+        },
+        "ValueDomain": {
+            "publicId": "10540093",
+            "version": "1",
+            "longName": "Integer",
+            "shortName": "10540093v1.00",
+            "definition": "A number with no fractional part, including the negative and positive numbers as well as zero.",
+            "context": "CRDC",
+            "type": "Non-enumerated",
+            "dataType": "Integer",
+            "minLength": null,
+            "maxLength": "12",
+            "minValue": null,
+            "maxValue": null,
+            "decimalPlace": null,
+            "origin": "CRDC:Cancer Research Data Commons",
+            "workflowStatus": "RELEASED",
+            "registrationStatus": "Standard",
+            "latestVersionIndicator": "Yes",
+            "beginDate": "2022-06-29",
+            "endDate": null,
+            "changeDescription": null,
+            "administrativeNotes": "7/19/22 Per Smita, approved as DST Standard, updated WF/RS. jk; 6/29/22 created as default text VD for CRDC CDEs.",
+            "unresolvedIssues": null,
+            "deletedIndicator": "No",
+            "createdBy": "JKNABLE",
+            "dateCreated": "2022-06-29",
+            "modifiedBy": "JKNABLE",
+            "dateModified": "2022-07-19",
+            "PermissibleValues": [],
+            "ConceptualDomain": {
+                "publicId": "2008541",
+                "version": "1",
+                "longName": "Numbers",
+                "shortName": "NUMS",
+                "definition": "the set of non-negative integers.",
+                "context": "CTEP",
+                "origin": null,
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2002-12-19",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "MSUPLEY",
+                "dateCreated": "2002-12-19",
+                "modifiedBy": "SBR",
+                "dateModified": "2003-10-29"
+            },
+            "RepresentationTerm": {
+                "publicId": "2433737",
+                "version": "1",
+                "longName": "Integer",
+                "shortName": "C45255",
+                "definition": "A number with no fractional part.",
+                "context": "NCIP",
+                "origin": "NCI Thesaurus",
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Standard",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2005-11-25",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "CROWLEYR",
+                "dateCreated": "2005-11-25",
+                "modifiedBy": "ONEDATA",
+                "dateModified": "2005-11-25",
+                "Concepts": [
+                    {
+                        "longName": "Integer",
+                        "conceptCode": "C45255",
+                        "definition": "A number with no fractional part, including the negative and positive numbers as well as zero.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "Yes",
+                        "displayOrder": "0"
+                    }
+                ]
+            }
+        },
+        "ClassificationSchemes": [
+            {
+                "publicId": "10466051",
+                "version": "1",
+                "longName": "All CRDC Standard CDEs",
+                "context": "CRDC",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "10466052",
+                        "version": "1",
+                        "longName": "Demographics",
+                        "context": "CRDC"
+                    }
+                ]
+            },
+            {
+                "publicId": "11518160",
+                "version": "1",
+                "longName": "CTDC (Clinical and Translational Data Commons)",
+                "context": "CRDC",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "14413712",
+                        "version": "1",
+                        "longName": "Clinical",
+                        "context": "CRDC"
+                    }
+                ]
+            },
+            {
+                "publicId": "13574489",
+                "version": "1",
+                "longName": "CCDI (Childhood Cancer Data Initiative)",
+                "context": "Pediatric Cancer",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "14727027",
+                        "version": "1",
+                        "longName": "Diagnosis",
+                        "context": "Pediatric Cancer"
+                    }
+                ]
+            },
+            {
+                "publicId": "6305258",
+                "version": "1",
+                "longName": "TCIA (The Cancer Imaging Archive)",
+                "context": "CIP",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "14678977",
+                        "version": "1",
+                        "longName": "Pretreat-MetsToBrain-Masks",
+                        "context": "CIP"
+                    },
+                    {
+                        "publicId": "14928803",
+                        "version": "1",
+                        "longName": "Yale Glioma",
+                        "context": "CIP"
+                    },
+                    {
+                        "publicId": "14540938",
+                        "version": "1",
+                        "longName": "Recommended CDEs",
+                        "context": "CIP"
+                    },
+                    {
+                        "publicId": "14943540",
+                        "version": "1",
+                        "longName": "AURORA",
+                        "context": "CIP"
+                    },
+                    {
+                        "publicId": "14542689",
+                        "version": "1",
+                        "longName": "Harmonized Clinical Data Submissions",
+                        "context": "CIP"
+                    },
+                    {
+                        "publicId": "14902036",
+                        "version": "1",
+                        "longName": "Spine-Mets-CT-SEG",
+                        "context": "CIP"
+                    }
+                ]
+            },
+            {
+                "publicId": "8064110",
+                "version": "1",
+                "longName": "CDS (Cancer Data Service)",
+                "context": "CRDC",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "12177497",
+                        "version": "1",
+                        "longName": "Diagnosis",
+                        "context": "CRDC"
+                    },
+                    {
+                        "publicId": "14470388",
+                        "version": "1",
+                        "longName": "Imaging",
+                        "context": "CRDC"
+                    }
+                ]
+            }
+        ],
+        "AlternateNames": [
+            {
+                "name": "Subject Age At Diagnosis",
+                "type": "CRDC Alt Name",
+                "context": "CRDC"
+            },
+            {
+                "name": "age_at_diagnosis",
+                "type": "CDS Alt Name",
+                "context": "CRDC"
+            },
+            {
+                "name": "subject_age_at_diagnosis",
+                "type": "CTDC Alt Name",
+                "context": "CRDC"
+            },
+            {
+                "name": "Age",
+                "type": "TCIA Alt Name",
+                "context": "CIP"
+            },
+            {
+                "name": "Diagnosis Age",
+                "type": "TCIA Alt Name",
+                "context": "CIP"
+            },
+            {
+                "name": "Days Primary Diagnosis",
+                "type": "TCIA Alt Name",
+                "context": "CIP"
+            },
+            {
+                "name": "Age at Diagnosis",
+                "type": "TCIA Alt Name",
+                "context": "CIP"
+            },
+            {
+                "name": "diagnosis",
+                "type": "CCDI Table",
+                "context": "Pediatric Cancer"
+            },
+            {
+                "name": "age_at_diagnosis",
+                "type": "CCDI Alt Name",
+                "context": "Pediatric Cancer"
+            }
+        ],
+        "ReferenceDocuments": [
+            {
+                "documentName": "PQT",
+                "documentText": "Age at Diagnosis",
+                "documentType": "Preferred Question Text",
+                "url": null,
+                "context": "CRDC"
+            },
+            {
+                "documentName": "CDS",
+                "documentText": "If possible, please use natural numbers; do not use abbreviations or units",
+                "documentType": "Coding Instructions",
+                "url": null,
+                "context": "CRDC"
+            },
+            {
+                "documentName": "CDS",
+                "documentText": "Adults age in Years and Children's Age in Days or Unknown",
+                "documentType": "EXAMPLE",
+                "url": null,
+                "context": "CRDC"
+            }
+        ]
+    }
+}

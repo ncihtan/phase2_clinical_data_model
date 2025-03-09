@@ -1,1 +1,309 @@
-{"status":"success","message":"Record found.","DataElement":{"publicId":"3060718","version":"1","longName":"Therapeutic Procedure Cycle Administered Treatment Count","shortName":"3060706v1.0:2018597v1.0","definition":"The numeric value related to the number of cycles of the administered therapeutic procedure.","context":"NHLBI","origin":"NMDP:National Marrow Donor Program","workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2010-04-14","endDate":null,"changeDescription":". 4/13/12: removed F2018 cs and alt name.wz 2021-3-22 ak System generated def displayed as alt def.","administrativeNotes":"5/4/23  classified and added CTDC ALTname for ECOG/DD. LS","unresolvedIssues":null,"deletedIndicator":"No","createdBy":"NYCHM","dateCreated":"2010-04-14","modifiedBy":"SOKKERL","dateModified":"2023-07-05","DataElementConcept":{"publicId":"3060706","version":"1","longName":"Therapeutic Procedure Cycle Administered","shortName":"3060706v1.0","definition":"An action or administration of therapeutic agents to produce an effect that is intended to alter the course of a pathologic process._An event or sequence of events that constitute a round or succession of observable phenomena, recurring usually at regular or approximately regular time intervals and in the same sequence._The act of having given something (e.g., a medication or test).","context":"NHLBI","origin":"NMDP:National Marrow Donor Program","workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2010-04-14","endDate":null,"changeDescription":".","administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"NYCHM","dateCreated":"2010-04-14","modifiedBy":"SBR","dateModified":"2016-06-06","ObjectClass":{"publicId":"2512834","version":"1","longName":"Therapeutic Procedure","shortName":"C49236","definition":"An action or administration of therapeutic agents to produce an effect that is intended to alter the course of a pathologic process.","context":"NCIP","origin":"NCI Thesaurus","workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2006-08-21","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"UMLLOADER_AGNIS","dateCreated":"2006-08-21","modifiedBy":"SBREXT","dateModified":"2007-11-07","Concepts":[{"longName":"Therapeutic Procedure","conceptCode":"C49236","definition":"Medical care intended to treat or cure a condition or lessen its symptoms. This includes the administration of drugs, surgical procedures, physical or psychotherapy, or the use of therapeutic devices.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"Yes","displayOrder":"0"}]},"Property":{"publicId":"2763971","version":"1","longName":"Cycle Administered","shortName":"C25472:C25382","definition":"An event or sequence of events that constitute round or succession of observable phenomena, recurring usually at regular or approximately regular time intervals and in the same sequence.:Given.","context":"NCIP","origin":null,"workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2008-07-09","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"STURGILLJ","dateCreated":"2008-07-09","modifiedBy":"ONEDATA","dateModified":"2008-07-09","Concepts":[{"longName":"Administered","conceptCode":"C25382","definition":"The act of having given something (e.g., a medication or test).","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"Yes","displayOrder":"0"},{"longName":"Cycle","conceptCode":"C25472","definition":"An event or sequence of events that constitute a round or succession of observable phenomena, recurring usually at regular or approximately regular time intervals and in the same sequence.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"No","displayOrder":"1"}]},"ConceptualDomain":{"publicId":"2008538","version":"1","longName":"Therapies","shortName":"TX","definition":"actions or administration of therapeutic agents to produce an effect that is intended to alter the course of a pathologic process (NCI).","context":"CTEP","origin":null,"workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2002-12-18","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"MSUPLEY","dateCreated":"2002-12-18","modifiedBy":"SBR","dateModified":"2003-10-29"}},"ValueDomain":{"publicId":"2018597","version":"1","longName":"Treatment Count","shortName":"TX_CT","definition":"the quantity of treatment procedures.","context":"CTEP","type":"Non-enumerated","dataType":"NUMBER","minLength":null,"maxLength":"2","minValue":null,"maxValue":null,"decimalPlace":null,"origin":null,"workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2002-12-09","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"MSUPLEY","dateCreated":"2003-02-12","modifiedBy":"CAMPBELB","dateModified":"2004-10-19","PermissibleValues":[],"ConceptualDomain":{"publicId":"2008541","version":"1","longName":"Numbers","shortName":"NUMS","definition":"the set of non-negative integers.","context":"CTEP","origin":null,"workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2002-12-19","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"MSUPLEY","dateCreated":"2002-12-19","modifiedBy":"SBR","dateModified":"2003-10-29"},"RepresentationTerm":{"publicId":"2184284","version":"1","longName":"Count","shortName":"Count","definition":"Count; the total number counted","context":"CTEP","origin":"NCI Thesaurus","workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2004-05-27","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"SBREXT","dateCreated":"2004-05-27","modifiedBy":"SBR","dateModified":"2005-04-06","Concepts":[{"longName":"Count","conceptCode":"C25463","definition":"Determining the number or amount of something.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"Yes","displayOrder":"0"}]}},"ClassificationSchemes":[{"publicId":"11518160","version":"1","longName":"CTDC (Clinical and Translational Data Commons)","context":"CRDC","ClassificationSchemeItems":[{"publicId":"13484614","version":"1","longName":"ECOG-ACRIN DD","context":"CRDC"},{"publicId":"13484613","version":"1","longName":"MATCHBox","context":"CRDC"}]},{"publicId":"3553940","version":"1","longName":"BRIDG","context":"NHLBI","ClassificationSchemeItems":[{"publicId":"4133055","version":"1","longName":"Version 3.2","context":"NHLBI"}]},{"publicId":"6685474","version":"1","longName":"Artificial Neural Network Algorithm for BRIDG Mapping","context":"NCIP","ClassificationSchemeItems":[{"publicId":"6685476","version":"1","longName":"Training Set","context":"NCIP"}]}],"AlternateNames":[{"name":"PerformedSubstanceAdministration:repetitionNumber","type":"HCT_BRIDG","context":"NHLBI"},{"name":"ncycles","type":"CTDC Alt Name","context":"CRDC"},{"name":"number_of_treatment_cycles","type":"CTDC Alt Name","context":"CRDC"}],"ReferenceDocuments":[{"documentName":"What was the number of cycles","documentText":"What was the number of cycles for the therapeutic procedure?","documentType":"Preferred Question Text","url":null,"context":"NHLBI"},{"documentName":"BRIDG mapping path for CDE:3060718","documentText":"PerformedSubstanceAdministration.repetitionNumber WHERE PerformedSubstanceAdministration > DefinedSubstanceAdministration.categoryCode = \"Administer Chemotherapy\"","documentType":"BRIDG Mapping Path","url":null,"context":"NHLBI"}]}}
+{
+    "status": "success",
+    "message": "Record found.",
+    "DataElement": {
+        "publicId": "3060718",
+        "version": "1",
+        "longName": "Therapeutic Procedure Cycle Administered Treatment Count",
+        "shortName": "3060706v1.0:2018597v1.0",
+        "definition": "The numeric value related to the number of cycles of the administered therapeutic procedure.",
+        "context": "NHLBI",
+        "origin": "NMDP:National Marrow Donor Program",
+        "workflowStatus": "RELEASED",
+        "registrationStatus": "Application",
+        "latestVersionIndicator": "Yes",
+        "beginDate": "2010-04-14",
+        "endDate": null,
+        "changeDescription": ". 4/13/12: removed F2018 cs and alt name.wz 2021-3-22 ak System generated def displayed as alt def.",
+        "administrativeNotes": "5/4/23  classified and added CTDC ALTname for ECOG/DD. LS",
+        "unresolvedIssues": null,
+        "deletedIndicator": "No",
+        "createdBy": "NYCHM",
+        "dateCreated": "2010-04-14",
+        "modifiedBy": "SOKKERL",
+        "dateModified": "2023-07-05",
+        "DataElementConcept": {
+            "publicId": "3060706",
+            "version": "1",
+            "longName": "Therapeutic Procedure Cycle Administered",
+            "shortName": "3060706v1.0",
+            "definition": "An action or administration of therapeutic agents to produce an effect that is intended to alter the course of a pathologic process._An event or sequence of events that constitute a round or succession of observable phenomena, recurring usually at regular or approximately regular time intervals and in the same sequence._The act of having given something (e.g., a medication or test).",
+            "context": "NHLBI",
+            "origin": "NMDP:National Marrow Donor Program",
+            "workflowStatus": "RELEASED",
+            "registrationStatus": "Application",
+            "latestVersionIndicator": "Yes",
+            "beginDate": "2010-04-14",
+            "endDate": null,
+            "changeDescription": ".",
+            "administrativeNotes": null,
+            "unresolvedIssues": null,
+            "deletedIndicator": "No",
+            "createdBy": "NYCHM",
+            "dateCreated": "2010-04-14",
+            "modifiedBy": "SBR",
+            "dateModified": "2016-06-06",
+            "ObjectClass": {
+                "publicId": "2512834",
+                "version": "1",
+                "longName": "Therapeutic Procedure",
+                "shortName": "C49236",
+                "definition": "An action or administration of therapeutic agents to produce an effect that is intended to alter the course of a pathologic process.",
+                "context": "NCIP",
+                "origin": "NCI Thesaurus",
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2006-08-21",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "UMLLOADER_AGNIS",
+                "dateCreated": "2006-08-21",
+                "modifiedBy": "SBREXT",
+                "dateModified": "2007-11-07",
+                "Concepts": [
+                    {
+                        "longName": "Therapeutic Procedure",
+                        "conceptCode": "C49236",
+                        "definition": "Medical care intended to treat or cure a condition or lessen its symptoms. This includes the administration of drugs, surgical procedures, physical or psychotherapy, or the use of therapeutic devices.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "Yes",
+                        "displayOrder": "0"
+                    }
+                ]
+            },
+            "Property": {
+                "publicId": "2763971",
+                "version": "1",
+                "longName": "Cycle Administered",
+                "shortName": "C25472:C25382",
+                "definition": "An event or sequence of events that constitute round or succession of observable phenomena, recurring usually at regular or approximately regular time intervals and in the same sequence.:Given.",
+                "context": "NCIP",
+                "origin": null,
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2008-07-09",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "STURGILLJ",
+                "dateCreated": "2008-07-09",
+                "modifiedBy": "ONEDATA",
+                "dateModified": "2008-07-09",
+                "Concepts": [
+                    {
+                        "longName": "Administered",
+                        "conceptCode": "C25382",
+                        "definition": "The act of having given something (e.g., a medication or test).",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "Yes",
+                        "displayOrder": "0"
+                    },
+                    {
+                        "longName": "Cycle",
+                        "conceptCode": "C25472",
+                        "definition": "An event or sequence of events that constitute a round or succession of observable phenomena, recurring usually at regular or approximately regular time intervals and in the same sequence.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "No",
+                        "displayOrder": "1"
+                    }
+                ]
+            },
+            "ConceptualDomain": {
+                "publicId": "2008538",
+                "version": "1",
+                "longName": "Therapies",
+                "shortName": "TX",
+                "definition": "actions or administration of therapeutic agents to produce an effect that is intended to alter the course of a pathologic process (NCI).",
+                "context": "CTEP",
+                "origin": null,
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2002-12-18",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "MSUPLEY",
+                "dateCreated": "2002-12-18",
+                "modifiedBy": "SBR",
+                "dateModified": "2003-10-29"
+            }
+        },
+        "ValueDomain": {
+            "publicId": "2018597",
+            "version": "1",
+            "longName": "Treatment Count",
+            "shortName": "TX_CT",
+            "definition": "the quantity of treatment procedures.",
+            "context": "CTEP",
+            "type": "Non-enumerated",
+            "dataType": "NUMBER",
+            "minLength": null,
+            "maxLength": "2",
+            "minValue": null,
+            "maxValue": null,
+            "decimalPlace": null,
+            "origin": null,
+            "workflowStatus": "RELEASED",
+            "registrationStatus": "Application",
+            "latestVersionIndicator": "Yes",
+            "beginDate": "2002-12-09",
+            "endDate": null,
+            "changeDescription": null,
+            "administrativeNotes": null,
+            "unresolvedIssues": null,
+            "deletedIndicator": "No",
+            "createdBy": "MSUPLEY",
+            "dateCreated": "2003-02-12",
+            "modifiedBy": "CAMPBELB",
+            "dateModified": "2004-10-19",
+            "PermissibleValues": [],
+            "ConceptualDomain": {
+                "publicId": "2008541",
+                "version": "1",
+                "longName": "Numbers",
+                "shortName": "NUMS",
+                "definition": "the set of non-negative integers.",
+                "context": "CTEP",
+                "origin": null,
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2002-12-19",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "MSUPLEY",
+                "dateCreated": "2002-12-19",
+                "modifiedBy": "SBR",
+                "dateModified": "2003-10-29"
+            },
+            "RepresentationTerm": {
+                "publicId": "2184284",
+                "version": "1",
+                "longName": "Count",
+                "shortName": "Count",
+                "definition": "Count; the total number counted",
+                "context": "CTEP",
+                "origin": "NCI Thesaurus",
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2004-05-27",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "SBREXT",
+                "dateCreated": "2004-05-27",
+                "modifiedBy": "SBR",
+                "dateModified": "2005-04-06",
+                "Concepts": [
+                    {
+                        "longName": "Count",
+                        "conceptCode": "C25463",
+                        "definition": "Determining the number or amount of something.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "Yes",
+                        "displayOrder": "0"
+                    }
+                ]
+            }
+        },
+        "ClassificationSchemes": [
+            {
+                "publicId": "11518160",
+                "version": "1",
+                "longName": "CTDC (Clinical and Translational Data Commons)",
+                "context": "CRDC",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "13484614",
+                        "version": "1",
+                        "longName": "ECOG-ACRIN DD",
+                        "context": "CRDC"
+                    },
+                    {
+                        "publicId": "13484613",
+                        "version": "1",
+                        "longName": "MATCHBox",
+                        "context": "CRDC"
+                    }
+                ]
+            },
+            {
+                "publicId": "3553940",
+                "version": "1",
+                "longName": "BRIDG",
+                "context": "NHLBI",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "4133055",
+                        "version": "1",
+                        "longName": "Version 3.2",
+                        "context": "NHLBI"
+                    }
+                ]
+            },
+            {
+                "publicId": "6685474",
+                "version": "1",
+                "longName": "Artificial Neural Network Algorithm for BRIDG Mapping",
+                "context": "NCIP",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "6685476",
+                        "version": "1",
+                        "longName": "Training Set",
+                        "context": "NCIP"
+                    }
+                ]
+            }
+        ],
+        "AlternateNames": [
+            {
+                "name": "PerformedSubstanceAdministration:repetitionNumber",
+                "type": "HCT_BRIDG",
+                "context": "NHLBI"
+            },
+            {
+                "name": "ncycles",
+                "type": "CTDC Alt Name",
+                "context": "CRDC"
+            },
+            {
+                "name": "number_of_treatment_cycles",
+                "type": "CTDC Alt Name",
+                "context": "CRDC"
+            }
+        ],
+        "ReferenceDocuments": [
+            {
+                "documentName": "What was the number of cycles",
+                "documentText": "What was the number of cycles for the therapeutic procedure?",
+                "documentType": "Preferred Question Text",
+                "url": null,
+                "context": "NHLBI"
+            },
+            {
+                "documentName": "BRIDG mapping path for CDE:3060718",
+                "documentText": "PerformedSubstanceAdministration.repetitionNumber WHERE PerformedSubstanceAdministration > DefinedSubstanceAdministration.categoryCode = \"Administer Chemotherapy\"",
+                "documentType": "BRIDG Mapping Path",
+                "url": null,
+                "context": "NHLBI"
+            }
+        ]
+    }
+}
