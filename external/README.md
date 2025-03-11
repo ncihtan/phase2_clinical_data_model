@@ -1,6 +1,6 @@
 # External Data Sources
 
-## CL _codes_human.tsv
+## CL (Cell Type Ontology): CL _codes_human.tsv
 
 | Data Source | Download Name | Last Update |
 |-------------|---------------|------------|
@@ -19,7 +19,7 @@ Processing (via jupyter notebook):
 | ICD-O-3.1 mappings | https://evsexplore.semantics.cancer.gov/evsexplore/mappings | ICDO_TO_NCI_MORPHOLOGY: Version 2017-12-2 | Mar. 11, 2025 |
 
 
-## uberon_organ-tissue.tsv
+## UBERON: uberon_organ-tissue.tsv
 
 | Data Source | Download Name | Last Update |
 |-------------|---------------|------------|
