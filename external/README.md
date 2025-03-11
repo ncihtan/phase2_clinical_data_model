@@ -1,6 +1,8 @@
 # External Data Sources
 
-The External Data Sources provided in this directory can be used to search for permissible values within an Ontology or Standard. The following information explains how these files were obtained.
+The tsv. xlsx and txt files provided in this directory can be used to search for permissible values within an Ontology or Standard. 
+
+This README describes how these files were obtained.
 
 ## CL (Cell Type Ontology): CL _codes_human.tsv
 
