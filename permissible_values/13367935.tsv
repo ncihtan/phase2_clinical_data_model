@@ -1,0 +1,13 @@
+PERMITTED_VALUE	LONG_NAME	DEFINITION
+Frameshift	Frameshift Mutation	A type of mutation in which one or more paired nucleotides are inserted or deleted in the coding region of a gene, which causes the triplet codons to be read in the wrong frame; the resulting polypeptide has a garbled amino acid sequence from the mutated codon on.
+Missense	Missense Mutation	A mutation in which a base change results in substitution of one amino acid for another.  This change may result in alteration of the protein's activity or stability.
+Monosomy	Monosomy	The condition in which one chromosome of a pair is missing. In a normally diploid cell it is represented symbolically as 2N-1.
+None (inframe)	Inframe Mutation	Any mutation that does not cause a change in reading frame.
+Nullisomy	Nullisomy	A chromosomal abnormality consisting of the absence of both copies of a pair of homologous chromosomes.
+Splice Acceptor	Acceptor Splice Site SNP	A heritable single nucleotide polymorphism located at the acceptor splice site in certain allelic variants of eukaryotic genes. These sites are located in genes at intron to exon junctions at the 3' end of the intron.
+Splice Donor	Donor Splice Site SNP	An inherited single base change at a donor splice site in a genomic DNA sequence that results in an allelic variant of the wild-type gene. Donor splice sites are located at exon to intron junctions at the 5' end of the intron.
+Start Lost	Start Lost Mutation	A mutation occurring within the start codon of a gene that results in a sequence that no longer encodes a start codon. This can result in a gene deletion or gene transcription may start from an alternative start site.
+Stop Gained	Nonsense Mutation	A mutation in which a base change creates a stop codon, resulting in premature termination of a polypeptide product.
+Stop Lost	Nonstop Mutation	A mutation occurring within the stop codon of a gene that results in a sequence that no longer encodes a stop codon and results in the transcription of non-coding regions downstream of the gene.
+Synonymous	Silent Mutation	A mutation that alters the DNA sequence, but encodes the same amino acid.
+Trisomy	Trisomy	A chromosomal abnormality consisting of the presence of one chromosome in addition to the normal diploid number.

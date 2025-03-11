@@ -1,0 +1,190 @@
+PERMITTED_VALUE	LONG_NAME	DEFINITION
+%	Percent	A unit for expressing a number as a fraction of hundred (on the basis of a rate or proportion per hundred).
+%/100 WBC	Percent Per 100 WBC	A unit for percentage measurement of fraction of any type of white blood cells in the total white blood cell count differential.
+/100 WBC	Per 100 identifiable White blood cells	Natural number unit for measurement of portion of a particular type of blood cells (such as any type of white blood cells or nucleated red blood cells) in the total white blood cell count expressed per count of 100.
+/mm3	Per millimeter cubed	Per millimeter cubed
+/nL	Per Nanoliter	A volume unit equal to one nanoliter used as a denominator to build a derived unit expressed as a ratio.
+/pL	Per Picoliter	A volume unit equal to one picoliter used as a denominator to build a derived unit expressed as a ratio.
+10E-15L (fL)	Ten Exponential Function 15 Liter	A natural number greater than 9 and less than 11 and the quantity that it denotes: the sum of nine and one.: A function of the form f(x) = ab^x, characterized by the fact that the growth rate of such a function is directly proportional to the value of the function.: A number with no fractional part, including the negative and positive numbers as well as zero.::15: The non-SI unit of volume accepted for use with the SI. One liter is equal to cubic decimeter, or one thousandth of cubic meter, or 1000 cubic centimeters, or approximately 61.023 744 cubic inches.
+10E10	Ten Exponent 10 Unit of Measure	A natural number greater than 9 and less than 11 and the quantity that it denotes: the sum of nine and one.: A mathematical expression that results when e(=2.71828) is raised to it argument's power.: A number with no fractional part, including the negative and positive numbers as well as zero.::10: A named quantity in terms of which other quantities are measured or specified, used as a standard measurement of like kinds.
+10E11	Ten Exponent:11 Unit of Measure	A natural number greater than 9 and less than 11 and the quantity that it denotes: the sum of nine and one.: A mathematical expression that results when e(=2.71828) is raised to it argument's power.: A number with no fractional part, including the negative and positive numbers as well as zero.::11: A named quantity in terms of which other quantities are measured or specified, used as a standard measurement of like kinds.
+10E12	Ten Exponent 12 Unit of Measure	A natural number greater than 9 and less than 11 and the quantity that it denotes: the sum of nine and one.: A mathematical expression that results when e(=2.71828) is raised to it argument's power.: A number with no fractional part, including the negative and positive numbers as well as zero.::12: A named quantity in terms of which other quantities are measured or specified, used as a standard measurement of like kinds.
+10E12 Cells/L	10E12 Cells per liter	A unit of cell concentration expressed as a number of cells in trillions per unit volume equal to one liter.
+10E13	Ten Exponent 13 Unit of Measure	A natural number greater than 9 and less than 11 and the quantity that it denotes: the sum of nine and one.: A mathematical expression that results when e(=2.71828) is raised to it argument's power.: A number with no fractional part, including the negative and positive numbers as well as zero.::13: A named quantity in terms of which other quantities are measured or specified, used as a standard measurement of like kinds.
+10E14	Ten Exponent 14 Unit of Measure	A natural number greater than 9 and less than 11 and the quantity that it denotes: the sum of nine and one.: A mathematical expression that results when e(=2.71828) is raised to it argument's power.: A number with no fractional part, including the negative and positive numbers as well as zero.::14: A named quantity in terms of which other quantities are measured or specified, used as a standard measurement of like kinds.
+10E15	Ten Exponent 15 Unit of Measure	A natural number greater than 9 and less than 11 and the quantity that it denotes: the sum of nine and one.: A mathematical expression that results when e(=2.71828) is raised to it argument's power.: A number with no fractional part, including the negative and positive numbers as well as zero.::15: A named quantity in terms of which other quantities are measured or specified, used as a standard measurement of like kinds.
+10E16	Ten Exponent 16 Unit of Measure	A natural number greater than 9 and less than 11 and the quantity that it denotes: the sum of nine and one.: A mathematical expression that results when e(=2.71828) is raised to it argument's power.: A number with no fractional part, including the negative and positive numbers as well as zero.::16: A named quantity in terms of which other quantities are measured or specified, used as a standard measurement of like kinds.
+10E17	Ten Exponent 17 Unit of Measure	A natural number greater than 9 and less than 11 and the quantity that it denotes: the sum of nine and one.: A mathematical expression that results when e(=2.71828) is raised to it argument's power.: A number with no fractional part, including the negative and positive numbers as well as zero.::17: A named quantity in terms of which other quantities are measured or specified, used as a standard measurement of like kinds.
+10E18	Ten Exponent 18 Unit of Measure	A natural number greater than 9 and less than 11 and the quantity that it denotes: the sum of nine and one.: A mathematical expression that results when e(=2.71828) is raised to it argument's power.: A number with no fractional part, including the negative and positive numbers as well as zero.::18: A named quantity in terms of which other quantities are measured or specified, used as a standard measurement of like kinds.
+10E19	Ten Exponent 19 Unit of Measure	A natural number greater than 9 and less than 11 and the quantity that it denotes: the sum of nine and one.: A mathematical expression that results when e(=2.71828) is raised to it argument's power.: A number with no fractional part, including the negative and positive numbers as well as zero.::19: A named quantity in terms of which other quantities are measured or specified, used as a standard measurement of like kinds.
+10E2	Ten Exponent 2 Unit of Measure	A natural number greater than 9 and less than 11 and the quantity that it denotes: the sum of nine and one.: A mathematical expression that results when e(=2.71828) is raised to it argument's power.: A number with no fractional part, including the negative and positive numbers as well as zero.::2: A named quantity in terms of which other quantities are measured or specified, used as a standard measurement of like kinds.
+10E20	Ten Exponent 20 Unit of Measure	A natural number greater than 9 and less than 11 and the quantity that it denotes: the sum of nine and one.: A mathematical expression that results when e(=2.71828) is raised to it argument's power.: A number with no fractional part, including the negative and positive numbers as well as zero.::20: A named quantity in terms of which other quantities are measured or specified, used as a standard measurement of like kinds.
+10E3	Ten Exponent 3 Unit of Measure	A natural number greater than 9 and less than 11 and the quantity that it denotes: the sum of nine and one.: A mathematical expression that results when e(=2.71828) is raised to it argument's power.: A number with no fractional part, including the negative and positive numbers as well as zero.::3: A named quantity in terms of which other quantities are measured or specified, used as a standard measurement of like kinds.
+10E3 Cells/microL	10E3 Cells per microliter	10E3 Cells per microliter
+10E4	Ten Exponent 4 Unit of Measure	A natural number greater than 9 and less than 11 and the quantity that it denotes: the sum of nine and one.: A mathematical expression that results when e(=2.71828) is raised to it argument's power.: A number with no fractional part, including the negative and positive numbers as well as zero.::4: A named quantity in terms of which other quantities are measured or specified, used as a standard measurement of like kinds.
+10E5	Ten Exponent 5 Unit of Measure	A natural number greater than 9 and less than 11 and the quantity that it denotes: the sum of nine and one.: A mathematical expression that results when e(=2.71828) is raised to it argument's power.: A number with no fractional part, including the negative and positive numbers as well as zero.::5: A named quantity in terms of which other quantities are measured or specified, used as a standard measurement of like kinds.
+10E6	Ten Exponent 6 Unit of Measure	A natural number greater than 9 and less than 11 and the quantity that it denotes: the sum of nine and one.: A mathematical expression that results when e(=2.71828) is raised to it argument's power.: A number with no fractional part, including the negative and positive numbers as well as zero.::6: A named quantity in terms of which other quantities are measured or specified, used as a standard measurement of like kinds.
+10E6 Cells	10E6 Cells	A unit of cell count expressed in millions.
+10E6 Cells/microL	10E6 Cells per microLiter	10E6 Cells per microLiter
+10E6 Cells/mm3	10E6 Cells per millimeter cubed	10E6 Cells per millimeter cubed
+10E6/L	10E6 per Liter	10E6 per Liter
+10E7	Ten Exponent 7 Unit of Measure	A natural number greater than 9 and less than 11 and the quantity that it denotes: the sum of nine and one.: A mathematical expression that results when e(=2.71828) is raised to it argument's power.: A number with no fractional part, including the negative and positive numbers as well as zero.::7: A named quantity in terms of which other quantities are measured or specified, used as a standard measurement of like kinds.
+10E7 Cells/kg	10E7 Cells per kilogram	10E7 Cells per kilogram
+10E8	Ten Exponent 8 Unit of Measure	A natural number greater than 9 and less than 11 and the quantity that it denotes: the sum of nine and one.: A mathematical expression that results when e(=2.71828) is raised to it argument's power.: A number with no fractional part, including the negative and positive numbers as well as zero.::8: A named quantity in terms of which other quantities are measured or specified, used as a standard measurement of like kinds.
+10E8 Cells	10E8 Cells	10E8 Cells
+10E9	Ten Exponent 9 Unit of Measure	A natural number greater than 9 and less than 11 and the quantity that it denotes: the sum of nine and one.: A mathematical expression that results when e(=2.71828) is raised to it argument's power.: A number with no fractional part, including the negative and positive numbers as well as zero.::9: A named quantity in terms of which other quantities are measured or specified, used as a standard measurement of like kinds.
+10E9 Cells	10E9 Cells	10E9 Cells
+10E9 Cells/L	10E9 Cells per Liter	10E9 Cells per Liter
+10E9 Cells/microL	10E9 Cells per microliter	10E9 Cells per microliter
+2X10E6 Cells	Integer::2 Multiplication Million Cell	A number with no fractional part, including the negative and positive numbers as well as zero.::2: An arithmetic operation by which the product of two numbers is computed; the inverse of division.: A natural number following 999999 and preceding 100001 and the quantity that it denotes: one thousand thousand.: The smallest units of living structure capable of independent existence, composed of a membrane-enclosed mass of protoplasm and containing a nucleus or nucleoid.
+2X10E7 Cells	Two times 10E7 Cells	Two times 10 exponential value 7 (ten million) cells
+2X10E8 Cells	Two times 10E8 Cells	Two times 10 exponential value 8 (one hundred million) cells
+Arbitrary unit per milliliter	Arbitrary Unit Per Milliliter	A single undivided thing (unit) based on or subject to individual judgment or preference, and not by necessity, reason, or principle._A volume unit equal to one milliliter used as a denominator to build a derived unit expressed as a ratio. (NCI)
+Billion/L	Billion/Liter	Billion per Liter
+CAE Unit	Complement activity enzyme unit	Complement activity enzyme unit
+Cells/kg	Cell Per Kilogram Unit of Measure	Any small compartment.: For each, generally denoting a ratio.: A basic SI unit of mass. It is definied as the mass of an  international prototype in the form of a platinum-iridium cylinder kept at Sevres in france.   A kilogram is equal to 1,000 grams and 2.2046226 pounds.: A named quantity in terms of which other quantities are measured or specified, used as a standard measurement of like kinds.
+Cells/microL	Cells per microliter	Cells per microliter
+Copies	Copies	Copies
+Copies per milliliter	Copies per Milliliter	A unit of concentration expressed as a number of copies per unit volume equal to one milliliter.
+Copies/mL	Copy per Milliliter	A unit of concentration of RNA copies expressed as a number of copies per unit volume equal to one milliliter.
+EU	Unit	The property used in conjunction with a nutrient or food component, typically expressed in gram (g), milligram (mg), microgram (mcg), joule, or kilojoule.
+EU/dL	Enzyme Units per deciliter	Enzyme Units per deciliter
+EU/mL	Enzyme Units per milliliter	Enzyme Units per milliliter
+GPL	IgG anti-cardiolipin antibodies	IgG anti-cardiolipin antibodies
+HPF	Per High Power Field	Per High Power Field
+Hours	Hour	In modern usage, an hour is defined as a unit of time 60 minutes, or 3600 seconds in length. It is approximately 1/24 of a median day.
+IUnit/L	International unit per liter	Unit of arbitrary substance concentration (biologic activity concentration) defined as the concentration of one international unit per one liter of the system volume.
+IUnit/m2	International unit per meter squared	International unit per meter squared
+IUnit/mL	International unit per milliliter	A unit of arbitrary substance concentration (biologic activity concentration) defined as the concentration of one international unit per one milliliter of system volume.
+IUnit/mL	IU/mL	A unit of arbitrary substance concentration (biologic activity concentration) defined as the concentration of one international unit per one milliliter of system volume.
+Index value	Index value	Index value
+Iunit	INTERNATIONAL UNIT	INTERNATIONAL UNIT
+L	LITER	LITER
+L/min	Liters per minute	A metric unit of volumetric flow rate defined as the rate at which one liter of matter crosses a given surface during the period of time equal to one minute.
+L/sec	Liter per second	Liter per second
+LPF	Per Low Power Field	Per Low Power Field
+Log	Logarithm	For a specified base b, a function such that its argument results when b is raised to the power given by this function's value.
+Log copies per milliliter	Log10 Copies per Milliliter	A logarithmic-scale (base 10) unit for measuring copies per unit of volume equal to one milliliter.
+Log10 IU/mL	Log10 International Units per Milliliter	A logarithmic-scale (base 10) unit for measuring international units per unit of volume equal to one milliliter.
+MPL	IgM anti-cardiolipin antibodies	IgM anti-cardiolipin antibodies
+MU/mL	Million units per milliliter	Million units per milliliter
+Million	Million	A natural number following 999999 and preceding 100001 and the quantity that it denotes: one thousand thousand.
+Million/microL	Million per microliter	Million per microliter
+Million/microL	M/mcL	Million per microliter
+Million/microL	M/microL	Million per microliter
+Million/microL	M/UI	Million per microliter
+Million/microL	MILL/MCL	Million per microliter
+Million/microL	Mil/UI	Million per microliter
+Million/microL	M/uL	Million per microliter
+Million/mm3	Million per millimeter cubed	Million per millimeter cubed
+Million/mm3	M/cmm	Million per millimeter cubed
+Million/mm3	MILL/CMM	MILL/CMM
+Million/mm3	M/mm3	Million per millimeter cubed
+Minutes	Minute	A unit measure of time equal to 60 seconds.
+NA	Not applicable; no UOM required	Not applicable; no UOM required
+No Srce	No Source Data	Information regarding the subject is unknown or inaccessible at this time.
+RNA copies/mL	RNA copies per milliliter	RNA copies per milliliter
+Ratio	ratio	ratio
+Thousand	Thousand	A natural number following 999 and preceding 1001 and the quantity that it denotes: ten times one hundred.
+Thousand/microL	Thousand per microliter	Thousand per microliter
+Thousand/microL	THOU/MCL	Thousand per microliter
+Thousand/microL	THOU/UL	Thousand per microliter
+Thousand/microL	THOUS/MCL	Thousand per microliter
+Thousand/microL	K/uL	Thousand per microliter
+Thousand/microL	K/microL	Thousand per microliter
+Thousand/microL	1000/microL	Thousand per microliter
+Thousand/mm2	Thousand per millimeter squared	Thousand per millimeter squared
+Thousand/mm2	K/mm2	Thousand per millimeter squared
+Thousand/mm2	1000/mm2	Thousand per millimeter squared
+Thousand/mm3	Thousand per millimeter cubed	Thousand per millimeter cubed
+Thousand/mm3	THOU/CMM	Thousand per millimeter cubed
+Thousand/mm3	K/mm3	Thousand per millimeter cubed
+Thousand/mm3	K/cmm	Thousand per millimeter cubed
+Thousand/mm3	1000/mm3	1000/mm3
+Thousand/mm3	Thous/CMM	Thousand per millimeter cubed
+Threshold	Threshold	The lowest limit at which something becomes detectable or relevant.
+Titer	Titer	Titer
+Trillion/L	Trillion/Liter	Trillion per Liter
+Unit	Unit	Any division of quantity accepted as a standard of measurement or exchange.
+Unit/24hr	Unit per 24 hours	Unit per 24 hours
+Unit/L	Unit per liter	Unit per liter
+Unit/m2	Unit per meter squared	A dose calculation unit expressed as a number of arbitrary units of substance per one square meter of a body surface area.
+Unit/mL	Unit per millilliter	Unit per millilliter
+Unit/mm3	Unit per millimeters cubed	Unit per millimeters cubed
+Unknown	Unknown	Not known, not observed, not recorded, or refused.
+cm H2O	Centimeters of water	A unit of pressure defined by a column of water with a height of one centimeter, frequently used to measure central venous pressure, intracranial pressure, and for pressures during mechanical ventilation.
+copies/L	Copy Per Liter	A secondary representation, reproduction, or replica.: A volume unit equal to one liter used as a denominator to build a derived unit expressed as a ratio.
+cubic microns	Cubic microns	Cubic microns
+cubic microns	CU MIC	Cubic Microns
+cubic microns	CU MICR	Cubic microns
+cubic microns	CU MICRON	Cubic microns
+fL	Femtoliter	The non-SI unit of volume accepted for use with the SI equal to one quadrillionth of a liter (10E-15 liter).
+g	Grams (g)	A metric unit of mass equal to one one thousandth of a kilogram.
+g/24hr	Gram per 24 hours	Gram per 24 hours
+g/L	Gram per liter	Gram per liter
+g/dL	Gram per deciliter	Gram per deciliter
+g/microL	Gram per microliter	Gram per microliter
+kU/L	Kilounit per Liter	An arbitrary unit of substance content expressed in thousands of units of biological activity per unit of mass equal to one kilogram. Kilounit per kilogram is also used as a dose calculation unit expressed in thousands of arbitrary units per one kilogram of body mass.
+mEq	Milliequivalent	A unit of relative amount of a substance equal to one thousandth of an equivalent weight.
+mEq/24hr	Milliequivalents per 24 hours	A unit of relative amount of substance flow rate equivalent to the rate at which one thousandth of an equivalent of substance crosses a given surface or is delivered to a given object or space over a period of time equal to twenty four hours.
+mEq/L	Milliequivalent per liter	A concentration unit measured as a number of milliequivalents of solute per liter of solution.
+mEq/dL	Milliequivalent per deciliter	A concentration unit measured as a number of milliequivalents of solute per deciliter of solution.
+mEq/kg	Milliequivalent per kilogram	Milliequivalent per kilogram
+mL	Milliter	Milliter
+mL/24hr	Milliliter Per Integer::24 Hour Unit of Measure	A measure of volume for a liquid.  A milliliter is approximately 950 times smaller than a quart and 30 times smaller than a fluid ounce.  A milliliter of liquid and a cubic centimeter (cc) of liquid are the same.: For each, generally denoting a ratio.: A number with no fractional part, including the negative and positive numbers as well as zero.::24: In modern usage, an hour is defined as a unit of time 60 minutes, or 3600 seconds in length. It is approximately 1/24 of a median day.: A named quantity in terms of which other quantities are measured or specified, used as a standard measurement of like kinds.
+mL/min	Milliliter per minute	Milliliter per minute
+mL/min/1.73/BSA	Milliliter per minute times 1.73 times BSA	Milliliter per minute times 1.73 times BSA
+mL/min/kg	Milliliter per Kilogram per Minute 	A dose calculation unit expressed in milliliter(s) per kilogram per period of time equal to sixty seconds.
+mL/minute/mmHg	Milliter per minute per millimeters of Mercury	Milliter per minute per millimeters of Mercury
+mL/minute/mmHg/L	Milliliter per minute per millimeter Hg per Liter	Milliliter per minute per millimeter Hg per Liter
+mU/mL	Milliunit Per Milliliter Unit of Measure	A quantity equivalent to the one thousandth unit (10E-3 unit).: For each, generally denoting a ratio.: A measure of volume for a liquid.  A milliliter is approximately 950 times smaller than a quart and 30 times smaller than a fluid ounce.  A milliliter of liquid and a cubic centimeter (cc) of liquid are the same.: A named quantity in terms of which other quantities are measured or specified, used as a standard measurement of like kinds.
+mcg/24hr	Microgram per 24 hours	Microgram per 24 hours
+mcg/L	microgram per liter	microgram per liter
+mcg/dL	Microgram per deciliter	Microgram per deciliter
+mcg/mL	Microgram per milliliter	Microgram per milliliter
+mcg/spec	Microgram per specimen	Microgram per specimen
+mg	Milligram	A measure of weight.  A milligram is approximately 450,000 times smaller than a pound and 28,000 times smaller than an ounce.
+mg/24hr	Milligram per 24 hours	A unit of mass flow rate equivalent to the rate at which one thousandth of a gram of matter crosses a given surface or is delivered to a given object or space over a period of time equal to twenty four hours. Milligram per twenty four hours is also a dose administration rate unit equal to the rate at which one thousandth of a gram of a product is administered per unit of time equal to twenty four hours.
+mg/L	Milligram per liter	Milligram per liter
+mg/dL	Milligram per deciliter	A unit of mass concentration defined as the concentration of one milligram of a substance in unit volume of the mixture equal to one cubic deciliter or 100 cubic centimeters. It is also a unit of mass density (volumic mass) defined as the density of substance which mass equal to one milligram occupies the volume one cubic deciliter or 100 cubic centimeters.
+mg/g	milligram per gram	A unit of a mass fraction expressed as a number of grams of substance per kilogram of mixture. Gram per kilogram is also used as a dose calculation unit to express a quantity of substance in grams per one kilogram of body mass.
+mg/kg	milligram per kilogram	A unit of a mass fraction expressed as a number of milligrams of substance per kilogram of mixture. The unit is also used as a dose calculation unit.
+mg/mL	Milligram per milliliter	A SI derived unit of mass concentration defined as the concentration of one kilogram of a substance per unit volume of the mixture equal to one cubic meter, or the concentration of one milligram of a substance per unit volume of the mixture equal to one milliliter, or one gram of a substance per one liter of the mixture. It is also a unit of mass density (volumic mass) defined as the density of substance which mass equal to one milligram occupies the volume one milliliter.
+mg/mL/min	Milligram per milliliter per minute	Milligram per milliliter per minute
+mg/mmol	Gram per Mole	A unit of mass commonly used to express the molar mass of a substance in gram(s) per mole.
+microIU/mL	Micro International Unit per milliliter	Micro International Unit per milliliter
+microL	MICROLITER	MICROLITER
+microU/mL	Microunit per milliliter	Microunit per milliliter
+micromol/24hr	Micromole per 24 hours	Micromole per 24 hours
+micromol/L	Micromole per liter	Micromole per liter
+micromol/dL	Micromole per deciliter	Micromole per deciliter
+mill PFU	Million Plaque Forming Units	A measure of viable infectious entities expressed in millions in the specimen or product defined as the smallest quantity that can produce a cytopathic effect in the host cell culture challenged with the defined inoculum, visible under the microscope or/and to the naked eye as a plaque.
+miu	Milliinternational unit	A unit equal to one-thousandth of an international unit.
+miu/m2	Milliinternational units per meter squared	A dose calculation unit equal to one-thousandth (10E-3) of an arbitrary unit of biological activity (International Unit) of substance per square meter of body surface area.
+miu/mL	Milliinternational unit per milliliter	Milliinternational unit per milliliter
+ml CO/min/mm Hg	Carbon Monoxide Milliliter per Minute per Millimeters of Mercury	An odorless, tasteless, poisonous gas, CO, that results from the incomplete combustion of carbon. Inhalation causes central nervous system damage and asphyxiation.: A unit for measuring a pulmonary diffusing capacity expressed in units of gas flow rate (in milliliters per minute) per a unit of pressure (in torrs).
+mm/hr	Millimeter per hour	Millimeter per hour
+mm3	Millimeter cubed	Millimeter cubed
+mmHg	Millimeter of Mercury	A unit of pressure equal to 0.001316 atmosphere and equal to the pressure indicated by one millimeter rise of mercury in a barometer at the Earth's surface.
+mmol	MILLIMOLE	MILLIMOLE
+mmol CO/min/kPa	Carbon Monoxide Millimoles per Minute per Kilopascal	An odorless, tasteless, poisonous gas, CO, that results from the incomplete combustion of carbon. Inhalation causes central nervous system damage and asphyxiation.: A unit of gas diffusion capacity equal to one millimole per minute per kilopascal.
+mmol/24hr	Millimole per 24 hours	Millimole per 24 hours
+mmol/L	millimole per liter	millimole per liter
+mmol/min/kPa/L	Millimole per minute per thousand Pascal per Liter	Millimole per minute per thousand Pascal per Liter
+mosmol/kg	Milliosmole per kilogram	Milliosmole per kilogram
+nMol/mg protein	Nanomole per milligram of protein	Nanomole per milligram of protein
+ng/dL	nanogram per deciliter	nanogram per deciliter
+ng/mL	Nanograms per milliliter	A unit of mass concentration defined as the concentration of one microgram of a substance per unit volume of the mixture equal to one liter. The concept also refers to the unit of mass density (volumetric mass) defined as the density of a substance which mass equal to one microgram occupies the volume of one liter.
+ng/mL/hr	Nanogram per milliliter per hour	A dose calculation unit equal to mass concentration of a substance expressed in nanograms per unit volume of one milliliter per time period of one hour.
+nmol/L	Nanomole per Liter	A unit of concentration (molarity unit) equal to one billionth of a mole (10E-9 mole) of solute in one liter of solution.
+nmol/hr/mg protein	Nanomole per hour per milligram of protein	Nanomole per hour per milligram of protein
+nmol/mL	Nanomole per milliliter	Nanomole per milliliter
+pg	Picograms	The metric unit of mass equal to one trillionth of a gram (10E-12 gram).
+pg/dL	Picogram per deciliter	Picogram per deciliter
+pg/mL	Picrogram per milliliter	Picrogram per milliliter
+pgPGE2/mg protein	pgPGE2/mg protein	pgPGE2/mg protein
+pmol/L	Picomole per Liter	A unit of concentration (molarity unit) equal to one trillionth of a mole (10E-12 mole) in one liter of solution.
+pmol/hr/mg protein	Picomole per hour per milligram of protein	Picomole per hour per milligram of protein
+sec	seconds	seconds
+ug/mL FEU	Microgram per Milliliter Fibrinogen Equivalent Unit	A metric unit of mass concentration defined as the concentration of one gram of a substance per unit volume of the mixture equal to one cubic meter. The concept also refers to the metric unit of mass density (volumic mass) defined as the density of a substance which mass equal to one gram occupies the volume of one cubic meter.: A unit of measure for the concentration of fibrin degradation products in a sample, calculated based upon the mass of fibrinogen contained within that sample.
+ukat/L	Microkatal per Liter	Unit of catalytic activity concentration defined as activity equal to one millionth of katal per one liter of the system volume.

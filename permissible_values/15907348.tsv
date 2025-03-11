@@ -1,0 +1,7 @@
+PERMITTED_VALUE	LONG_NAME	DEFINITION
+Not Reported	Not Reported	Not provided or available.
+Precancerous	Premalignant	Descriptive of a condition that may or is likely to become cancerous.
+Primary	Primary Neoplasm	A tumor at the original site of origin.
+Progression or Recurrence	Progressive or Recurrent Disease Indicator	An indication as to whether a subject has a progressive disease or a recurrent disease.
+Residual Disease	Residual Disease	Cancer cells that remain after attempts to remove the cancer have been made.
+Unknown	Unknown	Not known, observed, recorded; or reported as unknown by the data contributor.
