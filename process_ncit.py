@@ -20,7 +20,7 @@ def node_descends_from(node_id, ancestor_id, parent_map):
 # First Pass
 parent_map = {}
 nci_path = "external/nci_thesarus.txt"
-out_path = "permissible_values/14905532.tsv"
+out_path = "external/ncit_diagnosis.tsv"
 
 fd = open(nci_path)
 for line in fd:
@@ -49,3 +49,4 @@ for line in fd:
         )
 fd.close()
 out.close()
+print("Please convert the file to excel manually")
