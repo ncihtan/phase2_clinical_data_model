@@ -1,6 +1,6 @@
 # External Data Sources
 
-The tsv. xlsx and txt files provided in this directory can be used to search for permissible values within an Ontology or Standard. 
+The files provided in this directory can be used to search for permissible values within an Ontology or Standard. 
 
 This README describes how these files were obtained.
 
