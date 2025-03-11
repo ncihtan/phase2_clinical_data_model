@@ -1,5 +1,24 @@
 # External Data Sources
 
+## CL _codes_human.tsv
+
+| Data Source | Download Name | Last Update |
+|-------------|---------------|------------|
+| https://github.com/obophenotype/cell-ontology/releases/tag/v2025-02-13 | human-view.tsv | Mar. 11, 2025 |
+
+Processing (via jupyter notebook):
+- Extracted code from end of url provided in "?x" in format "CL:#######"
+- Changed order of columns to "code", "?label", "?x"
+- Renamed columns to "Permissible Value", "Label" and "URL"
+
+## MONDO.tsv
+
+| Data Type |  Data Source | Download Name | Last Update |
+|-----------|-------------|---------------|------------|
+| mondo terms, NCIT, ICD-10-CM and ICD-9 mappings |https://www.ebi.ac.uk/ols4/downloads |mappings_sssom.tsv.gz | Mar. 7, 2025 |
+| ICD-O-3.1 mappings | https://evsexplore.semantics.cancer.gov/evsexplore/mappings | ICDO_TO_NCI_MORPHOLOGY: Version 2017-12-2 | Mar. 11, 2025 |
+
+
 ## uberon_organ-tissue.tsv
 
 | Data Source | Download Name | Last Update |
