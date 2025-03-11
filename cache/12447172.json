@@ -1,1 +1,865 @@
-{"status":"success","message":"Record found.","DataElement":{"publicId":"12447172","version":"1","longName":"Subject Last Known Disease Status","shortName":"13253743v1.00:13253755v1.00","definition":"The most recently documented condition or state of an individual's disease.","context":"CRDC","origin":"CDS:Cancer Data Service","workflowStatus":"RELEASED","registrationStatus":"Standard","latestVersionIndicator":"Yes","beginDate":"2023-01-25","endDate":null,"changeDescription":null,"administrativeNotes":"2/14/25 added RCI AQTs and CSI RCI Follow Up. sl;\r\n10/24/24 per Henry/CodeMap task, add alt table.LS;12/31/23 Added CDS Imaging CSI. jk;  9/20/23 Updated CRDC CSI per final ppt. mr; 9/19/23 Released per email and final ppt from DSS team. mr;  8/31/23 Retired GDC CDE 5424231 has been superseded by this CDE to update the semantics. Additional PVs were added to support CRDC use cases. This will become the CRDC standard CDE. mr;\r\n5/16/23 changed origin to CDS. BF; 3/27/23 Swapped out new DEC and VD to match CDE semantics. mr; 1/25/23 Created per CDS metadata template. Added alt name, alt def, ref docs, CSI Dx. mr","unresolvedIssues":null,"deletedIndicator":"No","createdBy":"COLBERTM","dateCreated":"2023-01-25","modifiedBy":"SLAUER","dateModified":"2025-02-14","DataElementConcept":{"publicId":"13253743","version":"1","longName":"Subject Last Known Disease Status","shortName":"2523466v1.00:13253742v1.00","definition":"A matter or an individual that is observed, analyzed, examined, investigated, experimented upon, or/and treated in the course of a particular study.:The most recently documented condition or state with regards to a disease of interest.","context":"CRDC","origin":"CDS:Cancer Data Service","workflowStatus":"RELEASED","registrationStatus":"Standard","latestVersionIndicator":"Yes","beginDate":"2023-03-27","endDate":null,"changeDescription":null,"administrativeNotes":"9/19/23 Released as CRDC standard per email and ppt from DSS. mr; \r\n5/17/23 changed origin to CDS. BF; 3/27/23 Created per CDS metadata template. mr","unresolvedIssues":null,"deletedIndicator":"No","createdBy":"COLBERTM","dateCreated":"2023-03-27","modifiedBy":"COLBERTM","dateModified":"2023-09-19","ObjectClass":{"publicId":"2523466","version":"1","longName":"Study Subject","shortName":"C41189","definition":"A matter or person that is analyzed, examined, investigated, experimented upon, or treated in the course of particular study.","context":"NCIP","origin":"NCI Thesaurus","workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2006-09-27","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"UMLLOADER_DRUGSCREEN","dateCreated":"2006-09-27","modifiedBy":"SBREXT","dateModified":"2007-11-07","Concepts":[{"longName":"Study Subject","conceptCode":"C41189","definition":"A matter or an individual that is observed, analyzed, examined, investigated, experimented upon, or/and treated in the course of a particular study.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"Yes","displayOrder":"0"}]},"Property":{"publicId":"13253742","version":"1","longName":"Last Known Disease Status","shortName":"C191938","definition":"The most recently documented condition or state with regards to a disease of interest.","context":"NCIP","origin":null,"workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2023-03-27","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"COLBERTM","dateCreated":"2023-03-27","modifiedBy":"COLBERTM","dateModified":"2023-03-27","Concepts":[{"longName":"Last Known Disease Status","conceptCode":"C191938","definition":"The most recently documented condition or state with regards to a disease of interest.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"Yes","displayOrder":"0"}]},"ConceptualDomain":{"publicId":"2435018","version":"1","longName":"Clinical or Research Activity","shortName":"C16203","definition":"Any specific activity undertaken during the course of a clinical study or research protocol.","context":"NCIP","origin":"NCI Thesaurus","workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2005-12-06","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"CURTIST","dateCreated":"2005-12-06","modifiedBy":"SBR","dateModified":"2006-12-20"}},"ValueDomain":{"publicId":"13253755","version":"1","longName":"Last Known Disease Status","shortName":"13253755v1.00","definition":"The most recently documented condition or state with regards to a disease of interest._A condition or state at a particular time.","context":"CRDC","type":"Enumerated","dataType":"CHARACTER","minLength":null,"maxLength":"100","minValue":null,"maxValue":null,"decimalPlace":null,"origin":"CDS:Cancer Data Service","workflowStatus":"RELEASED","registrationStatus":"Standard","latestVersionIndicator":"Yes","beginDate":"2023-03-27","endDate":null,"changeDescription":null,"administrativeNotes":"919/23 Released as CRDC standard per email and ppt from DSS team. mr; \r\n9/11/23 Added last PV needed by CRDC. mr;\r\n5/17/23 changed origin to CDS. BF; 3/27/23 Created per CDS metadata template. Included values from VD 2759546 not used by CDS for reuse and cleanup. mr","unresolvedIssues":null,"deletedIndicator":"No","createdBy":"COLBERTM","dateCreated":"2023-03-27","modifiedBy":"COLBERTM","dateModified":"2023-09-19","PermissibleValues":[{"value":"Biochemical evidence of disease without structural correlate","valueDescription":null,"origin":null,"beginDate":"2023-03-27","endDate":null,"deletedIndicator":"No","createdBy":"COLBERTM","dateCreated":"2023-03-27","modifiedBy":"COLBERTM","dateModified":"2023-03-27","ValueMeaning":{"publicId":"13254014","version":"1","longName":"Biochemical Evidence of Disease without Structural Correlate","shortName":"13254014v1.00","definition":"An indication that biochemical markers of a disease are present but morphological markers are absent.","context":"NCIP","origin":null,"workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2023-03-27","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"COLBERTM","dateCreated":"2023-03-27","modifiedBy":"COLBERTM","dateModified":"2023-03-27","Concepts":[{"longName":"Biochemical Evidence of Disease without Structural Correlate","conceptCode":"C165197","definition":"An indication that biochemical markers of a disease are present but morphological markers are absent.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"Yes","displayOrder":"0"}]}},{"value":"Tumor Free","valueDescription":null,"origin":null,"beginDate":"2023-03-27","endDate":null,"deletedIndicator":"No","createdBy":"COLBERTM","dateCreated":"2023-03-27","modifiedBy":"COLBERTM","dateModified":"2023-03-27","ValueMeaning":{"publicId":"6719428","version":"1","longName":"Tumor Free","shortName":"6719428","definition":"There is no evidence of a tumor in the individual.","context":"NCIP","origin":null,"workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2019-04-23","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"COOPERM","dateCreated":"2019-04-23","modifiedBy":"COLBERTM","dateModified":"2023-03-27","Concepts":[{"longName":"Tumor Free","conceptCode":"C156848","definition":"There is no evidence of a tumor in the individual.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"Yes","displayOrder":"0"}]}},{"value":"Unknown","valueDescription":null,"origin":null,"beginDate":"2023-03-27","endDate":null,"deletedIndicator":"No","createdBy":"COLBERTM","dateCreated":"2023-03-27","modifiedBy":"COLBERTM","dateModified":"2023-03-27","ValueMeaning":{"publicId":"4266671","version":"1","longName":"Unknown","shortName":"4266671","definition":"Not known, not observed, not recorded, or refused.","context":"NCIP","origin":null,"workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2014-04-11","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"DWARZEL","dateCreated":"2014-04-11","modifiedBy":"COLBERTM","dateModified":"2023-09-12","Concepts":[{"longName":"Unknown","conceptCode":"C17998","definition":"Not known, observed, recorded; or reported as unknown by the data contributor.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"Yes","displayOrder":"0"}]}},{"value":"With Tumor","valueDescription":null,"origin":null,"beginDate":"2023-03-27","endDate":null,"deletedIndicator":"No","createdBy":"COLBERTM","dateCreated":"2023-03-27","modifiedBy":"COLBERTM","dateModified":"2023-03-27","ValueMeaning":{"publicId":"6719426","version":"1","longName":"With Tumor","shortName":"6719426","definition":"There is evidence of a tumor in an individual.","context":"NCIP","origin":null,"workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2019-04-23","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"COOPERM","dateCreated":"2019-04-23","modifiedBy":"COLBERTM","dateModified":"2023-09-12","Concepts":[{"longName":"With Tumor","conceptCode":"C156849","definition":"There is evidence of a tumor in an individual.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"Yes","displayOrder":"0"}]}},{"value":"Not Reported","valueDescription":null,"origin":null,"beginDate":"2023-03-27","endDate":null,"deletedIndicator":"No","createdBy":"COLBERTM","dateCreated":"2023-03-27","modifiedBy":"COLBERTM","dateModified":"2023-03-27","ValueMeaning":{"publicId":"5612322","version":"1","longName":"Not Reported","shortName":"5612322v1.00","definition":"Not provided or available.","context":"NCIP","origin":null,"workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2017-01-03","endDate":null,"changeDescription":null,"administrativeNotes":"3/4/25 Added alt VM names per RFC 26 CR 1. sl;\r\n10/10/23 changed Long Name from \"Not Stated\" to match NCIt Preferred name and current caDSR concept Long Name of \"Not Reported\" per Brenda.Janice . LS","unresolvedIssues":null,"deletedIndicator":"No","createdBy":"ALEYR","dateCreated":"2017-01-03","modifiedBy":"SLAUER","dateModified":"2025-03-04","Concepts":[{"longName":"Not Reported","conceptCode":"C43234","definition":"Not provided or available.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"Yes","displayOrder":"0"}]}},{"value":"Not Applicable","valueDescription":null,"origin":null,"beginDate":"2023-03-27","endDate":null,"deletedIndicator":"No","createdBy":"COLBERTM","dateCreated":"2023-03-27","modifiedBy":"COLBERTM","dateModified":"2023-03-27","ValueMeaning":{"publicId":"7590024","version":"1","longName":"Not Applicable","shortName":"7590024","definition":"Determination of a value is not relevant in the current context.","context":"NCIP","origin":null,"workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2021-03-04","endDate":null,"changeDescription":null,"administrativeNotes":"3/4/25 Added alt VM names per RFC 26 CR 1. sl;\r\n7/8/22 added alt name of NA for CCTG cjl;","unresolvedIssues":null,"deletedIndicator":"No","createdBy":"MORENOC","dateCreated":"2021-03-04","modifiedBy":"SLAUER","dateModified":"2025-03-04","Concepts":[{"longName":"Not Applicable","conceptCode":"C48660","definition":"Determination of a value is not relevant in the current context.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"Yes","displayOrder":"0"}]}},{"value":"Not Allowed To Collect","valueDescription":null,"origin":null,"beginDate":"2023-03-27","endDate":null,"deletedIndicator":"No","createdBy":"COLBERTM","dateCreated":"2023-03-27","modifiedBy":"COLBERTM","dateModified":"2023-03-27","ValueMeaning":{"publicId":"6662191","version":"1","longName":"Not Allowed To Collect","shortName":"6662191","definition":"An indicator that specifies that a collection event was not permitted.","context":"NCIP","origin":null,"workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2019-03-06","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"COOPERM","dateCreated":"2019-03-06","modifiedBy":"ONEDATA","dateModified":"2019-03-06","Concepts":[{"longName":"Not Allowed To Collect","conceptCode":"C141478","definition":"An indicator that specifies that a collection event was not permitted.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"Yes","displayOrder":"0"}]}},{"value":"Distant Metastasis","valueDescription":null,"origin":null,"beginDate":"2023-08-31","endDate":null,"deletedIndicator":"No","createdBy":"COLBERTM","dateCreated":"2023-08-31","modifiedBy":"COLBERTM","dateModified":"2023-08-31","ValueMeaning":{"publicId":"5627051","version":"1","longName":"Distant Metastasis","shortName":"5627051","definition":"A biological process that involves the transfer and growth of cancer cells from the site of the primary tumor. Relocation of malignant cells during metastasis can be restricted to movement within a specific tissue/organ or may entail migration to a distal locus within the body. This phenotype is a characteristic of all malignant tumors.","context":"NCIP","origin":null,"workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2017-01-12","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"KUMMEROA","dateCreated":"2017-01-12","modifiedBy":"COLBERTM","dateModified":"2023-09-01","Concepts":[{"longName":"Distant Metastasis","conceptCode":"C18206","definition":"A biological process that involves the transfer and growth of cancer cells from the site of the primary tumor. Relocation of malignant cells during metastasis can be restricted to movement within a specific tissue/organ or may entail migration to a distal locus within the body. This phenotype is a characteristic of all malignant tumors.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"Yes","displayOrder":"0"}]}},{"value":"Localized Disease","valueDescription":null,"origin":null,"beginDate":"2023-08-31","endDate":null,"deletedIndicator":"No","createdBy":"COLBERTM","dateCreated":"2023-08-31","modifiedBy":"COLBERTM","dateModified":"2023-08-31","ValueMeaning":{"publicId":"3461432","version":"1","longName":"Localized Disease","shortName":"3461432","definition":"A disease that is confined to a specific organ or tissue and has not spread to other anatomic sites.","context":"NCIP","origin":null,"workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2012-05-15","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"COOPERM","dateCreated":"2012-05-15","modifiedBy":"COLBERTM","dateModified":"2023-09-01","Concepts":[{"longName":"Localized Disease","conceptCode":"C36162","definition":"A disease that is confined to a specific organ or tissue and has not spread to other anatomic sites.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"Yes","displayOrder":"0"}]}},{"value":"Regional Disease","valueDescription":null,"origin":null,"beginDate":"2023-08-31","endDate":null,"deletedIndicator":"No","createdBy":"COLBERTM","dateCreated":"2023-08-31","modifiedBy":"COLBERTM","dateModified":"2023-08-31","ValueMeaning":{"publicId":"2971661","version":"1","longName":"Regional Disease","shortName":"2971661","definition":"A disease or condition that extends beyond the site and spreads into adjacent tissues and regional lymph nodes.","context":"NCIP","origin":null,"workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2009-12-21","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"REEVESD","dateCreated":"2009-12-21","modifiedBy":"COLBERTM","dateModified":"2023-09-01","Concepts":[{"longName":"Regional Disease","conceptCode":"C41844","definition":"A disease or condition that extends beyond the site of origin and spreads into adjacent tissues and regional lymph nodes.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"Yes","displayOrder":"0"}]}},{"value":"New Tumor Event","valueDescription":null,"origin":null,"beginDate":"2023-09-11","endDate":null,"deletedIndicator":"No","createdBy":"COLBERTM","dateCreated":"2023-09-11","modifiedBy":"COLBERTM","dateModified":"2023-09-11","ValueMeaning":{"publicId":"14473337","version":"1","longName":"New Tumor Event","shortName":"14473337v1.00","definition":"The presence of a primary, recurrent or metastatic neoplasm which has not been previously noted.","context":"NCIP","origin":null,"workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2023-09-11","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"COLBERTM","dateCreated":"2023-09-11","modifiedBy":"COLBERTM","dateModified":"2023-09-11","Concepts":[{"longName":"New Tumor Event","conceptCode":"C200667","definition":"The presence of a primary, recurrent or metastatic neoplasm which has not been previously noted.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"Yes","displayOrder":"0"}]}}],"ConceptualDomain":{"publicId":"2435018","version":"1","longName":"Clinical or Research Activity","shortName":"C16203","definition":"Any specific activity undertaken during the course of a clinical study or research protocol.","context":"NCIP","origin":"NCI Thesaurus","workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2005-12-06","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"CURTIST","dateCreated":"2005-12-06","modifiedBy":"SBR","dateModified":"2006-12-20"},"RepresentationTerm":{"publicId":"13253754","version":"1","longName":"Last Known Disease Status Status","shortName":"13253754v1.00","definition":"The most recently documented condition or state with regards to a disease of interest._A condition or state at a particular time.","context":"NCIP","origin":null,"workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2023-03-27","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"COLBERTM","dateCreated":"2023-03-27","modifiedBy":"COLBERTM","dateModified":"2023-03-27","Concepts":[{"longName":"Status","conceptCode":"C25688","definition":"A condition or state at a particular time.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"Yes","displayOrder":"0"},{"longName":"Last Known Disease Status","conceptCode":"C191938","definition":"The most recently documented condition or state with regards to a disease of interest.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"No","displayOrder":"1"}]}},"ClassificationSchemes":[{"publicId":"10466051","version":"1","longName":"All CRDC Standard CDEs","context":"CRDC","ClassificationSchemeItems":[{"publicId":"10466054","version":"1","longName":"Diagnosis","context":"CRDC"}]},{"publicId":"13574489","version":"1","longName":"CCDI (Childhood Cancer Data Initiative)","context":"Pediatric Cancer","ClassificationSchemeItems":[{"publicId":"13594093","version":"1","longName":"Sample","context":"Pediatric Cancer"},{"publicId":"13596241","version":"1","longName":"Diagnosis","context":"Pediatric Cancer"},{"publicId":"13596043","version":"1","longName":"Sample","context":"Pediatric Cancer"}]},{"publicId":"15711259","version":"1","longName":"RCI (Rare Cancer Initiative)","context":"Pediatric Cancer","ClassificationSchemeItems":[{"publicId":"15714303","version":"1","longName":"Follow Up","context":"Pediatric Cancer"}]},{"publicId":"5428034","version":"1","longName":"Clinical","context":"GDC","ClassificationSchemeItems":[{"publicId":"10000695","version":"1","longName":"Diagnosis","context":"GDC"}]},{"publicId":"7639423","version":"1","longName":"SRRS-Standardized Repository of Reference Specimens","context":"HTAN","ClassificationSchemeItems":[{"publicId":"7639047","version":"1","longName":"SRRS Clinical","context":"HTAN"}]},{"publicId":"8064110","version":"1","longName":"CDS (Cancer Data Service)","context":"CRDC","ClassificationSchemeItems":[{"publicId":"12177497","version":"1","longName":"Diagnosis","context":"CRDC"},{"publicId":"14470388","version":"1","longName":"Imaging","context":"CRDC"}]}],"AlternateNames":[{"name":"last_known_disease_status","type":"CDS Alt Name","context":"CRDC"},{"name":"last_known_disease_status","type":"HTAN Alt Name","context":"HTAN"},{"name":"Last Known Disease Status","type":"CRDC Alt Name","context":"CRDC"},{"name":"last_known_disease_status","type":"CCDI Alt Name","context":"Pediatric Cancer"},{"name":"diagnosis","type":"CCDI Table","context":"Pediatric Cancer"}],"ReferenceDocuments":[{"documentName":"PQT","documentText":"Last Known Disease Status","documentType":"Preferred Question Text","url":null,"context":"CRDC"},{"documentName":"RCI Question","documentText":"Free of disease","documentType":"Alternate Question Text","url":null,"context":"Pediatric Cancer"},{"documentName":"RCI Question","documentText":"Localized or metastatic?","documentType":"Alternate Question Text","url":null,"context":"Pediatric Cancer"}]}}
+{
+    "status": "success",
+    "message": "Record found.",
+    "DataElement": {
+        "publicId": "12447172",
+        "version": "1",
+        "longName": "Subject Last Known Disease Status",
+        "shortName": "13253743v1.00:13253755v1.00",
+        "definition": "The most recently documented condition or state of an individual's disease.",
+        "context": "CRDC",
+        "origin": "CDS:Cancer Data Service",
+        "workflowStatus": "RELEASED",
+        "registrationStatus": "Standard",
+        "latestVersionIndicator": "Yes",
+        "beginDate": "2023-01-25",
+        "endDate": null,
+        "changeDescription": null,
+        "administrativeNotes": "2/14/25 added RCI AQTs and CSI RCI Follow Up. sl;\r\n10/24/24 per Henry/CodeMap task, add alt table.LS;12/31/23 Added CDS Imaging CSI. jk;  9/20/23 Updated CRDC CSI per final ppt. mr; 9/19/23 Released per email and final ppt from DSS team. mr;  8/31/23 Retired GDC CDE 5424231 has been superseded by this CDE to update the semantics. Additional PVs were added to support CRDC use cases. This will become the CRDC standard CDE. mr;\r\n5/16/23 changed origin to CDS. BF; 3/27/23 Swapped out new DEC and VD to match CDE semantics. mr; 1/25/23 Created per CDS metadata template. Added alt name, alt def, ref docs, CSI Dx. mr",
+        "unresolvedIssues": null,
+        "deletedIndicator": "No",
+        "createdBy": "COLBERTM",
+        "dateCreated": "2023-01-25",
+        "modifiedBy": "SLAUER",
+        "dateModified": "2025-02-14",
+        "DataElementConcept": {
+            "publicId": "13253743",
+            "version": "1",
+            "longName": "Subject Last Known Disease Status",
+            "shortName": "2523466v1.00:13253742v1.00",
+            "definition": "A matter or an individual that is observed, analyzed, examined, investigated, experimented upon, or/and treated in the course of a particular study.:The most recently documented condition or state with regards to a disease of interest.",
+            "context": "CRDC",
+            "origin": "CDS:Cancer Data Service",
+            "workflowStatus": "RELEASED",
+            "registrationStatus": "Standard",
+            "latestVersionIndicator": "Yes",
+            "beginDate": "2023-03-27",
+            "endDate": null,
+            "changeDescription": null,
+            "administrativeNotes": "9/19/23 Released as CRDC standard per email and ppt from DSS. mr; \r\n5/17/23 changed origin to CDS. BF; 3/27/23 Created per CDS metadata template. mr",
+            "unresolvedIssues": null,
+            "deletedIndicator": "No",
+            "createdBy": "COLBERTM",
+            "dateCreated": "2023-03-27",
+            "modifiedBy": "COLBERTM",
+            "dateModified": "2023-09-19",
+            "ObjectClass": {
+                "publicId": "2523466",
+                "version": "1",
+                "longName": "Study Subject",
+                "shortName": "C41189",
+                "definition": "A matter or person that is analyzed, examined, investigated, experimented upon, or treated in the course of particular study.",
+                "context": "NCIP",
+                "origin": "NCI Thesaurus",
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2006-09-27",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "UMLLOADER_DRUGSCREEN",
+                "dateCreated": "2006-09-27",
+                "modifiedBy": "SBREXT",
+                "dateModified": "2007-11-07",
+                "Concepts": [
+                    {
+                        "longName": "Study Subject",
+                        "conceptCode": "C41189",
+                        "definition": "A matter or an individual that is observed, analyzed, examined, investigated, experimented upon, or/and treated in the course of a particular study.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "Yes",
+                        "displayOrder": "0"
+                    }
+                ]
+            },
+            "Property": {
+                "publicId": "13253742",
+                "version": "1",
+                "longName": "Last Known Disease Status",
+                "shortName": "C191938",
+                "definition": "The most recently documented condition or state with regards to a disease of interest.",
+                "context": "NCIP",
+                "origin": null,
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2023-03-27",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "COLBERTM",
+                "dateCreated": "2023-03-27",
+                "modifiedBy": "COLBERTM",
+                "dateModified": "2023-03-27",
+                "Concepts": [
+                    {
+                        "longName": "Last Known Disease Status",
+                        "conceptCode": "C191938",
+                        "definition": "The most recently documented condition or state with regards to a disease of interest.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "Yes",
+                        "displayOrder": "0"
+                    }
+                ]
+            },
+            "ConceptualDomain": {
+                "publicId": "2435018",
+                "version": "1",
+                "longName": "Clinical or Research Activity",
+                "shortName": "C16203",
+                "definition": "Any specific activity undertaken during the course of a clinical study or research protocol.",
+                "context": "NCIP",
+                "origin": "NCI Thesaurus",
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2005-12-06",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "CURTIST",
+                "dateCreated": "2005-12-06",
+                "modifiedBy": "SBR",
+                "dateModified": "2006-12-20"
+            }
+        },
+        "ValueDomain": {
+            "publicId": "13253755",
+            "version": "1",
+            "longName": "Last Known Disease Status",
+            "shortName": "13253755v1.00",
+            "definition": "The most recently documented condition or state with regards to a disease of interest._A condition or state at a particular time.",
+            "context": "CRDC",
+            "type": "Enumerated",
+            "dataType": "CHARACTER",
+            "minLength": null,
+            "maxLength": "100",
+            "minValue": null,
+            "maxValue": null,
+            "decimalPlace": null,
+            "origin": "CDS:Cancer Data Service",
+            "workflowStatus": "RELEASED",
+            "registrationStatus": "Standard",
+            "latestVersionIndicator": "Yes",
+            "beginDate": "2023-03-27",
+            "endDate": null,
+            "changeDescription": null,
+            "administrativeNotes": "919/23 Released as CRDC standard per email and ppt from DSS team. mr; \r\n9/11/23 Added last PV needed by CRDC. mr;\r\n5/17/23 changed origin to CDS. BF; 3/27/23 Created per CDS metadata template. Included values from VD 2759546 not used by CDS for reuse and cleanup. mr",
+            "unresolvedIssues": null,
+            "deletedIndicator": "No",
+            "createdBy": "COLBERTM",
+            "dateCreated": "2023-03-27",
+            "modifiedBy": "COLBERTM",
+            "dateModified": "2023-09-19",
+            "PermissibleValues": [
+                {
+                    "value": "Biochemical evidence of disease without structural correlate",
+                    "valueDescription": null,
+                    "origin": null,
+                    "beginDate": "2023-03-27",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "COLBERTM",
+                    "dateCreated": "2023-03-27",
+                    "modifiedBy": "COLBERTM",
+                    "dateModified": "2023-03-27",
+                    "ValueMeaning": {
+                        "publicId": "13254014",
+                        "version": "1",
+                        "longName": "Biochemical Evidence of Disease without Structural Correlate",
+                        "shortName": "13254014v1.00",
+                        "definition": "An indication that biochemical markers of a disease are present but morphological markers are absent.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2023-03-27",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": null,
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "COLBERTM",
+                        "dateCreated": "2023-03-27",
+                        "modifiedBy": "COLBERTM",
+                        "dateModified": "2023-03-27",
+                        "Concepts": [
+                            {
+                                "longName": "Biochemical Evidence of Disease without Structural Correlate",
+                                "conceptCode": "C165197",
+                                "definition": "An indication that biochemical markers of a disease are present but morphological markers are absent.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "value": "Tumor Free",
+                    "valueDescription": null,
+                    "origin": null,
+                    "beginDate": "2023-03-27",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "COLBERTM",
+                    "dateCreated": "2023-03-27",
+                    "modifiedBy": "COLBERTM",
+                    "dateModified": "2023-03-27",
+                    "ValueMeaning": {
+                        "publicId": "6719428",
+                        "version": "1",
+                        "longName": "Tumor Free",
+                        "shortName": "6719428",
+                        "definition": "There is no evidence of a tumor in the individual.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2019-04-23",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": null,
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "COOPERM",
+                        "dateCreated": "2019-04-23",
+                        "modifiedBy": "COLBERTM",
+                        "dateModified": "2023-03-27",
+                        "Concepts": [
+                            {
+                                "longName": "Tumor Free",
+                                "conceptCode": "C156848",
+                                "definition": "There is no evidence of a tumor in the individual.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "value": "Unknown",
+                    "valueDescription": null,
+                    "origin": null,
+                    "beginDate": "2023-03-27",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "COLBERTM",
+                    "dateCreated": "2023-03-27",
+                    "modifiedBy": "COLBERTM",
+                    "dateModified": "2023-03-27",
+                    "ValueMeaning": {
+                        "publicId": "4266671",
+                        "version": "1",
+                        "longName": "Unknown",
+                        "shortName": "4266671",
+                        "definition": "Not known, not observed, not recorded, or refused.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2014-04-11",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": null,
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "DWARZEL",
+                        "dateCreated": "2014-04-11",
+                        "modifiedBy": "COLBERTM",
+                        "dateModified": "2023-09-12",
+                        "Concepts": [
+                            {
+                                "longName": "Unknown",
+                                "conceptCode": "C17998",
+                                "definition": "Not known, observed, recorded; or reported as unknown by the data contributor.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "value": "With Tumor",
+                    "valueDescription": null,
+                    "origin": null,
+                    "beginDate": "2023-03-27",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "COLBERTM",
+                    "dateCreated": "2023-03-27",
+                    "modifiedBy": "COLBERTM",
+                    "dateModified": "2023-03-27",
+                    "ValueMeaning": {
+                        "publicId": "6719426",
+                        "version": "1",
+                        "longName": "With Tumor",
+                        "shortName": "6719426",
+                        "definition": "There is evidence of a tumor in an individual.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2019-04-23",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": null,
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "COOPERM",
+                        "dateCreated": "2019-04-23",
+                        "modifiedBy": "COLBERTM",
+                        "dateModified": "2023-09-12",
+                        "Concepts": [
+                            {
+                                "longName": "With Tumor",
+                                "conceptCode": "C156849",
+                                "definition": "There is evidence of a tumor in an individual.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "value": "Not Reported",
+                    "valueDescription": null,
+                    "origin": null,
+                    "beginDate": "2023-03-27",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "COLBERTM",
+                    "dateCreated": "2023-03-27",
+                    "modifiedBy": "COLBERTM",
+                    "dateModified": "2023-03-27",
+                    "ValueMeaning": {
+                        "publicId": "5612322",
+                        "version": "1",
+                        "longName": "Not Reported",
+                        "shortName": "5612322v1.00",
+                        "definition": "Not provided or available.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2017-01-03",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": "3/4/25 Added alt VM names per RFC 26 CR 1. sl;\r\n10/10/23 changed Long Name from \"Not Stated\" to match NCIt Preferred name and current caDSR concept Long Name of \"Not Reported\" per Brenda.Janice . LS",
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "ALEYR",
+                        "dateCreated": "2017-01-03",
+                        "modifiedBy": "SLAUER",
+                        "dateModified": "2025-03-04",
+                        "Concepts": [
+                            {
+                                "longName": "Not Reported",
+                                "conceptCode": "C43234",
+                                "definition": "Not provided or available.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "value": "Not Applicable",
+                    "valueDescription": null,
+                    "origin": null,
+                    "beginDate": "2023-03-27",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "COLBERTM",
+                    "dateCreated": "2023-03-27",
+                    "modifiedBy": "COLBERTM",
+                    "dateModified": "2023-03-27",
+                    "ValueMeaning": {
+                        "publicId": "7590024",
+                        "version": "1",
+                        "longName": "Not Applicable",
+                        "shortName": "7590024",
+                        "definition": "Determination of a value is not relevant in the current context.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2021-03-04",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": "3/4/25 Added alt VM names per RFC 26 CR 1. sl;\r\n7/8/22 added alt name of NA for CCTG cjl;",
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "MORENOC",
+                        "dateCreated": "2021-03-04",
+                        "modifiedBy": "SLAUER",
+                        "dateModified": "2025-03-04",
+                        "Concepts": [
+                            {
+                                "longName": "Not Applicable",
+                                "conceptCode": "C48660",
+                                "definition": "Determination of a value is not relevant in the current context.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "value": "Not Allowed To Collect",
+                    "valueDescription": null,
+                    "origin": null,
+                    "beginDate": "2023-03-27",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "COLBERTM",
+                    "dateCreated": "2023-03-27",
+                    "modifiedBy": "COLBERTM",
+                    "dateModified": "2023-03-27",
+                    "ValueMeaning": {
+                        "publicId": "6662191",
+                        "version": "1",
+                        "longName": "Not Allowed To Collect",
+                        "shortName": "6662191",
+                        "definition": "An indicator that specifies that a collection event was not permitted.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2019-03-06",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": null,
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "COOPERM",
+                        "dateCreated": "2019-03-06",
+                        "modifiedBy": "ONEDATA",
+                        "dateModified": "2019-03-06",
+                        "Concepts": [
+                            {
+                                "longName": "Not Allowed To Collect",
+                                "conceptCode": "C141478",
+                                "definition": "An indicator that specifies that a collection event was not permitted.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "value": "Distant Metastasis",
+                    "valueDescription": null,
+                    "origin": null,
+                    "beginDate": "2023-08-31",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "COLBERTM",
+                    "dateCreated": "2023-08-31",
+                    "modifiedBy": "COLBERTM",
+                    "dateModified": "2023-08-31",
+                    "ValueMeaning": {
+                        "publicId": "5627051",
+                        "version": "1",
+                        "longName": "Distant Metastasis",
+                        "shortName": "5627051",
+                        "definition": "A biological process that involves the transfer and growth of cancer cells from the site of the primary tumor. Relocation of malignant cells during metastasis can be restricted to movement within a specific tissue/organ or may entail migration to a distal locus within the body. This phenotype is a characteristic of all malignant tumors.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2017-01-12",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": null,
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "KUMMEROA",
+                        "dateCreated": "2017-01-12",
+                        "modifiedBy": "COLBERTM",
+                        "dateModified": "2023-09-01",
+                        "Concepts": [
+                            {
+                                "longName": "Distant Metastasis",
+                                "conceptCode": "C18206",
+                                "definition": "A biological process that involves the transfer and growth of cancer cells from the site of the primary tumor. Relocation of malignant cells during metastasis can be restricted to movement within a specific tissue/organ or may entail migration to a distal locus within the body. This phenotype is a characteristic of all malignant tumors.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "value": "Localized Disease",
+                    "valueDescription": null,
+                    "origin": null,
+                    "beginDate": "2023-08-31",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "COLBERTM",
+                    "dateCreated": "2023-08-31",
+                    "modifiedBy": "COLBERTM",
+                    "dateModified": "2023-08-31",
+                    "ValueMeaning": {
+                        "publicId": "3461432",
+                        "version": "1",
+                        "longName": "Localized Disease",
+                        "shortName": "3461432",
+                        "definition": "A disease that is confined to a specific organ or tissue and has not spread to other anatomic sites.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2012-05-15",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": null,
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "COOPERM",
+                        "dateCreated": "2012-05-15",
+                        "modifiedBy": "COLBERTM",
+                        "dateModified": "2023-09-01",
+                        "Concepts": [
+                            {
+                                "longName": "Localized Disease",
+                                "conceptCode": "C36162",
+                                "definition": "A disease that is confined to a specific organ or tissue and has not spread to other anatomic sites.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "value": "Regional Disease",
+                    "valueDescription": null,
+                    "origin": null,
+                    "beginDate": "2023-08-31",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "COLBERTM",
+                    "dateCreated": "2023-08-31",
+                    "modifiedBy": "COLBERTM",
+                    "dateModified": "2023-08-31",
+                    "ValueMeaning": {
+                        "publicId": "2971661",
+                        "version": "1",
+                        "longName": "Regional Disease",
+                        "shortName": "2971661",
+                        "definition": "A disease or condition that extends beyond the site and spreads into adjacent tissues and regional lymph nodes.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2009-12-21",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": null,
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "REEVESD",
+                        "dateCreated": "2009-12-21",
+                        "modifiedBy": "COLBERTM",
+                        "dateModified": "2023-09-01",
+                        "Concepts": [
+                            {
+                                "longName": "Regional Disease",
+                                "conceptCode": "C41844",
+                                "definition": "A disease or condition that extends beyond the site of origin and spreads into adjacent tissues and regional lymph nodes.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "value": "New Tumor Event",
+                    "valueDescription": null,
+                    "origin": null,
+                    "beginDate": "2023-09-11",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "COLBERTM",
+                    "dateCreated": "2023-09-11",
+                    "modifiedBy": "COLBERTM",
+                    "dateModified": "2023-09-11",
+                    "ValueMeaning": {
+                        "publicId": "14473337",
+                        "version": "1",
+                        "longName": "New Tumor Event",
+                        "shortName": "14473337v1.00",
+                        "definition": "The presence of a primary, recurrent or metastatic neoplasm which has not been previously noted.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2023-09-11",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": null,
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "COLBERTM",
+                        "dateCreated": "2023-09-11",
+                        "modifiedBy": "COLBERTM",
+                        "dateModified": "2023-09-11",
+                        "Concepts": [
+                            {
+                                "longName": "New Tumor Event",
+                                "conceptCode": "C200667",
+                                "definition": "The presence of a primary, recurrent or metastatic neoplasm which has not been previously noted.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "ConceptualDomain": {
+                "publicId": "2435018",
+                "version": "1",
+                "longName": "Clinical or Research Activity",
+                "shortName": "C16203",
+                "definition": "Any specific activity undertaken during the course of a clinical study or research protocol.",
+                "context": "NCIP",
+                "origin": "NCI Thesaurus",
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2005-12-06",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "CURTIST",
+                "dateCreated": "2005-12-06",
+                "modifiedBy": "SBR",
+                "dateModified": "2006-12-20"
+            },
+            "RepresentationTerm": {
+                "publicId": "13253754",
+                "version": "1",
+                "longName": "Last Known Disease Status Status",
+                "shortName": "13253754v1.00",
+                "definition": "The most recently documented condition or state with regards to a disease of interest._A condition or state at a particular time.",
+                "context": "NCIP",
+                "origin": null,
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2023-03-27",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "COLBERTM",
+                "dateCreated": "2023-03-27",
+                "modifiedBy": "COLBERTM",
+                "dateModified": "2023-03-27",
+                "Concepts": [
+                    {
+                        "longName": "Status",
+                        "conceptCode": "C25688",
+                        "definition": "A condition or state at a particular time.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "Yes",
+                        "displayOrder": "0"
+                    },
+                    {
+                        "longName": "Last Known Disease Status",
+                        "conceptCode": "C191938",
+                        "definition": "The most recently documented condition or state with regards to a disease of interest.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "No",
+                        "displayOrder": "1"
+                    }
+                ]
+            }
+        },
+        "ClassificationSchemes": [
+            {
+                "publicId": "10466051",
+                "version": "1",
+                "longName": "All CRDC Standard CDEs",
+                "context": "CRDC",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "10466054",
+                        "version": "1",
+                        "longName": "Diagnosis",
+                        "context": "CRDC"
+                    }
+                ]
+            },
+            {
+                "publicId": "13574489",
+                "version": "1",
+                "longName": "CCDI (Childhood Cancer Data Initiative)",
+                "context": "Pediatric Cancer",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "13594093",
+                        "version": "1",
+                        "longName": "Sample",
+                        "context": "Pediatric Cancer"
+                    },
+                    {
+                        "publicId": "13596241",
+                        "version": "1",
+                        "longName": "Diagnosis",
+                        "context": "Pediatric Cancer"
+                    },
+                    {
+                        "publicId": "13596043",
+                        "version": "1",
+                        "longName": "Sample",
+                        "context": "Pediatric Cancer"
+                    }
+                ]
+            },
+            {
+                "publicId": "15711259",
+                "version": "1",
+                "longName": "RCI (Rare Cancer Initiative)",
+                "context": "Pediatric Cancer",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "15714303",
+                        "version": "1",
+                        "longName": "Follow Up",
+                        "context": "Pediatric Cancer"
+                    }
+                ]
+            },
+            {
+                "publicId": "5428034",
+                "version": "1",
+                "longName": "Clinical",
+                "context": "GDC",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "10000695",
+                        "version": "1",
+                        "longName": "Diagnosis",
+                        "context": "GDC"
+                    }
+                ]
+            },
+            {
+                "publicId": "7639423",
+                "version": "1",
+                "longName": "SRRS-Standardized Repository of Reference Specimens",
+                "context": "HTAN",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "7639047",
+                        "version": "1",
+                        "longName": "SRRS Clinical",
+                        "context": "HTAN"
+                    }
+                ]
+            },
+            {
+                "publicId": "8064110",
+                "version": "1",
+                "longName": "CDS (Cancer Data Service)",
+                "context": "CRDC",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "12177497",
+                        "version": "1",
+                        "longName": "Diagnosis",
+                        "context": "CRDC"
+                    },
+                    {
+                        "publicId": "14470388",
+                        "version": "1",
+                        "longName": "Imaging",
+                        "context": "CRDC"
+                    }
+                ]
+            }
+        ],
+        "AlternateNames": [
+            {
+                "name": "last_known_disease_status",
+                "type": "CDS Alt Name",
+                "context": "CRDC"
+            },
+            {
+                "name": "last_known_disease_status",
+                "type": "HTAN Alt Name",
+                "context": "HTAN"
+            },
+            {
+                "name": "Last Known Disease Status",
+                "type": "CRDC Alt Name",
+                "context": "CRDC"
+            },
+            {
+                "name": "last_known_disease_status",
+                "type": "CCDI Alt Name",
+                "context": "Pediatric Cancer"
+            },
+            {
+                "name": "diagnosis",
+                "type": "CCDI Table",
+                "context": "Pediatric Cancer"
+            }
+        ],
+        "ReferenceDocuments": [
+            {
+                "documentName": "PQT",
+                "documentText": "Last Known Disease Status",
+                "documentType": "Preferred Question Text",
+                "url": null,
+                "context": "CRDC"
+            },
+            {
+                "documentName": "RCI Question",
+                "documentText": "Free of disease",
+                "documentType": "Alternate Question Text",
+                "url": null,
+                "context": "Pediatric Cancer"
+            },
+            {
+                "documentName": "RCI Question",
+                "documentText": "Localized or metastatic?",
+                "documentType": "Alternate Question Text",
+                "url": null,
+                "context": "Pediatric Cancer"
+            }
+        ]
+    }
+}

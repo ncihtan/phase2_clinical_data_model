@@ -1,1 +1,816 @@
-{"status":"success","message":"Record found.","DataElement":{"publicId":"15063661","version":"1","longName":"Specimen Analyte Type","shortName":"15063660v1.00:6141166v2.00","definition":"The sample or material being subjected to analysis.","context":"Pediatric Cancer","origin":"CCDI:Childhood Cancer Data Initiative","workflowStatus":"DRAFT NEW","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2024-08-22","endDate":null,"changeDescription":null,"administrativeNotes":"2/20/25 Upd OC to Specimen C70699 to align with Code Map recommended OCs. mr; \r\n2/20/25 Added GDC alt name test_analyte_type.mr; \r\n12/3/24 Added GDC alt name analyte_type. mr; \r\n11/25/24 Fixed typo in def. mr; \r\n10/30/24 Updated OC to Molecular Specimen.mr; \r\n9/23/24 Added CRDC/GDC CSI. Added CCDI-Fed CSI, alt name per harmonization mtg 9/20/24. mr; \r\n9/11/24 Upd OC to Specimen C70699 to align w modeling BR/BP. mr; \r\n8/22/24 Created to supercede CDE 6142394 and CDE 2513915. 6142394 was old GDC CDE  2513915 had messy PV list, included both analytes and analyte preparation method. mr;","unresolvedIssues":null,"deletedIndicator":"No","createdBy":"COLBERTM","dateCreated":"2024-08-22","modifiedBy":"COLBERTM","dateModified":"2025-02-20","DataElementConcept":{"publicId":"15063660","version":"1","longName":"Specimen Analyte","shortName":"2859635v1.00:5431707v1.00","definition":"Any material sample taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes, including a sample obtained from a living organism or taken from the biological object after halting of all its life functions. Biospecimen can contain one or more components including but not limited to cellular molecules, cells, tissues, organs, body fluids, embryos, and body excretory products.:The sample or material being subjected to analysis.","context":"Pediatric Cancer","origin":"CCDI:Childhood Cancer Data Initiative","workflowStatus":"DRAFT NEW","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2024-08-22","endDate":null,"changeDescription":null,"administrativeNotes":"2/20/25 Upd OC to Specimen C70699 to align with Code Map preferred OCs. mr; \r\n10/30/24 Updated OC to Molecular Biospecimen. mr; \r\n9/11/24 Upd OC from Procedure to Specimen C70699 to align w other analyte CDEs. mr; \r\n8/22/24 Created per CCDI submission template. mr","unresolvedIssues":null,"deletedIndicator":"No","createdBy":"COLBERTM","dateCreated":"2024-08-22","modifiedBy":"COLBERTM","dateModified":"2025-02-20","ObjectClass":{"publicId":"2859635","version":"1","longName":"Biospecimen","shortName":"C70699","definition":"Any material sample taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes, including a sample obtained from a living organism or taken from the biological object after halting of all its life functions. Biospecimen can contain one or more components including but not limited to cellular molecules, cells, tissues, organs, body fluids, embryos, and body excretory products.","context":"NCIP","origin":"NCI Thesaurus","workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2009-04-01","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"UMLLOADER_TAVERNA","dateCreated":"2009-04-01","modifiedBy":"ONEDATA","dateModified":"2009-04-01","Concepts":[{"longName":"Biospecimen","conceptCode":"C70699","definition":"Any material sample taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes, including a sample obtained from a living organism or taken from the biological object after halting of all its life functions. Biospecimen can contain one or more components including but not limited to cellular molecules, cells, tissues, organs, body fluids, embryos, and body excretory products.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"Yes","displayOrder":"0"}]},"Property":{"publicId":"5431707","version":"1","longName":"Analyte","shortName":"C128639","definition":"The sample or material being subjected to analysis.","context":"NCIP","origin":"NCI Thesaurus","workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2016-08-25","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"COOPERM","dateCreated":"2016-08-25","modifiedBy":"ONEDATA","dateModified":"2016-08-25","Concepts":[{"longName":"Analyte","conceptCode":"C128639","definition":"The sample or material being subjected to analysis.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"Yes","displayOrder":"0"}]},"ConceptualDomain":{"publicId":"2435018","version":"1","longName":"Clinical or Research Activity","shortName":"C16203","definition":"Any specific activity undertaken during the course of a clinical study or research protocol.","context":"NCIP","origin":"NCI Thesaurus","workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2005-12-06","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"CURTIST","dateCreated":"2005-12-06","modifiedBy":"SBR","dateModified":"2006-12-20"}},"ValueDomain":{"publicId":"6141166","version":"2","longName":"Analyte Type","shortName":"6141166v2.00","definition":"Something distinguishable as an identifiable class based on common qualities.","context":"GDC","type":"Enumerated","dataType":"CHARACTER","minLength":null,"maxLength":"25","minValue":null,"maxValue":null,"decimalPlace":null,"origin":"GDC:NCI Genomic Data Commons","workflowStatus":"DRAFT MOD","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2018-03-16","endDate":null,"changeDescription":"Created for caDSR Requests Q12018 Dictionary Updates for Review (supplement) 3.15.18 mc   Confirmed list and released VD after verification of the property in the GDC data dictionary. 8/24/20 MRC","administrativeNotes":"9/23/24 Added ctDNA PV for PCDC. mr; \r\n9/4/24 Added RNA PV (C198568) from DSS ppt for Analyte Type. Other PVs are from CCDI submission template for test_analyte_type. mr; \r\n8/23/24 Added cfDNA, replaced post-coordinated Total RNA with single concept Total RNA PV;  per DSS ppt. mr;","unresolvedIssues":null,"deletedIndicator":"No","createdBy":"COLBERTM","dateCreated":"2024-08-12","modifiedBy":"COLBERTM","dateModified":"2024-09-23","PermissibleValues":[{"value":"Not Reported","valueDescription":"Not Reported","origin":null,"beginDate":"2018-03-16","endDate":null,"deletedIndicator":"No","createdBy":"COOPERM","dateCreated":"2024-08-12","modifiedBy":"ONEDATA","dateModified":"2024-08-12","ValueMeaning":{"publicId":"2572578","version":"1","longName":"Not Reported","shortName":"2572578","definition":"Not provided or available.","context":"NCIP","origin":null,"workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2004-12-30","endDate":null,"changeDescription":"03/09/2011 - tc - Updated with concept code.","administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"CAMPBELB","dateCreated":"2004-12-30","modifiedBy":"JKNABLE","dateModified":"2024-08-04","Concepts":[{"longName":"Not Reported","conceptCode":"C43234","definition":"Not provided or available.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"Yes","displayOrder":"0"}]}},{"value":"Protein","valueDescription":"Protein","origin":null,"beginDate":"2018-03-16","endDate":null,"deletedIndicator":"No","createdBy":"COOPERM","dateCreated":"2024-08-12","modifiedBy":"ONEDATA","dateModified":"2024-08-12","ValueMeaning":{"publicId":"2581951","version":"1","longName":"Protein","shortName":"2581951","definition":"Any of a group of complex organic macromolecules that contain carbon, hydrogen, oxygen, nitrogen, and usually sulfur and are composed of one or more chains of amino acids. Proteins are fundamental components of all living cells and include many substances, such as enzymes, hormones, and antibodies, that are necessary for the proper functioning of an organism.","context":"NCIP","origin":null,"workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2006-11-15","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"CURTIST","dateCreated":"2006-11-15","modifiedBy":"ONEDATA","dateModified":"2006-11-15","Concepts":[{"longName":"Protein","conceptCode":"C17021","definition":"A group of complex organic macromolecules composed of one or more chains (linear polymers) of alpha-L-amino acids linked by peptide bonds and ranging in size from a few thousand to over 1 million Daltons. Proteins are fundamental genetically encoded components of living cells with specific structures and functions dictated by amino acid sequence.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"Yes","displayOrder":"0"}]}},{"value":"Unknown","valueDescription":"Unknown","origin":null,"beginDate":"2018-03-16","endDate":null,"deletedIndicator":"No","createdBy":"COOPERM","dateCreated":"2024-08-12","modifiedBy":"ONEDATA","dateModified":"2024-08-12","ValueMeaning":{"publicId":"5682944","version":"1","longName":"Unknown","shortName":"5682944","definition":"Not known, not observed, not recorded, or refused.","context":"NCIP","origin":null,"workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2017-02-27","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"ALEYR","dateCreated":"2017-02-27","modifiedBy":"GDEEN","dateModified":"2023-12-18","Concepts":[{"longName":"Unknown","conceptCode":"C17998","definition":"Not known, observed, recorded; or reported as unknown by the data contributor.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"Yes","displayOrder":"0"}]}},{"value":"mRNA","valueDescription":"Messenger RNA","origin":null,"beginDate":"2018-03-16","endDate":null,"deletedIndicator":"No","createdBy":"COOPERM","dateCreated":"2024-08-12","modifiedBy":"ONEDATA","dateModified":"2024-08-12","ValueMeaning":{"publicId":"2756502","version":"1","longName":"Messenger RNA","shortName":"2756502","definition":"A class of RNA molecule containing protein-coding information in its nucleotide sequence that can be translated into the amino acid sequence of a protein.","context":"NCIP","origin":null,"workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2008-06-04","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"UMLLOADER_CABIO","dateCreated":"2008-06-04","modifiedBy":"ONEDATA_WA","dateModified":"2023-02-16","Concepts":[{"longName":"Messenger RNA","conceptCode":"C813","definition":"A class of RNA molecule containing protein-coding information in its nucleotide sequence that can be translated into the amino acid sequence of a protein.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"Yes","displayOrder":"0"}]}},{"value":"miRNA","valueDescription":"MicroRNA","origin":null,"beginDate":"2018-03-16","endDate":null,"deletedIndicator":"No","createdBy":"COOPERM","dateCreated":"2024-08-12","modifiedBy":"ONEDATA","dateModified":"2024-08-12","ValueMeaning":{"publicId":"2938123","version":"1","longName":"MicroRNA","shortName":"2938123","definition":"A sequence of single-stranded RNA, that is 20-25 nucleotides in length, which is transcribed from DNA but is not translated into a protein. This nucleic acid may regulate the transcription or translation of other genes.","context":"NCIP","origin":null,"workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2009-09-01","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"UMLLOADER_TCGA","dateCreated":"2009-09-01","modifiedBy":"ONEDATA_WA","dateModified":"2023-02-16","Concepts":[{"longName":"MicroRNA","conceptCode":"C25966","definition":"A sequence of single-stranded RNA, that is 20-25 nucleotides in length, which is transcribed from DNA but is not translated into a protein. This nucleic acid may regulate the transcription or translation of other genes.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"Yes","displayOrder":"0"}]}},{"value":"DNA","valueDescription":"DNA","origin":null,"beginDate":"2018-03-16","endDate":null,"deletedIndicator":"No","createdBy":"COOPERM","dateCreated":"2024-08-12","modifiedBy":"ONEDATA","dateModified":"2024-08-12","ValueMeaning":{"publicId":"2581946","version":"1","longName":"DNA","shortName":"2581946","definition":"A long linear double-stranded polymer formed from nucleotides attached to a deoxyribose backbone and found in the nucleus of a cell; associated with the transmission of genetic information.","context":"NCIP","origin":null,"workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2006-11-15","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"CURTIST","dateCreated":"2006-11-15","modifiedBy":"DWARZEL","dateModified":"2015-12-15","Concepts":[{"longName":"DNA","conceptCode":"C449","definition":"A long linear double-stranded polymer formed from nucleotides attached to a deoxyribose backbone and found in the nucleus of a cell; associated with the transmission of genetic information.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"Yes","displayOrder":"0"}]}},{"value":"cfDNA","valueDescription":null,"origin":null,"beginDate":"2024-08-23","endDate":null,"deletedIndicator":"No","createdBy":"COLBERTM","dateCreated":"2024-08-23","modifiedBy":"COLBERTM","dateModified":"2024-08-23","ValueMeaning":{"publicId":"2578098","version":"1","longName":"Circulating cell-free DNA","shortName":"2578098v1.00","definition":"DNA found in blood plasma and other bodily fluids that is not associated with cells.","context":"NCIP","origin":null,"workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2006-03-02","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"REEVESD","dateCreated":"2006-03-02","modifiedBy":"GDEEN","dateModified":"2023-08-01","Concepts":[{"longName":"Circulating Cell-Free DNA","conceptCode":"C128274","definition":"DNA found in blood plasma and other bodily fluids that is not associated with cells.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"Yes","displayOrder":"0"}]}},{"value":"Nucleic RNA","valueDescription":null,"origin":null,"beginDate":"2024-08-23","endDate":null,"deletedIndicator":"No","createdBy":"COLBERTM","dateCreated":"2024-08-23","modifiedBy":"COLBERTM","dateModified":"2024-08-23","ValueMeaning":{"publicId":"15063892","version":"1","longName":"Nucleic RNA Sample","shortName":"15063892v1.00","definition":"A biological specimen comprised of the RNA isolated from the nuclei of cells.","context":"NCIP","origin":null,"workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2024-08-23","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"COLBERTM","dateCreated":"2024-08-23","modifiedBy":"COLBERTM","dateModified":"2024-08-23","Concepts":[{"longName":"Nucleic RNA Sample","conceptCode":"C174108","definition":"A biological specimen comprised of the RNA isolated from the nuclei of cells.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"Yes","displayOrder":"0"}]}},{"value":"Total RNA","valueDescription":null,"origin":null,"beginDate":"2024-08-23","endDate":null,"deletedIndicator":"No","createdBy":"COLBERTM","dateCreated":"2024-08-23","modifiedBy":"COLBERTM","dateModified":"2024-08-23","ValueMeaning":{"publicId":"10811966","version":"1","longName":"Total RNA","shortName":"10811966v1.00","definition":"A biological sample comprised of all of the RNA collected from an experimental subject.","context":"NCIP","origin":null,"workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2022-07-28","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"COLBERTM","dateCreated":"2022-07-28","modifiedBy":"COLBERTM","dateModified":"2022-07-28","Concepts":[{"longName":"Total RNA","conceptCode":"C163995","definition":"A biological sample comprised of all of the RNA collected from an experimental subject.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"Yes","displayOrder":"0"}]}},{"value":"RNA","valueDescription":null,"origin":null,"beginDate":"2024-09-04","endDate":null,"deletedIndicator":"No","createdBy":"COLBERTM","dateCreated":"2024-09-04","modifiedBy":"COLBERTM","dateModified":"2024-09-04","ValueMeaning":{"publicId":"14239169","version":"1","longName":"RNA Specimen","shortName":"14239169v1.00","definition":"A biospecimen created to contain an isolated or enriched RNA sample.","context":"NCIP","origin":null,"workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2023-08-01","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"GDEEN","dateCreated":"2023-08-01","modifiedBy":"GDEEN","dateModified":"2023-08-01","Concepts":[{"longName":"RNA Specimen","conceptCode":"C198568","definition":"A biospecimen created to contain an isolated or enriched RNA sample.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"Yes","displayOrder":"0"}]}},{"value":"ctDNA","valueDescription":null,"origin":null,"beginDate":"2024-09-23","endDate":null,"deletedIndicator":"No","createdBy":"COLBERTM","dateCreated":"2024-09-23","modifiedBy":"COLBERTM","dateModified":"2024-09-23","ValueMeaning":{"publicId":"4061103","version":"1","longName":"Circulating Tumor-Derived DNA","shortName":"4061103v1.00","definition":"Neoplasm-derived DNA found in blood plasma and other bodily fluids that is not associated with cells.","context":"NCIP","origin":null,"workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2014-01-09","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"COLBERTM","dateCreated":"2014-01-09","modifiedBy":"GDEEN","dateModified":"2023-08-01","Concepts":[{"longName":"Circulating Tumor-Derived DNA","conceptCode":"C113243","definition":"Neoplasm-derived DNA found in blood plasma and other bodily fluids that is not associated with cells.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"Yes","displayOrder":"0"}]}}],"ConceptualDomain":{"publicId":"2008557","version":"1","longName":"Lab Results","shortName":"LAB_RESULTS","definition":"the results of laboratory tests.","context":"CTEP","origin":null,"workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2002-12-27","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"MSUPLEY","dateCreated":"2002-12-27","modifiedBy":"SBR","dateModified":"2003-10-29"},"RepresentationTerm":{"publicId":"2234813","version":"1","longName":"Type","shortName":"C25284","definition":"Type; a subdivision of a particular kind of thing.","context":"NCIP","origin":"NCI Thesaurus","workflowStatus":"RELEASED","registrationStatus":"Standard","latestVersionIndicator":"Yes","beginDate":"2005-06-14","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"CAMPBELB","dateCreated":"2005-06-14","modifiedBy":"SBR","dateModified":"2005-09-08","Concepts":[{"longName":"Type","conceptCode":"C25284","definition":"Something distinguishable as an identifiable class based on common qualities.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"Yes","displayOrder":"0"}]}},"ClassificationSchemes":[{"publicId":"10429357","version":"1","longName":"GDC (Genomic Data Commons)","context":"CRDC","ClassificationSchemeItems":[{"publicId":"14506028","version":"1","longName":"Candidate New GDC CDEs","context":"CRDC"}]},{"publicId":"12173174","version":"1","longName":"PCDC (Pediatric Cancer Data Commons Aggregated Dictionary)","context":"Pediatric Cancer","ClassificationSchemeItems":[{"publicId":"12173177","version":"1","longName":"Testing","context":"Pediatric Cancer"},{"publicId":"12173196","version":"1","longName":"Genetic Analysis","context":"Pediatric Cancer"}]},{"publicId":"13574489","version":"1","longName":"CCDI (Childhood Cancer Data Initiative)","context":"Pediatric Cancer","ClassificationSchemeItems":[{"publicId":"13594093","version":"1","longName":"Sample","context":"Pediatric Cancer"},{"publicId":"13594226","version":"1","longName":"Molecular Test","context":"Pediatric Cancer"}]},{"publicId":"14733231","version":"1","longName":"CCDI Federation CDEs","context":"Pediatric Cancer","ClassificationSchemeItems":[{"publicId":"14735767","version":"1","longName":"Molecular","context":"Pediatric Cancer"}]}],"AlternateNames":[{"name":"test_analyte_type","type":"CCDI Alt Name","context":"Pediatric Cancer"},{"name":"BIOLOGICAL_ANALYTE","type":"PCDC Alt Name","context":"Pediatric Cancer"},{"name":"analyte_type","type":"CCDI-Fed Alt Name","context":"Pediatric Cancer"},{"name":"analyte_type","type":"GDC Alt Name","context":"GDC"},{"name":"test_analyte_type","type":"GDC Alt Name","context":"GDC"}],"ReferenceDocuments":[{"documentName":"PQT","documentText":"Analyte Type","documentType":"Preferred Question Text","url":null,"context":"Pediatric Cancer"},{"documentName":"CCDI-Fed Coding Instructions","documentText":"CCDI Federation API Permissible Values subset: DNA, Protein, RNA","documentType":"Coding Instructions","url":null,"context":"Pediatric Cancer"}]}}
+{
+    "status": "success",
+    "message": "Record found.",
+    "DataElement": {
+        "publicId": "15063661",
+        "version": "1",
+        "longName": "Specimen Analyte Type",
+        "shortName": "15063660v1.00:6141166v2.00",
+        "definition": "The sample or material being subjected to analysis.",
+        "context": "Pediatric Cancer",
+        "origin": "CCDI:Childhood Cancer Data Initiative",
+        "workflowStatus": "DRAFT NEW",
+        "registrationStatus": "Application",
+        "latestVersionIndicator": "Yes",
+        "beginDate": "2024-08-22",
+        "endDate": null,
+        "changeDescription": null,
+        "administrativeNotes": "2/20/25 Upd OC to Specimen C70699 to align with Code Map recommended OCs. mr; \r\n2/20/25 Added GDC alt name test_analyte_type.mr; \r\n12/3/24 Added GDC alt name analyte_type. mr; \r\n11/25/24 Fixed typo in def. mr; \r\n10/30/24 Updated OC to Molecular Specimen.mr; \r\n9/23/24 Added CRDC/GDC CSI. Added CCDI-Fed CSI, alt name per harmonization mtg 9/20/24. mr; \r\n9/11/24 Upd OC to Specimen C70699 to align w modeling BR/BP. mr; \r\n8/22/24 Created to supercede CDE 6142394 and CDE 2513915. 6142394 was old GDC CDE  2513915 had messy PV list, included both analytes and analyte preparation method. mr;",
+        "unresolvedIssues": null,
+        "deletedIndicator": "No",
+        "createdBy": "COLBERTM",
+        "dateCreated": "2024-08-22",
+        "modifiedBy": "COLBERTM",
+        "dateModified": "2025-02-20",
+        "DataElementConcept": {
+            "publicId": "15063660",
+            "version": "1",
+            "longName": "Specimen Analyte",
+            "shortName": "2859635v1.00:5431707v1.00",
+            "definition": "Any material sample taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes, including a sample obtained from a living organism or taken from the biological object after halting of all its life functions. Biospecimen can contain one or more components including but not limited to cellular molecules, cells, tissues, organs, body fluids, embryos, and body excretory products.:The sample or material being subjected to analysis.",
+            "context": "Pediatric Cancer",
+            "origin": "CCDI:Childhood Cancer Data Initiative",
+            "workflowStatus": "DRAFT NEW",
+            "registrationStatus": "Application",
+            "latestVersionIndicator": "Yes",
+            "beginDate": "2024-08-22",
+            "endDate": null,
+            "changeDescription": null,
+            "administrativeNotes": "2/20/25 Upd OC to Specimen C70699 to align with Code Map preferred OCs. mr; \r\n10/30/24 Updated OC to Molecular Biospecimen. mr; \r\n9/11/24 Upd OC from Procedure to Specimen C70699 to align w other analyte CDEs. mr; \r\n8/22/24 Created per CCDI submission template. mr",
+            "unresolvedIssues": null,
+            "deletedIndicator": "No",
+            "createdBy": "COLBERTM",
+            "dateCreated": "2024-08-22",
+            "modifiedBy": "COLBERTM",
+            "dateModified": "2025-02-20",
+            "ObjectClass": {
+                "publicId": "2859635",
+                "version": "1",
+                "longName": "Biospecimen",
+                "shortName": "C70699",
+                "definition": "Any material sample taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes, including a sample obtained from a living organism or taken from the biological object after halting of all its life functions. Biospecimen can contain one or more components including but not limited to cellular molecules, cells, tissues, organs, body fluids, embryos, and body excretory products.",
+                "context": "NCIP",
+                "origin": "NCI Thesaurus",
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2009-04-01",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "UMLLOADER_TAVERNA",
+                "dateCreated": "2009-04-01",
+                "modifiedBy": "ONEDATA",
+                "dateModified": "2009-04-01",
+                "Concepts": [
+                    {
+                        "longName": "Biospecimen",
+                        "conceptCode": "C70699",
+                        "definition": "Any material sample taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes, including a sample obtained from a living organism or taken from the biological object after halting of all its life functions. Biospecimen can contain one or more components including but not limited to cellular molecules, cells, tissues, organs, body fluids, embryos, and body excretory products.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "Yes",
+                        "displayOrder": "0"
+                    }
+                ]
+            },
+            "Property": {
+                "publicId": "5431707",
+                "version": "1",
+                "longName": "Analyte",
+                "shortName": "C128639",
+                "definition": "The sample or material being subjected to analysis.",
+                "context": "NCIP",
+                "origin": "NCI Thesaurus",
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2016-08-25",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "COOPERM",
+                "dateCreated": "2016-08-25",
+                "modifiedBy": "ONEDATA",
+                "dateModified": "2016-08-25",
+                "Concepts": [
+                    {
+                        "longName": "Analyte",
+                        "conceptCode": "C128639",
+                        "definition": "The sample or material being subjected to analysis.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "Yes",
+                        "displayOrder": "0"
+                    }
+                ]
+            },
+            "ConceptualDomain": {
+                "publicId": "2435018",
+                "version": "1",
+                "longName": "Clinical or Research Activity",
+                "shortName": "C16203",
+                "definition": "Any specific activity undertaken during the course of a clinical study or research protocol.",
+                "context": "NCIP",
+                "origin": "NCI Thesaurus",
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2005-12-06",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "CURTIST",
+                "dateCreated": "2005-12-06",
+                "modifiedBy": "SBR",
+                "dateModified": "2006-12-20"
+            }
+        },
+        "ValueDomain": {
+            "publicId": "6141166",
+            "version": "2",
+            "longName": "Analyte Type",
+            "shortName": "6141166v2.00",
+            "definition": "Something distinguishable as an identifiable class based on common qualities.",
+            "context": "GDC",
+            "type": "Enumerated",
+            "dataType": "CHARACTER",
+            "minLength": null,
+            "maxLength": "25",
+            "minValue": null,
+            "maxValue": null,
+            "decimalPlace": null,
+            "origin": "GDC:NCI Genomic Data Commons",
+            "workflowStatus": "DRAFT MOD",
+            "registrationStatus": "Application",
+            "latestVersionIndicator": "Yes",
+            "beginDate": "2018-03-16",
+            "endDate": null,
+            "changeDescription": "Created for caDSR Requests Q12018 Dictionary Updates for Review (supplement) 3.15.18 mc   Confirmed list and released VD after verification of the property in the GDC data dictionary. 8/24/20 MRC",
+            "administrativeNotes": "9/23/24 Added ctDNA PV for PCDC. mr; \r\n9/4/24 Added RNA PV (C198568) from DSS ppt for Analyte Type. Other PVs are from CCDI submission template for test_analyte_type. mr; \r\n8/23/24 Added cfDNA, replaced post-coordinated Total RNA with single concept Total RNA PV;  per DSS ppt. mr;",
+            "unresolvedIssues": null,
+            "deletedIndicator": "No",
+            "createdBy": "COLBERTM",
+            "dateCreated": "2024-08-12",
+            "modifiedBy": "COLBERTM",
+            "dateModified": "2024-09-23",
+            "PermissibleValues": [
+                {
+                    "value": "Not Reported",
+                    "valueDescription": "Not Reported",
+                    "origin": null,
+                    "beginDate": "2018-03-16",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "COOPERM",
+                    "dateCreated": "2024-08-12",
+                    "modifiedBy": "ONEDATA",
+                    "dateModified": "2024-08-12",
+                    "ValueMeaning": {
+                        "publicId": "2572578",
+                        "version": "1",
+                        "longName": "Not Reported",
+                        "shortName": "2572578",
+                        "definition": "Not provided or available.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2004-12-30",
+                        "endDate": null,
+                        "changeDescription": "03/09/2011 - tc - Updated with concept code.",
+                        "administrativeNotes": null,
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "CAMPBELB",
+                        "dateCreated": "2004-12-30",
+                        "modifiedBy": "JKNABLE",
+                        "dateModified": "2024-08-04",
+                        "Concepts": [
+                            {
+                                "longName": "Not Reported",
+                                "conceptCode": "C43234",
+                                "definition": "Not provided or available.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "value": "Protein",
+                    "valueDescription": "Protein",
+                    "origin": null,
+                    "beginDate": "2018-03-16",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "COOPERM",
+                    "dateCreated": "2024-08-12",
+                    "modifiedBy": "ONEDATA",
+                    "dateModified": "2024-08-12",
+                    "ValueMeaning": {
+                        "publicId": "2581951",
+                        "version": "1",
+                        "longName": "Protein",
+                        "shortName": "2581951",
+                        "definition": "Any of a group of complex organic macromolecules that contain carbon, hydrogen, oxygen, nitrogen, and usually sulfur and are composed of one or more chains of amino acids. Proteins are fundamental components of all living cells and include many substances, such as enzymes, hormones, and antibodies, that are necessary for the proper functioning of an organism.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2006-11-15",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": null,
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "CURTIST",
+                        "dateCreated": "2006-11-15",
+                        "modifiedBy": "ONEDATA",
+                        "dateModified": "2006-11-15",
+                        "Concepts": [
+                            {
+                                "longName": "Protein",
+                                "conceptCode": "C17021",
+                                "definition": "A group of complex organic macromolecules composed of one or more chains (linear polymers) of alpha-L-amino acids linked by peptide bonds and ranging in size from a few thousand to over 1 million Daltons. Proteins are fundamental genetically encoded components of living cells with specific structures and functions dictated by amino acid sequence.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "value": "Unknown",
+                    "valueDescription": "Unknown",
+                    "origin": null,
+                    "beginDate": "2018-03-16",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "COOPERM",
+                    "dateCreated": "2024-08-12",
+                    "modifiedBy": "ONEDATA",
+                    "dateModified": "2024-08-12",
+                    "ValueMeaning": {
+                        "publicId": "5682944",
+                        "version": "1",
+                        "longName": "Unknown",
+                        "shortName": "5682944",
+                        "definition": "Not known, not observed, not recorded, or refused.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2017-02-27",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": null,
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "ALEYR",
+                        "dateCreated": "2017-02-27",
+                        "modifiedBy": "GDEEN",
+                        "dateModified": "2023-12-18",
+                        "Concepts": [
+                            {
+                                "longName": "Unknown",
+                                "conceptCode": "C17998",
+                                "definition": "Not known, observed, recorded; or reported as unknown by the data contributor.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "value": "mRNA",
+                    "valueDescription": "Messenger RNA",
+                    "origin": null,
+                    "beginDate": "2018-03-16",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "COOPERM",
+                    "dateCreated": "2024-08-12",
+                    "modifiedBy": "ONEDATA",
+                    "dateModified": "2024-08-12",
+                    "ValueMeaning": {
+                        "publicId": "2756502",
+                        "version": "1",
+                        "longName": "Messenger RNA",
+                        "shortName": "2756502",
+                        "definition": "A class of RNA molecule containing protein-coding information in its nucleotide sequence that can be translated into the amino acid sequence of a protein.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2008-06-04",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": null,
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "UMLLOADER_CABIO",
+                        "dateCreated": "2008-06-04",
+                        "modifiedBy": "ONEDATA_WA",
+                        "dateModified": "2023-02-16",
+                        "Concepts": [
+                            {
+                                "longName": "Messenger RNA",
+                                "conceptCode": "C813",
+                                "definition": "A class of RNA molecule containing protein-coding information in its nucleotide sequence that can be translated into the amino acid sequence of a protein.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "value": "miRNA",
+                    "valueDescription": "MicroRNA",
+                    "origin": null,
+                    "beginDate": "2018-03-16",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "COOPERM",
+                    "dateCreated": "2024-08-12",
+                    "modifiedBy": "ONEDATA",
+                    "dateModified": "2024-08-12",
+                    "ValueMeaning": {
+                        "publicId": "2938123",
+                        "version": "1",
+                        "longName": "MicroRNA",
+                        "shortName": "2938123",
+                        "definition": "A sequence of single-stranded RNA, that is 20-25 nucleotides in length, which is transcribed from DNA but is not translated into a protein. This nucleic acid may regulate the transcription or translation of other genes.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2009-09-01",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": null,
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "UMLLOADER_TCGA",
+                        "dateCreated": "2009-09-01",
+                        "modifiedBy": "ONEDATA_WA",
+                        "dateModified": "2023-02-16",
+                        "Concepts": [
+                            {
+                                "longName": "MicroRNA",
+                                "conceptCode": "C25966",
+                                "definition": "A sequence of single-stranded RNA, that is 20-25 nucleotides in length, which is transcribed from DNA but is not translated into a protein. This nucleic acid may regulate the transcription or translation of other genes.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "value": "DNA",
+                    "valueDescription": "DNA",
+                    "origin": null,
+                    "beginDate": "2018-03-16",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "COOPERM",
+                    "dateCreated": "2024-08-12",
+                    "modifiedBy": "ONEDATA",
+                    "dateModified": "2024-08-12",
+                    "ValueMeaning": {
+                        "publicId": "2581946",
+                        "version": "1",
+                        "longName": "DNA",
+                        "shortName": "2581946",
+                        "definition": "A long linear double-stranded polymer formed from nucleotides attached to a deoxyribose backbone and found in the nucleus of a cell; associated with the transmission of genetic information.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2006-11-15",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": null,
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "CURTIST",
+                        "dateCreated": "2006-11-15",
+                        "modifiedBy": "DWARZEL",
+                        "dateModified": "2015-12-15",
+                        "Concepts": [
+                            {
+                                "longName": "DNA",
+                                "conceptCode": "C449",
+                                "definition": "A long linear double-stranded polymer formed from nucleotides attached to a deoxyribose backbone and found in the nucleus of a cell; associated with the transmission of genetic information.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "value": "cfDNA",
+                    "valueDescription": null,
+                    "origin": null,
+                    "beginDate": "2024-08-23",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "COLBERTM",
+                    "dateCreated": "2024-08-23",
+                    "modifiedBy": "COLBERTM",
+                    "dateModified": "2024-08-23",
+                    "ValueMeaning": {
+                        "publicId": "2578098",
+                        "version": "1",
+                        "longName": "Circulating cell-free DNA",
+                        "shortName": "2578098v1.00",
+                        "definition": "DNA found in blood plasma and other bodily fluids that is not associated with cells.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2006-03-02",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": null,
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "REEVESD",
+                        "dateCreated": "2006-03-02",
+                        "modifiedBy": "GDEEN",
+                        "dateModified": "2023-08-01",
+                        "Concepts": [
+                            {
+                                "longName": "Circulating Cell-Free DNA",
+                                "conceptCode": "C128274",
+                                "definition": "DNA found in blood plasma and other bodily fluids that is not associated with cells.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "value": "Nucleic RNA",
+                    "valueDescription": null,
+                    "origin": null,
+                    "beginDate": "2024-08-23",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "COLBERTM",
+                    "dateCreated": "2024-08-23",
+                    "modifiedBy": "COLBERTM",
+                    "dateModified": "2024-08-23",
+                    "ValueMeaning": {
+                        "publicId": "15063892",
+                        "version": "1",
+                        "longName": "Nucleic RNA Sample",
+                        "shortName": "15063892v1.00",
+                        "definition": "A biological specimen comprised of the RNA isolated from the nuclei of cells.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2024-08-23",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": null,
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "COLBERTM",
+                        "dateCreated": "2024-08-23",
+                        "modifiedBy": "COLBERTM",
+                        "dateModified": "2024-08-23",
+                        "Concepts": [
+                            {
+                                "longName": "Nucleic RNA Sample",
+                                "conceptCode": "C174108",
+                                "definition": "A biological specimen comprised of the RNA isolated from the nuclei of cells.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "value": "Total RNA",
+                    "valueDescription": null,
+                    "origin": null,
+                    "beginDate": "2024-08-23",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "COLBERTM",
+                    "dateCreated": "2024-08-23",
+                    "modifiedBy": "COLBERTM",
+                    "dateModified": "2024-08-23",
+                    "ValueMeaning": {
+                        "publicId": "10811966",
+                        "version": "1",
+                        "longName": "Total RNA",
+                        "shortName": "10811966v1.00",
+                        "definition": "A biological sample comprised of all of the RNA collected from an experimental subject.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2022-07-28",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": null,
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "COLBERTM",
+                        "dateCreated": "2022-07-28",
+                        "modifiedBy": "COLBERTM",
+                        "dateModified": "2022-07-28",
+                        "Concepts": [
+                            {
+                                "longName": "Total RNA",
+                                "conceptCode": "C163995",
+                                "definition": "A biological sample comprised of all of the RNA collected from an experimental subject.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "value": "RNA",
+                    "valueDescription": null,
+                    "origin": null,
+                    "beginDate": "2024-09-04",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "COLBERTM",
+                    "dateCreated": "2024-09-04",
+                    "modifiedBy": "COLBERTM",
+                    "dateModified": "2024-09-04",
+                    "ValueMeaning": {
+                        "publicId": "14239169",
+                        "version": "1",
+                        "longName": "RNA Specimen",
+                        "shortName": "14239169v1.00",
+                        "definition": "A biospecimen created to contain an isolated or enriched RNA sample.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2023-08-01",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": null,
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "GDEEN",
+                        "dateCreated": "2023-08-01",
+                        "modifiedBy": "GDEEN",
+                        "dateModified": "2023-08-01",
+                        "Concepts": [
+                            {
+                                "longName": "RNA Specimen",
+                                "conceptCode": "C198568",
+                                "definition": "A biospecimen created to contain an isolated or enriched RNA sample.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "value": "ctDNA",
+                    "valueDescription": null,
+                    "origin": null,
+                    "beginDate": "2024-09-23",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "COLBERTM",
+                    "dateCreated": "2024-09-23",
+                    "modifiedBy": "COLBERTM",
+                    "dateModified": "2024-09-23",
+                    "ValueMeaning": {
+                        "publicId": "4061103",
+                        "version": "1",
+                        "longName": "Circulating Tumor-Derived DNA",
+                        "shortName": "4061103v1.00",
+                        "definition": "Neoplasm-derived DNA found in blood plasma and other bodily fluids that is not associated with cells.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2014-01-09",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": null,
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "COLBERTM",
+                        "dateCreated": "2014-01-09",
+                        "modifiedBy": "GDEEN",
+                        "dateModified": "2023-08-01",
+                        "Concepts": [
+                            {
+                                "longName": "Circulating Tumor-Derived DNA",
+                                "conceptCode": "C113243",
+                                "definition": "Neoplasm-derived DNA found in blood plasma and other bodily fluids that is not associated with cells.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "ConceptualDomain": {
+                "publicId": "2008557",
+                "version": "1",
+                "longName": "Lab Results",
+                "shortName": "LAB_RESULTS",
+                "definition": "the results of laboratory tests.",
+                "context": "CTEP",
+                "origin": null,
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2002-12-27",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "MSUPLEY",
+                "dateCreated": "2002-12-27",
+                "modifiedBy": "SBR",
+                "dateModified": "2003-10-29"
+            },
+            "RepresentationTerm": {
+                "publicId": "2234813",
+                "version": "1",
+                "longName": "Type",
+                "shortName": "C25284",
+                "definition": "Type; a subdivision of a particular kind of thing.",
+                "context": "NCIP",
+                "origin": "NCI Thesaurus",
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Standard",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2005-06-14",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "CAMPBELB",
+                "dateCreated": "2005-06-14",
+                "modifiedBy": "SBR",
+                "dateModified": "2005-09-08",
+                "Concepts": [
+                    {
+                        "longName": "Type",
+                        "conceptCode": "C25284",
+                        "definition": "Something distinguishable as an identifiable class based on common qualities.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "Yes",
+                        "displayOrder": "0"
+                    }
+                ]
+            }
+        },
+        "ClassificationSchemes": [
+            {
+                "publicId": "10429357",
+                "version": "1",
+                "longName": "GDC (Genomic Data Commons)",
+                "context": "CRDC",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "14506028",
+                        "version": "1",
+                        "longName": "Candidate New GDC CDEs",
+                        "context": "CRDC"
+                    }
+                ]
+            },
+            {
+                "publicId": "12173174",
+                "version": "1",
+                "longName": "PCDC (Pediatric Cancer Data Commons Aggregated Dictionary)",
+                "context": "Pediatric Cancer",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "12173177",
+                        "version": "1",
+                        "longName": "Testing",
+                        "context": "Pediatric Cancer"
+                    },
+                    {
+                        "publicId": "12173196",
+                        "version": "1",
+                        "longName": "Genetic Analysis",
+                        "context": "Pediatric Cancer"
+                    }
+                ]
+            },
+            {
+                "publicId": "13574489",
+                "version": "1",
+                "longName": "CCDI (Childhood Cancer Data Initiative)",
+                "context": "Pediatric Cancer",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "13594093",
+                        "version": "1",
+                        "longName": "Sample",
+                        "context": "Pediatric Cancer"
+                    },
+                    {
+                        "publicId": "13594226",
+                        "version": "1",
+                        "longName": "Molecular Test",
+                        "context": "Pediatric Cancer"
+                    }
+                ]
+            },
+            {
+                "publicId": "14733231",
+                "version": "1",
+                "longName": "CCDI Federation CDEs",
+                "context": "Pediatric Cancer",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "14735767",
+                        "version": "1",
+                        "longName": "Molecular",
+                        "context": "Pediatric Cancer"
+                    }
+                ]
+            }
+        ],
+        "AlternateNames": [
+            {
+                "name": "test_analyte_type",
+                "type": "CCDI Alt Name",
+                "context": "Pediatric Cancer"
+            },
+            {
+                "name": "BIOLOGICAL_ANALYTE",
+                "type": "PCDC Alt Name",
+                "context": "Pediatric Cancer"
+            },
+            {
+                "name": "analyte_type",
+                "type": "CCDI-Fed Alt Name",
+                "context": "Pediatric Cancer"
+            },
+            {
+                "name": "analyte_type",
+                "type": "GDC Alt Name",
+                "context": "GDC"
+            },
+            {
+                "name": "test_analyte_type",
+                "type": "GDC Alt Name",
+                "context": "GDC"
+            }
+        ],
+        "ReferenceDocuments": [
+            {
+                "documentName": "PQT",
+                "documentText": "Analyte Type",
+                "documentType": "Preferred Question Text",
+                "url": null,
+                "context": "Pediatric Cancer"
+            },
+            {
+                "documentName": "CCDI-Fed Coding Instructions",
+                "documentText": "CCDI Federation API Permissible Values subset: DNA, Protein, RNA",
+                "documentType": "Coding Instructions",
+                "url": null,
+                "context": "Pediatric Cancer"
+            }
+        ]
+    }
+}

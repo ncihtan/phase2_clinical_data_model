@@ -1,1 +1,802 @@
-{"status":"success","message":"Record found.","DataElement":{"publicId":"11325685","version":"2","longName":"Subject Tumor Grade","shortName":"11323463v2.00:11323466v2.00","definition":"A text term to express the degree of abnormality of cancer cells as a measure of differentiation and aggressiveness.","context":"CRDC","origin":"CRDC:Cancer Research Data Commons","workflowStatus":"DRAFT MOD","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2022-09-27","endDate":null,"changeDescription":null,"administrativeNotes":"3/4/25 Added alt VM names per RFC 26 CR 1. sl;\r\n3/4/25 Versioned to 2.0 to upd PV list to match CRDC DSS RFC 26CR updates. Deleted PVs for G1-G4, High, Intermediate, Low Grades and replaced with hybrid PVs 'G1 Low Grade' etc. to accommodate CDA. mr; \r\n1/2/25 Removed CCDI alt name tumor_grade_source, which does not belong on this CDE. This is CCDI tumor_grade. tumor_grade_source will need a new/different CDE. mr; \r\n12/18/24 add PDC Alt Name per RFC actual data review. jk;\r\n9/25/24 removed \"X\" from alt name per jk. bf;\r\n8/29/24:  Fixing PV's, shifting to ALT VM's of existing PV's for Advanced MRI. bf;.\r\n8/9/24 added TCIA Alt name, Advanced MRI classification and PV's. bf;\r\n3/17/24 added TCIA  Adv BA Alt Name. jk; \r\n12/31/23 Added CDS Imaging CSI. jk; \r\n8/7/23 Added Alt Name for CDE with source of “DSS” in the CTDC data model. BF;\r\n1/23/23 Added alt name, CDS CSI per CDS metadata template. mr;  \r\n10/16/22 Released per email from Wendy Ver Hoef 10/14/22 6:08pm. mr;  \r\n10/2/22 Edited concepts in DEC and VD. mr;  \r\n9/27/22 Created for CRDC RFC26.mr","unresolvedIssues":null,"deletedIndicator":"No","createdBy":"COLBERTM","dateCreated":"2025-03-03","modifiedBy":"SLAUER","dateModified":"2025-03-04","DataElementConcept":{"publicId":"11323463","version":"2","longName":"Subject Tumor Grade","shortName":"2523466v1.00:2427327v1.00","definition":"A matter or an individual that is observed, analyzed, examined, investigated, experimented upon, or/and treated in the course of a particular study.:The degree of abnormality of cancer cells, a measure of differentiation, the extent to which cancer cells are similar in appearance and function to healthy cells of the same tissue type. The degree of differentiation often relates to the clinical behavior of the particular tumor. Based on the microscopic findings, tumor grade is commonly described by one of four degrees of severity. Histopathologic grade of a tumor may be used to plan treatment and estimate the future course, outcome, and overall prognosis of disease. Certain types of cancers, such as soft tissue sarcoma, primary brain tumors, lymphomas, and breast have special grading systems.","context":"CRDC","origin":"CRDC:Cancer Research Data Commons","workflowStatus":"DRAFT MOD","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2022-09-27","endDate":null,"changeDescription":null,"administrativeNotes":"3/4/25 Upd OC to Subject from Diagnosis per Code Map and to accommodate ICDC, who captures Tumor Grade in their specimen/sample module. mr;\r\n10/16/22 Released per CRDC DSS. mr; \r\n10/4/22 Edited long name. mr; \r\n10/2 & 10/3/22 Edited concepts. mr;\r\n9/27/22 Created for CRDC RFC 26. mr;","unresolvedIssues":null,"deletedIndicator":"No","createdBy":"COLBERTM","dateCreated":"2025-03-03","modifiedBy":"COLBERTM","dateModified":"2025-03-04","ObjectClass":{"publicId":"2523466","version":"1","longName":"Study Subject","shortName":"C41189","definition":"A matter or person that is analyzed, examined, investigated, experimented upon, or treated in the course of particular study.","context":"NCIP","origin":"NCI Thesaurus","workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2006-09-27","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"UMLLOADER_DRUGSCREEN","dateCreated":"2006-09-27","modifiedBy":"SBREXT","dateModified":"2007-11-07","Concepts":[{"longName":"Study Subject","conceptCode":"C41189","definition":"A matter or an individual that is observed, analyzed, examined, investigated, experimented upon, or/and treated in the course of a particular study.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"Yes","displayOrder":"0"}]},"Property":{"publicId":"2427327","version":"1","longName":"Grade","shortName":"C18000","definition":"Describes how closely a cancer resembles normal tissue of its same type, and the cancer's probable rate of growth","context":"NCIP","origin":"NCI Thesaurus","workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2005-11-09","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"ALAIS","dateCreated":"2005-11-09","modifiedBy":"ONEDATA","dateModified":"2005-11-09","Concepts":[{"longName":"Histologic Grade","conceptCode":"C18000","definition":"The degree of abnormality of cancer cells, a measure of differentiation, the extent to which cancer cells are similar in appearance and function to healthy cells of the same tissue type. The degree of differentiation often relates to the clinical behavior of the particular tumor. Based on the microscopic findings, tumor grade is commonly described by one of four degrees of severity. Histopathologic grade of a tumor may be used to plan treatment and estimate the future course, outcome, and overall prognosis of disease. Certain types of cancers, such as soft tissue sarcoma, primary brain tumors, lymphomas, and breast have special grading systems.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"Yes","displayOrder":"0"}]},"ConceptualDomain":{"publicId":"2008537","version":"1","longName":"Diagnosis","shortName":"DX","definition":"the process of identifying a disease by the signs and symptoms (NCI Glossary).","context":"CTEP","origin":null,"workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2002-12-17","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"MSUPLEY","dateCreated":"2002-12-17","modifiedBy":"SBR","dateModified":"2003-10-29"}},"ValueDomain":{"publicId":"11323466","version":"2","longName":"Tumor Grade","shortName":"11323466v2.00","definition":"The degree of abnormality of cancer cells, a measure of differentiation, the extent to which cancer cells are similar in appearance and function to healthy cells of the same tissue type. The degree of differentiation often relates to the clinical behavior of the particular tumor. Based on the microscopic findings, tumor grade is commonly described by one of four degrees of severity. Histopathologic grade of a tumor may be used to plan treatment and estimate the future course, outcome, and overall prognosis of disease. Certain types of cancers, such as soft tissue sarcoma, primary brain tumors, lymphomas, and breast have special grading systems._A position on a scale of intensity or amount or quality.","context":"CRDC","type":"Enumerated","dataType":"CHARACTER","minLength":null,"maxLength":"50","minValue":null,"maxValue":null,"decimalPlace":null,"origin":"CRDC:Cancer Research Data Commons","workflowStatus":"DRAFT MOD","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2022-09-27","endDate":null,"changeDescription":null,"administrativeNotes":"3/4/25 Added alt VM names per RFC 26 CR 1. sl;\r\n3/3/25 Versioned to 2.0 to upd PV list to match CRDC DSS RFC 26 updates. Deleted PVs for G1-G4, High, Intermediate, Low Grades and replaced with hybrid PVs 'G1 Low Grade' etc. to accommodate CDA. mr; \r\n8/29/24 Removing TCIA Advanced MRI PV's and shifting to alt names of existing PV's, low, medium high. bf;8/9/24 added PV's and ALT VM's for TCIA Advanced MRI. bf;7/30/23 added Unknown as PV per Smita's request to support CDA. jk;  3/27/23 added Not Reported PV to support CDS.  jk; 10/16/22 Released per CRDC DSS. mr;  10/2 & 10/3/22 Edited concepts. mr;  9/27/22 Created for CRDC RFC26. mr;","unresolvedIssues":null,"deletedIndicator":"No","createdBy":"COLBERTM","dateCreated":"2025-03-03","modifiedBy":"SLAUER","dateModified":"2025-03-04","PermissibleValues":[{"value":"GB Borderline","valueDescription":null,"origin":null,"beginDate":"2022-09-27","endDate":null,"deletedIndicator":"No","createdBy":"COLBERTM","dateCreated":"2025-03-03","modifiedBy":"COLBERTM","dateModified":"2025-03-03","ValueMeaning":{"publicId":"6050322","version":"1","longName":"Grade B","shortName":"6050322","definition":"A morphologic qualifier indicating that a neoplasm is of borderline malignancy.","context":"NCIP","origin":null,"workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2018-01-09","endDate":null,"changeDescription":null,"administrativeNotes":"3/4/25 Added alt VM names per RFC 26 CR 1. sl","unresolvedIssues":null,"deletedIndicator":"No","createdBy":"LUY","dateCreated":"2018-01-09","modifiedBy":"SLAUER","dateModified":"2025-03-04","Concepts":[{"longName":"Grade B","conceptCode":"C113729","definition":"A morphologic qualifier indicating that a neoplasm is of borderline malignancy.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"Yes","displayOrder":"0"}]}},{"value":"GX Grade Cannot Be Assessed","valueDescription":null,"origin":null,"beginDate":"2022-09-27","endDate":null,"deletedIndicator":"No","createdBy":"COLBERTM","dateCreated":"2025-03-03","modifiedBy":"COLBERTM","dateModified":"2025-03-03","ValueMeaning":{"publicId":"10987209","version":"1","longName":"Grade X","shortName":"10987209v1.00","definition":"A morphologic qualifier indicating that the grade of a neoplasm cannot be assessed.","context":"NCIP","origin":null,"workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2022-08-05","endDate":null,"changeDescription":null,"administrativeNotes":"3/4/25 Added alt VM names per RFC 26 CR 1. sl;\r\n3/4/25 Added CMB alt VM name. mr","unresolvedIssues":null,"deletedIndicator":"No","createdBy":"RAGUNATHANU","dateCreated":"2022-08-05","modifiedBy":"SLAUER","dateModified":"2025-03-04","Concepts":[{"longName":"Grade X","conceptCode":"C113730","definition":"A morphologic qualifier indicating that the grade of a neoplasm cannot be assessed.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"Yes","displayOrder":"0"}]}},{"value":"Not Applicable","valueDescription":null,"origin":null,"beginDate":"2022-09-27","endDate":null,"deletedIndicator":"No","createdBy":"COLBERTM","dateCreated":"2025-03-03","modifiedBy":"COLBERTM","dateModified":"2025-03-03","ValueMeaning":{"publicId":"7590024","version":"1","longName":"Not Applicable","shortName":"7590024","definition":"Determination of a value is not relevant in the current context.","context":"NCIP","origin":null,"workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2021-03-04","endDate":null,"changeDescription":null,"administrativeNotes":"3/4/25 Added alt VM names per RFC 26 CR 1. sl;\r\n7/8/22 added alt name of NA for CCTG cjl;","unresolvedIssues":null,"deletedIndicator":"No","createdBy":"MORENOC","dateCreated":"2021-03-04","modifiedBy":"SLAUER","dateModified":"2025-03-04","Concepts":[{"longName":"Not Applicable","conceptCode":"C48660","definition":"Determination of a value is not relevant in the current context.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"Yes","displayOrder":"0"}]}},{"value":"Not Reported","valueDescription":null,"origin":null,"beginDate":"2023-03-27","endDate":null,"deletedIndicator":"No","createdBy":"JKNABLE","dateCreated":"2025-03-03","modifiedBy":"JKNABLE","dateModified":"2025-03-03","ValueMeaning":{"publicId":"5612322","version":"1","longName":"Not Reported","shortName":"5612322v1.00","definition":"Not provided or available.","context":"NCIP","origin":null,"workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2017-01-03","endDate":null,"changeDescription":null,"administrativeNotes":"3/4/25 Added alt VM names per RFC 26 CR 1. sl;\r\n10/10/23 changed Long Name from \"Not Stated\" to match NCIt Preferred name and current caDSR concept Long Name of \"Not Reported\" per Brenda.Janice . LS","unresolvedIssues":null,"deletedIndicator":"No","createdBy":"ALEYR","dateCreated":"2017-01-03","modifiedBy":"SLAUER","dateModified":"2025-03-04","Concepts":[{"longName":"Not Reported","conceptCode":"C43234","definition":"Not provided or available.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"Yes","displayOrder":"0"}]}},{"value":"Unknown","valueDescription":null,"origin":null,"beginDate":"2023-07-30","endDate":null,"deletedIndicator":"No","createdBy":"JKNABLE","dateCreated":"2025-03-03","modifiedBy":"JKNABLE","dateModified":"2025-03-03","ValueMeaning":{"publicId":"5682953","version":"1","longName":"Unknown","shortName":"5682953","definition":"Not known, not observed, not recorded, or refused.","context":"NCIP","origin":null,"workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2017-02-27","endDate":null,"changeDescription":null,"administrativeNotes":"3/4/25 Added alt VM names per RFC 26 CR 1. sl","unresolvedIssues":null,"deletedIndicator":"No","createdBy":"ALEYR","dateCreated":"2017-02-27","modifiedBy":"SLAUER","dateModified":"2025-03-04","Concepts":[{"longName":"Unknown","conceptCode":"C17998","definition":"Not known, observed, recorded; or reported as unknown by the data contributor.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"Yes","displayOrder":"0"}]}},{"value":"G3 High Grade","valueDescription":null,"origin":null,"beginDate":"2025-03-03","endDate":null,"deletedIndicator":"No","createdBy":"COLBERTM","dateCreated":"2025-03-03","modifiedBy":"COLBERTM","dateModified":"2025-03-03","ValueMeaning":{"publicId":"5622671","version":"1","longName":"Grade 3","shortName":"5622671","definition":"A morphologic qualifier indicating that a cancerous lesion is poorly differentiated.","context":"NCIP","origin":null,"workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2017-01-11","endDate":null,"changeDescription":null,"administrativeNotes":"3/4/25 Added alt VM names per RFC 26 CR 1. sl","unresolvedIssues":null,"deletedIndicator":"No","createdBy":"KUMMEROA","dateCreated":"2017-01-11","modifiedBy":"SLAUER","dateModified":"2025-03-04","Concepts":[{"longName":"Grade 3","conceptCode":"C28079","definition":"A morphologic qualifier indicating that a cancerous lesion is poorly differentiated.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"Yes","displayOrder":"0"}]}},{"value":"G2 Intermediate Grade","valueDescription":null,"origin":null,"beginDate":"2025-03-03","endDate":null,"deletedIndicator":"No","createdBy":"COLBERTM","dateCreated":"2025-03-03","modifiedBy":"COLBERTM","dateModified":"2025-03-03","ValueMeaning":{"publicId":"5622672","version":"1","longName":"Grade 2","shortName":"5622672","definition":"A morphologic qualifier indicating that a cancerous lesion is moderately differentiated.","context":"NCIP","origin":null,"workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2017-01-11","endDate":null,"changeDescription":null,"administrativeNotes":"3/4/25 Added alt VM names per RFC 26 CR 1. sl","unresolvedIssues":null,"deletedIndicator":"No","createdBy":"KUMMEROA","dateCreated":"2017-01-11","modifiedBy":"SLAUER","dateModified":"2025-03-04","Concepts":[{"longName":"Grade 2","conceptCode":"C28078","definition":"A morphologic qualifier indicating that a cancerous lesion is moderately differentiated.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"Yes","displayOrder":"0"}]}},{"value":"G1 Low Grade","valueDescription":null,"origin":null,"beginDate":"2025-03-03","endDate":null,"deletedIndicator":"No","createdBy":"COLBERTM","dateCreated":"2025-03-03","modifiedBy":"COLBERTM","dateModified":"2025-03-03","ValueMeaning":{"publicId":"3270009","version":"1","longName":"Grade 1","shortName":"3270009","definition":"A morphologic qualifier indicating that a cancerous lesion is well differentiated.\r\n","context":"NCIP","origin":null,"workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2011-09-06","endDate":null,"changeDescription":null,"administrativeNotes":"3/4/25 Added alt VM names per RFC 26 CR 1. sl","unresolvedIssues":null,"deletedIndicator":"No","createdBy":"COOPERM","dateCreated":"2011-09-06","modifiedBy":"SLAUER","dateModified":"2025-03-04","Concepts":[{"longName":"Grade 1","conceptCode":"C28077","definition":"A morphologic qualifier indicating that a cancerous lesion is well differentiated.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"Yes","displayOrder":"0"}]}},{"value":"G4 Anaplastic","valueDescription":null,"origin":null,"beginDate":"2025-03-03","endDate":null,"deletedIndicator":"No","createdBy":"COLBERTM","dateCreated":"2025-03-03","modifiedBy":"COLBERTM","dateModified":"2025-03-03","ValueMeaning":{"publicId":"15872601","version":"1","longName":"Grade 4","shortName":"15872601v1.00","definition":"A morphologic qualifier indicating that a cancerous lesion is undifferentiated.","context":"NCIP","origin":null,"workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2025-03-03","endDate":null,"changeDescription":null,"administrativeNotes":"3/4/25 Added alt VM names per RFC 26 CR 1. sl","unresolvedIssues":null,"deletedIndicator":"No","createdBy":"COLBERTM","dateCreated":"2025-03-03","modifiedBy":"SLAUER","dateModified":"2025-03-04","Concepts":[{"longName":"Grade 4","conceptCode":"C28082","definition":"A morphologic qualifier indicating that a cancerous lesion is undifferentiated.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"Yes","displayOrder":"0"}]}}],"ConceptualDomain":{"publicId":"2008537","version":"1","longName":"Diagnosis","shortName":"DX","definition":"the process of identifying a disease by the signs and symptoms (NCI Glossary).","context":"CTEP","origin":null,"workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2002-12-17","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"MSUPLEY","dateCreated":"2002-12-17","modifiedBy":"SBR","dateModified":"2003-10-29"},"RepresentationTerm":{"publicId":"5920787","version":"1","longName":"Histologic Grade Grade","shortName":"C18000:C48309","definition":"The degree of abnormality of cancer cells, a measure of differentiation, the extent to which cancer cells are similar in appearance and function to healthy cells of the same tissue type. The degree of differentiation often relates to the clinical behavior of the particular tumor. Based on the microscopic findings, tumor grade is commonly described by one of four degrees of severity. Histopathologic grade of a tumor may be used to plan treatment and estimate the future course, outcome, and overall prognosis of disease. Certain types of cancers, such as soft tissue sarcoma, primary brain tumors, lymphomas, and breast have special grading systems.:A position on a scale of intensity or amount or quality.","context":"NCIP","origin":null,"workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2017-08-10","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"TAYLORT","dateCreated":"2017-08-10","modifiedBy":"ONEDATA","dateModified":"2017-08-10","Concepts":[{"longName":"Grade","conceptCode":"C48309","definition":"A position on a scale of intensity or amount or quality.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"Yes","displayOrder":"0"},{"longName":"Histologic Grade","conceptCode":"C18000","definition":"The degree of abnormality of cancer cells, a measure of differentiation, the extent to which cancer cells are similar in appearance and function to healthy cells of the same tissue type. The degree of differentiation often relates to the clinical behavior of the particular tumor. Based on the microscopic findings, tumor grade is commonly described by one of four degrees of severity. Histopathologic grade of a tumor may be used to plan treatment and estimate the future course, outcome, and overall prognosis of disease. Certain types of cancers, such as soft tissue sarcoma, primary brain tumors, lymphomas, and breast have special grading systems.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"No","displayOrder":"1"}]}},"ClassificationSchemes":[{"publicId":"10466051","version":"1","longName":"All CRDC Standard CDEs","context":"CRDC","ClassificationSchemeItems":[{"publicId":"10466054","version":"1","longName":"Diagnosis","context":"CRDC"}]},{"publicId":"11518160","version":"1","longName":"CTDC (Clinical and Translational Data Commons)","context":"CRDC","ClassificationSchemeItems":[{"publicId":"14413712","version":"1","longName":"Clinical","context":"CRDC"},{"publicId":"13484615","version":"1","longName":"Cancer Moonshot Biobank","context":"CRDC"}]},{"publicId":"13574489","version":"1","longName":"CCDI (Childhood Cancer Data Initiative)","context":"Pediatric Cancer","ClassificationSchemeItems":[{"publicId":"13596043","version":"1","longName":"Sample","context":"Pediatric Cancer"},{"publicId":"13596241","version":"1","longName":"Diagnosis","context":"Pediatric Cancer"},{"publicId":"13594093","version":"1","longName":"Sample","context":"Pediatric Cancer"}]},{"publicId":"15020048","version":"1","longName":"ICDC (Integrated Canine Data Commons)","context":"CRDC","ClassificationSchemeItems":[{"publicId":"15020056","version":"1","longName":"Biospecimen","context":"CRDC"}]},{"publicId":"6305258","version":"1","longName":"TCIA (The Cancer Imaging Archive)","context":"CIP","ClassificationSchemeItems":[{"publicId":"14678978","version":"1","longName":"Advanced-MRI-Breast-Lesions","context":"CIP"},{"publicId":"14542689","version":"1","longName":"Harmonized Clinical Data Submissions","context":"CIP"}]},{"publicId":"8064110","version":"1","longName":"CDS (Cancer Data Service)","context":"CRDC","ClassificationSchemeItems":[{"publicId":"12177497","version":"1","longName":"Diagnosis","context":"CRDC"},{"publicId":"14470388","version":"1","longName":"Imaging","context":"CRDC"}]}],"AlternateNames":[{"name":"GRADE","type":"TCIA Alt Name","context":"CIP"},{"name":"tumor_grade","type":"PDC Alt Name","context":"CRDC"},{"name":"diagnosis","type":"CTDC Table","context":"CRDC"},{"name":"Grade","type":"TCIA Alt Name","context":"CIP"},{"name":"tumor_grade","type":"CTDC Alt Name","context":"CRDC"},{"name":"Tumor Grade","type":"CRDC Alt Name","context":"CRDC"},{"name":"tumor_grade","type":"CDS Alt Name","context":"CRDC"},{"name":"tumor_grade","type":"CCDI Alt Name","context":"Pediatric Cancer"},{"name":"Tumor Grade","type":"CMB Alt Name","context":"CRDC"}],"ReferenceDocuments":[{"documentName":"PQT","documentText":"Tumor Grade","documentType":"Preferred Question Text","url":null,"context":"CRDC"},{"documentName":"TCIA Instructions","documentText":"The order of the lesions for each patient is all tumors first (corresponding to DICOM SEG tags tumor1, tumor2 and so on) followed by all benign lesions (corresponding to the tags bening1, benign2 and so on).","documentType":"Instructions","url":null,"context":"CIP"}]}}
+{
+    "status": "success",
+    "message": "Record found.",
+    "DataElement": {
+        "publicId": "11325685",
+        "version": "2",
+        "longName": "Subject Tumor Grade",
+        "shortName": "11323463v2.00:11323466v2.00",
+        "definition": "A text term to express the degree of abnormality of cancer cells as a measure of differentiation and aggressiveness.",
+        "context": "CRDC",
+        "origin": "CRDC:Cancer Research Data Commons",
+        "workflowStatus": "DRAFT MOD",
+        "registrationStatus": "Application",
+        "latestVersionIndicator": "Yes",
+        "beginDate": "2022-09-27",
+        "endDate": null,
+        "changeDescription": null,
+        "administrativeNotes": "3/4/25 Added alt VM names per RFC 26 CR 1. sl;\r\n3/4/25 Versioned to 2.0 to upd PV list to match CRDC DSS RFC 26CR updates. Deleted PVs for G1-G4, High, Intermediate, Low Grades and replaced with hybrid PVs 'G1 Low Grade' etc. to accommodate CDA. mr; \r\n1/2/25 Removed CCDI alt name tumor_grade_source, which does not belong on this CDE. This is CCDI tumor_grade. tumor_grade_source will need a new/different CDE. mr; \r\n12/18/24 add PDC Alt Name per RFC actual data review. jk;\r\n9/25/24 removed \"X\" from alt name per jk. bf;\r\n8/29/24:  Fixing PV's, shifting to ALT VM's of existing PV's for Advanced MRI. bf;.\r\n8/9/24 added TCIA Alt name, Advanced MRI classification and PV's. bf;\r\n3/17/24 added TCIA  Adv BA Alt Name. jk; \r\n12/31/23 Added CDS Imaging CSI. jk; \r\n8/7/23 Added Alt Name for CDE with source of \u201cDSS\u201d in the CTDC data model. BF;\r\n1/23/23 Added alt name, CDS CSI per CDS metadata template. mr;  \r\n10/16/22 Released per email from Wendy Ver Hoef 10/14/22 6:08pm. mr;  \r\n10/2/22 Edited concepts in DEC and VD. mr;  \r\n9/27/22 Created for CRDC RFC26.mr",
+        "unresolvedIssues": null,
+        "deletedIndicator": "No",
+        "createdBy": "COLBERTM",
+        "dateCreated": "2025-03-03",
+        "modifiedBy": "SLAUER",
+        "dateModified": "2025-03-04",
+        "DataElementConcept": {
+            "publicId": "11323463",
+            "version": "2",
+            "longName": "Subject Tumor Grade",
+            "shortName": "2523466v1.00:2427327v1.00",
+            "definition": "A matter or an individual that is observed, analyzed, examined, investigated, experimented upon, or/and treated in the course of a particular study.:The degree of abnormality of cancer cells, a measure of differentiation, the extent to which cancer cells are similar in appearance and function to healthy cells of the same tissue type. The degree of differentiation often relates to the clinical behavior of the particular tumor. Based on the microscopic findings, tumor grade is commonly described by one of four degrees of severity. Histopathologic grade of a tumor may be used to plan treatment and estimate the future course, outcome, and overall prognosis of disease. Certain types of cancers, such as soft tissue sarcoma, primary brain tumors, lymphomas, and breast have special grading systems.",
+            "context": "CRDC",
+            "origin": "CRDC:Cancer Research Data Commons",
+            "workflowStatus": "DRAFT MOD",
+            "registrationStatus": "Application",
+            "latestVersionIndicator": "Yes",
+            "beginDate": "2022-09-27",
+            "endDate": null,
+            "changeDescription": null,
+            "administrativeNotes": "3/4/25 Upd OC to Subject from Diagnosis per Code Map and to accommodate ICDC, who captures Tumor Grade in their specimen/sample module. mr;\r\n10/16/22 Released per CRDC DSS. mr; \r\n10/4/22 Edited long name. mr; \r\n10/2 & 10/3/22 Edited concepts. mr;\r\n9/27/22 Created for CRDC RFC 26. mr;",
+            "unresolvedIssues": null,
+            "deletedIndicator": "No",
+            "createdBy": "COLBERTM",
+            "dateCreated": "2025-03-03",
+            "modifiedBy": "COLBERTM",
+            "dateModified": "2025-03-04",
+            "ObjectClass": {
+                "publicId": "2523466",
+                "version": "1",
+                "longName": "Study Subject",
+                "shortName": "C41189",
+                "definition": "A matter or person that is analyzed, examined, investigated, experimented upon, or treated in the course of particular study.",
+                "context": "NCIP",
+                "origin": "NCI Thesaurus",
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2006-09-27",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "UMLLOADER_DRUGSCREEN",
+                "dateCreated": "2006-09-27",
+                "modifiedBy": "SBREXT",
+                "dateModified": "2007-11-07",
+                "Concepts": [
+                    {
+                        "longName": "Study Subject",
+                        "conceptCode": "C41189",
+                        "definition": "A matter or an individual that is observed, analyzed, examined, investigated, experimented upon, or/and treated in the course of a particular study.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "Yes",
+                        "displayOrder": "0"
+                    }
+                ]
+            },
+            "Property": {
+                "publicId": "2427327",
+                "version": "1",
+                "longName": "Grade",
+                "shortName": "C18000",
+                "definition": "Describes how closely a cancer resembles normal tissue of its same type, and the cancer's probable rate of growth",
+                "context": "NCIP",
+                "origin": "NCI Thesaurus",
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2005-11-09",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "ALAIS",
+                "dateCreated": "2005-11-09",
+                "modifiedBy": "ONEDATA",
+                "dateModified": "2005-11-09",
+                "Concepts": [
+                    {
+                        "longName": "Histologic Grade",
+                        "conceptCode": "C18000",
+                        "definition": "The degree of abnormality of cancer cells, a measure of differentiation, the extent to which cancer cells are similar in appearance and function to healthy cells of the same tissue type. The degree of differentiation often relates to the clinical behavior of the particular tumor. Based on the microscopic findings, tumor grade is commonly described by one of four degrees of severity. Histopathologic grade of a tumor may be used to plan treatment and estimate the future course, outcome, and overall prognosis of disease. Certain types of cancers, such as soft tissue sarcoma, primary brain tumors, lymphomas, and breast have special grading systems.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "Yes",
+                        "displayOrder": "0"
+                    }
+                ]
+            },
+            "ConceptualDomain": {
+                "publicId": "2008537",
+                "version": "1",
+                "longName": "Diagnosis",
+                "shortName": "DX",
+                "definition": "the process of identifying a disease by the signs and symptoms (NCI Glossary).",
+                "context": "CTEP",
+                "origin": null,
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2002-12-17",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "MSUPLEY",
+                "dateCreated": "2002-12-17",
+                "modifiedBy": "SBR",
+                "dateModified": "2003-10-29"
+            }
+        },
+        "ValueDomain": {
+            "publicId": "11323466",
+            "version": "2",
+            "longName": "Tumor Grade",
+            "shortName": "11323466v2.00",
+            "definition": "The degree of abnormality of cancer cells, a measure of differentiation, the extent to which cancer cells are similar in appearance and function to healthy cells of the same tissue type. The degree of differentiation often relates to the clinical behavior of the particular tumor. Based on the microscopic findings, tumor grade is commonly described by one of four degrees of severity. Histopathologic grade of a tumor may be used to plan treatment and estimate the future course, outcome, and overall prognosis of disease. Certain types of cancers, such as soft tissue sarcoma, primary brain tumors, lymphomas, and breast have special grading systems._A position on a scale of intensity or amount or quality.",
+            "context": "CRDC",
+            "type": "Enumerated",
+            "dataType": "CHARACTER",
+            "minLength": null,
+            "maxLength": "50",
+            "minValue": null,
+            "maxValue": null,
+            "decimalPlace": null,
+            "origin": "CRDC:Cancer Research Data Commons",
+            "workflowStatus": "DRAFT MOD",
+            "registrationStatus": "Application",
+            "latestVersionIndicator": "Yes",
+            "beginDate": "2022-09-27",
+            "endDate": null,
+            "changeDescription": null,
+            "administrativeNotes": "3/4/25 Added alt VM names per RFC 26 CR 1. sl;\r\n3/3/25 Versioned to 2.0 to upd PV list to match CRDC DSS RFC 26 updates. Deleted PVs for G1-G4, High, Intermediate, Low Grades and replaced with hybrid PVs 'G1 Low Grade' etc. to accommodate CDA. mr; \r\n8/29/24 Removing TCIA Advanced MRI PV's and shifting to alt names of existing PV's, low, medium high. bf;8/9/24 added PV's and ALT VM's for TCIA Advanced MRI. bf;7/30/23 added Unknown as PV per Smita's request to support CDA. jk;  3/27/23 added Not Reported PV to support CDS.  jk; 10/16/22 Released per CRDC DSS. mr;  10/2 & 10/3/22 Edited concepts. mr;  9/27/22 Created for CRDC RFC26. mr;",
+            "unresolvedIssues": null,
+            "deletedIndicator": "No",
+            "createdBy": "COLBERTM",
+            "dateCreated": "2025-03-03",
+            "modifiedBy": "SLAUER",
+            "dateModified": "2025-03-04",
+            "PermissibleValues": [
+                {
+                    "value": "GB Borderline",
+                    "valueDescription": null,
+                    "origin": null,
+                    "beginDate": "2022-09-27",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "COLBERTM",
+                    "dateCreated": "2025-03-03",
+                    "modifiedBy": "COLBERTM",
+                    "dateModified": "2025-03-03",
+                    "ValueMeaning": {
+                        "publicId": "6050322",
+                        "version": "1",
+                        "longName": "Grade B",
+                        "shortName": "6050322",
+                        "definition": "A morphologic qualifier indicating that a neoplasm is of borderline malignancy.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2018-01-09",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": "3/4/25 Added alt VM names per RFC 26 CR 1. sl",
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "LUY",
+                        "dateCreated": "2018-01-09",
+                        "modifiedBy": "SLAUER",
+                        "dateModified": "2025-03-04",
+                        "Concepts": [
+                            {
+                                "longName": "Grade B",
+                                "conceptCode": "C113729",
+                                "definition": "A morphologic qualifier indicating that a neoplasm is of borderline malignancy.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "value": "GX Grade Cannot Be Assessed",
+                    "valueDescription": null,
+                    "origin": null,
+                    "beginDate": "2022-09-27",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "COLBERTM",
+                    "dateCreated": "2025-03-03",
+                    "modifiedBy": "COLBERTM",
+                    "dateModified": "2025-03-03",
+                    "ValueMeaning": {
+                        "publicId": "10987209",
+                        "version": "1",
+                        "longName": "Grade X",
+                        "shortName": "10987209v1.00",
+                        "definition": "A morphologic qualifier indicating that the grade of a neoplasm cannot be assessed.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2022-08-05",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": "3/4/25 Added alt VM names per RFC 26 CR 1. sl;\r\n3/4/25 Added CMB alt VM name. mr",
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "RAGUNATHANU",
+                        "dateCreated": "2022-08-05",
+                        "modifiedBy": "SLAUER",
+                        "dateModified": "2025-03-04",
+                        "Concepts": [
+                            {
+                                "longName": "Grade X",
+                                "conceptCode": "C113730",
+                                "definition": "A morphologic qualifier indicating that the grade of a neoplasm cannot be assessed.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "value": "Not Applicable",
+                    "valueDescription": null,
+                    "origin": null,
+                    "beginDate": "2022-09-27",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "COLBERTM",
+                    "dateCreated": "2025-03-03",
+                    "modifiedBy": "COLBERTM",
+                    "dateModified": "2025-03-03",
+                    "ValueMeaning": {
+                        "publicId": "7590024",
+                        "version": "1",
+                        "longName": "Not Applicable",
+                        "shortName": "7590024",
+                        "definition": "Determination of a value is not relevant in the current context.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2021-03-04",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": "3/4/25 Added alt VM names per RFC 26 CR 1. sl;\r\n7/8/22 added alt name of NA for CCTG cjl;",
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "MORENOC",
+                        "dateCreated": "2021-03-04",
+                        "modifiedBy": "SLAUER",
+                        "dateModified": "2025-03-04",
+                        "Concepts": [
+                            {
+                                "longName": "Not Applicable",
+                                "conceptCode": "C48660",
+                                "definition": "Determination of a value is not relevant in the current context.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "value": "Not Reported",
+                    "valueDescription": null,
+                    "origin": null,
+                    "beginDate": "2023-03-27",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "JKNABLE",
+                    "dateCreated": "2025-03-03",
+                    "modifiedBy": "JKNABLE",
+                    "dateModified": "2025-03-03",
+                    "ValueMeaning": {
+                        "publicId": "5612322",
+                        "version": "1",
+                        "longName": "Not Reported",
+                        "shortName": "5612322v1.00",
+                        "definition": "Not provided or available.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2017-01-03",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": "3/4/25 Added alt VM names per RFC 26 CR 1. sl;\r\n10/10/23 changed Long Name from \"Not Stated\" to match NCIt Preferred name and current caDSR concept Long Name of \"Not Reported\" per Brenda.Janice . LS",
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "ALEYR",
+                        "dateCreated": "2017-01-03",
+                        "modifiedBy": "SLAUER",
+                        "dateModified": "2025-03-04",
+                        "Concepts": [
+                            {
+                                "longName": "Not Reported",
+                                "conceptCode": "C43234",
+                                "definition": "Not provided or available.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "value": "Unknown",
+                    "valueDescription": null,
+                    "origin": null,
+                    "beginDate": "2023-07-30",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "JKNABLE",
+                    "dateCreated": "2025-03-03",
+                    "modifiedBy": "JKNABLE",
+                    "dateModified": "2025-03-03",
+                    "ValueMeaning": {
+                        "publicId": "5682953",
+                        "version": "1",
+                        "longName": "Unknown",
+                        "shortName": "5682953",
+                        "definition": "Not known, not observed, not recorded, or refused.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2017-02-27",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": "3/4/25 Added alt VM names per RFC 26 CR 1. sl",
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "ALEYR",
+                        "dateCreated": "2017-02-27",
+                        "modifiedBy": "SLAUER",
+                        "dateModified": "2025-03-04",
+                        "Concepts": [
+                            {
+                                "longName": "Unknown",
+                                "conceptCode": "C17998",
+                                "definition": "Not known, observed, recorded; or reported as unknown by the data contributor.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "value": "G3 High Grade",
+                    "valueDescription": null,
+                    "origin": null,
+                    "beginDate": "2025-03-03",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "COLBERTM",
+                    "dateCreated": "2025-03-03",
+                    "modifiedBy": "COLBERTM",
+                    "dateModified": "2025-03-03",
+                    "ValueMeaning": {
+                        "publicId": "5622671",
+                        "version": "1",
+                        "longName": "Grade 3",
+                        "shortName": "5622671",
+                        "definition": "A morphologic qualifier indicating that a cancerous lesion is poorly differentiated.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2017-01-11",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": "3/4/25 Added alt VM names per RFC 26 CR 1. sl",
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "KUMMEROA",
+                        "dateCreated": "2017-01-11",
+                        "modifiedBy": "SLAUER",
+                        "dateModified": "2025-03-04",
+                        "Concepts": [
+                            {
+                                "longName": "Grade 3",
+                                "conceptCode": "C28079",
+                                "definition": "A morphologic qualifier indicating that a cancerous lesion is poorly differentiated.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "value": "G2 Intermediate Grade",
+                    "valueDescription": null,
+                    "origin": null,
+                    "beginDate": "2025-03-03",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "COLBERTM",
+                    "dateCreated": "2025-03-03",
+                    "modifiedBy": "COLBERTM",
+                    "dateModified": "2025-03-03",
+                    "ValueMeaning": {
+                        "publicId": "5622672",
+                        "version": "1",
+                        "longName": "Grade 2",
+                        "shortName": "5622672",
+                        "definition": "A morphologic qualifier indicating that a cancerous lesion is moderately differentiated.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2017-01-11",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": "3/4/25 Added alt VM names per RFC 26 CR 1. sl",
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "KUMMEROA",
+                        "dateCreated": "2017-01-11",
+                        "modifiedBy": "SLAUER",
+                        "dateModified": "2025-03-04",
+                        "Concepts": [
+                            {
+                                "longName": "Grade 2",
+                                "conceptCode": "C28078",
+                                "definition": "A morphologic qualifier indicating that a cancerous lesion is moderately differentiated.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "value": "G1 Low Grade",
+                    "valueDescription": null,
+                    "origin": null,
+                    "beginDate": "2025-03-03",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "COLBERTM",
+                    "dateCreated": "2025-03-03",
+                    "modifiedBy": "COLBERTM",
+                    "dateModified": "2025-03-03",
+                    "ValueMeaning": {
+                        "publicId": "3270009",
+                        "version": "1",
+                        "longName": "Grade 1",
+                        "shortName": "3270009",
+                        "definition": "A morphologic qualifier indicating that a cancerous lesion is well differentiated.\r\n",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2011-09-06",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": "3/4/25 Added alt VM names per RFC 26 CR 1. sl",
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "COOPERM",
+                        "dateCreated": "2011-09-06",
+                        "modifiedBy": "SLAUER",
+                        "dateModified": "2025-03-04",
+                        "Concepts": [
+                            {
+                                "longName": "Grade 1",
+                                "conceptCode": "C28077",
+                                "definition": "A morphologic qualifier indicating that a cancerous lesion is well differentiated.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "value": "G4 Anaplastic",
+                    "valueDescription": null,
+                    "origin": null,
+                    "beginDate": "2025-03-03",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "COLBERTM",
+                    "dateCreated": "2025-03-03",
+                    "modifiedBy": "COLBERTM",
+                    "dateModified": "2025-03-03",
+                    "ValueMeaning": {
+                        "publicId": "15872601",
+                        "version": "1",
+                        "longName": "Grade 4",
+                        "shortName": "15872601v1.00",
+                        "definition": "A morphologic qualifier indicating that a cancerous lesion is undifferentiated.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2025-03-03",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": "3/4/25 Added alt VM names per RFC 26 CR 1. sl",
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "COLBERTM",
+                        "dateCreated": "2025-03-03",
+                        "modifiedBy": "SLAUER",
+                        "dateModified": "2025-03-04",
+                        "Concepts": [
+                            {
+                                "longName": "Grade 4",
+                                "conceptCode": "C28082",
+                                "definition": "A morphologic qualifier indicating that a cancerous lesion is undifferentiated.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "ConceptualDomain": {
+                "publicId": "2008537",
+                "version": "1",
+                "longName": "Diagnosis",
+                "shortName": "DX",
+                "definition": "the process of identifying a disease by the signs and symptoms (NCI Glossary).",
+                "context": "CTEP",
+                "origin": null,
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2002-12-17",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "MSUPLEY",
+                "dateCreated": "2002-12-17",
+                "modifiedBy": "SBR",
+                "dateModified": "2003-10-29"
+            },
+            "RepresentationTerm": {
+                "publicId": "5920787",
+                "version": "1",
+                "longName": "Histologic Grade Grade",
+                "shortName": "C18000:C48309",
+                "definition": "The degree of abnormality of cancer cells, a measure of differentiation, the extent to which cancer cells are similar in appearance and function to healthy cells of the same tissue type. The degree of differentiation often relates to the clinical behavior of the particular tumor. Based on the microscopic findings, tumor grade is commonly described by one of four degrees of severity. Histopathologic grade of a tumor may be used to plan treatment and estimate the future course, outcome, and overall prognosis of disease. Certain types of cancers, such as soft tissue sarcoma, primary brain tumors, lymphomas, and breast have special grading systems.:A position on a scale of intensity or amount or quality.",
+                "context": "NCIP",
+                "origin": null,
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2017-08-10",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "TAYLORT",
+                "dateCreated": "2017-08-10",
+                "modifiedBy": "ONEDATA",
+                "dateModified": "2017-08-10",
+                "Concepts": [
+                    {
+                        "longName": "Grade",
+                        "conceptCode": "C48309",
+                        "definition": "A position on a scale of intensity or amount or quality.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "Yes",
+                        "displayOrder": "0"
+                    },
+                    {
+                        "longName": "Histologic Grade",
+                        "conceptCode": "C18000",
+                        "definition": "The degree of abnormality of cancer cells, a measure of differentiation, the extent to which cancer cells are similar in appearance and function to healthy cells of the same tissue type. The degree of differentiation often relates to the clinical behavior of the particular tumor. Based on the microscopic findings, tumor grade is commonly described by one of four degrees of severity. Histopathologic grade of a tumor may be used to plan treatment and estimate the future course, outcome, and overall prognosis of disease. Certain types of cancers, such as soft tissue sarcoma, primary brain tumors, lymphomas, and breast have special grading systems.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "No",
+                        "displayOrder": "1"
+                    }
+                ]
+            }
+        },
+        "ClassificationSchemes": [
+            {
+                "publicId": "10466051",
+                "version": "1",
+                "longName": "All CRDC Standard CDEs",
+                "context": "CRDC",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "10466054",
+                        "version": "1",
+                        "longName": "Diagnosis",
+                        "context": "CRDC"
+                    }
+                ]
+            },
+            {
+                "publicId": "11518160",
+                "version": "1",
+                "longName": "CTDC (Clinical and Translational Data Commons)",
+                "context": "CRDC",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "14413712",
+                        "version": "1",
+                        "longName": "Clinical",
+                        "context": "CRDC"
+                    },
+                    {
+                        "publicId": "13484615",
+                        "version": "1",
+                        "longName": "Cancer Moonshot Biobank",
+                        "context": "CRDC"
+                    }
+                ]
+            },
+            {
+                "publicId": "13574489",
+                "version": "1",
+                "longName": "CCDI (Childhood Cancer Data Initiative)",
+                "context": "Pediatric Cancer",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "13596043",
+                        "version": "1",
+                        "longName": "Sample",
+                        "context": "Pediatric Cancer"
+                    },
+                    {
+                        "publicId": "13596241",
+                        "version": "1",
+                        "longName": "Diagnosis",
+                        "context": "Pediatric Cancer"
+                    },
+                    {
+                        "publicId": "13594093",
+                        "version": "1",
+                        "longName": "Sample",
+                        "context": "Pediatric Cancer"
+                    }
+                ]
+            },
+            {
+                "publicId": "15020048",
+                "version": "1",
+                "longName": "ICDC (Integrated Canine Data Commons)",
+                "context": "CRDC",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "15020056",
+                        "version": "1",
+                        "longName": "Biospecimen",
+                        "context": "CRDC"
+                    }
+                ]
+            },
+            {
+                "publicId": "6305258",
+                "version": "1",
+                "longName": "TCIA (The Cancer Imaging Archive)",
+                "context": "CIP",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "14678978",
+                        "version": "1",
+                        "longName": "Advanced-MRI-Breast-Lesions",
+                        "context": "CIP"
+                    },
+                    {
+                        "publicId": "14542689",
+                        "version": "1",
+                        "longName": "Harmonized Clinical Data Submissions",
+                        "context": "CIP"
+                    }
+                ]
+            },
+            {
+                "publicId": "8064110",
+                "version": "1",
+                "longName": "CDS (Cancer Data Service)",
+                "context": "CRDC",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "12177497",
+                        "version": "1",
+                        "longName": "Diagnosis",
+                        "context": "CRDC"
+                    },
+                    {
+                        "publicId": "14470388",
+                        "version": "1",
+                        "longName": "Imaging",
+                        "context": "CRDC"
+                    }
+                ]
+            }
+        ],
+        "AlternateNames": [
+            {
+                "name": "GRADE",
+                "type": "TCIA Alt Name",
+                "context": "CIP"
+            },
+            {
+                "name": "tumor_grade",
+                "type": "PDC Alt Name",
+                "context": "CRDC"
+            },
+            {
+                "name": "diagnosis",
+                "type": "CTDC Table",
+                "context": "CRDC"
+            },
+            {
+                "name": "Grade",
+                "type": "TCIA Alt Name",
+                "context": "CIP"
+            },
+            {
+                "name": "tumor_grade",
+                "type": "CTDC Alt Name",
+                "context": "CRDC"
+            },
+            {
+                "name": "Tumor Grade",
+                "type": "CRDC Alt Name",
+                "context": "CRDC"
+            },
+            {
+                "name": "tumor_grade",
+                "type": "CDS Alt Name",
+                "context": "CRDC"
+            },
+            {
+                "name": "tumor_grade",
+                "type": "CCDI Alt Name",
+                "context": "Pediatric Cancer"
+            },
+            {
+                "name": "Tumor Grade",
+                "type": "CMB Alt Name",
+                "context": "CRDC"
+            }
+        ],
+        "ReferenceDocuments": [
+            {
+                "documentName": "PQT",
+                "documentText": "Tumor Grade",
+                "documentType": "Preferred Question Text",
+                "url": null,
+                "context": "CRDC"
+            },
+            {
+                "documentName": "TCIA Instructions",
+                "documentText": "The order of the lesions for each patient is all tumors first (corresponding to DICOM SEG tags tumor1, tumor2 and so on) followed by all benign lesions (corresponding to the tags bening1, benign2 and so on).",
+                "documentType": "Instructions",
+                "url": null,
+                "context": "CIP"
+            }
+        ]
+    }
+}

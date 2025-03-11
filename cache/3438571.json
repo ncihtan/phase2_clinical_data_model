@@ -1,1 +1,511 @@
-{"status":"success","message":"Record found.","DataElement":{"publicId":"3438571","version":"1","longName":"Metastasis At Diagnosis Assessment Status","shortName":"3437694v1.0:3438541v1.0","definition":"Text term to describe the state of metastatic disease at the time of primary tumor diagnosis.","context":"NCIP","origin":null,"workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2012-04-18","endDate":null,"changeDescription":"Created for TARGET per request by T.Davidsen and approved for release by D.Barkauskas. mc 4/24/12","administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"COOPERM","dateCreated":"2012-04-18","modifiedBy":"COOPERM","dateModified":"2017-08-15","DataElementConcept":{"publicId":"3437694","version":"1","longName":"Metastasis At Diagnosis Assessment Status","shortName":"2761292v1.0:3437695v1.0","definition":"Cancer that has spread from the organ in which it first appeared to another organ. For example, breast cancer cells may spread (metastasize) to the lungs and cause the growth of a new tumor. When this happens, the disease is called metastatic breast cancer._Used to indicate position, location, or state._The investigation, analysis and recognition of the presence and nature of disease, condition, or injury from expressed signs and symptoms; also, the scientific determination of any kind; the concise results of such an investigation._Having determined the value, significance, or extent of._A condition or state at a particular time.","context":"NCIP","origin":null,"workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2012-04-18","endDate":null,"changeDescription":"Created for TARGET per request by T.Davidsen and approved for release by D.Barkauskas. mc 4/24/12","administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"COOPERM","dateCreated":"2012-04-18","modifiedBy":"SBR","dateModified":"2016-06-06","ObjectClass":{"publicId":"2761292","version":"1","longName":"Metastasis","shortName":"C19151","definition":"Cancer that has spread from the organ in which it first appeared to another organ. For example, breast cancer cells may spread (metastasize) to the lungs and cause the growth of a new tumor. When this happens, the disease is called metastatic breast cancer.","context":"NCIP","origin":"NCI Thesaurus","workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2008-06-26","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"CAMPBELB","dateCreated":"2008-06-26","modifiedBy":"ONEDATA","dateModified":"2008-06-26","Concepts":[{"longName":"Metastasis","conceptCode":"C19151","definition":"The spread or migration of cancer cells from one part of the body (the organ in which it first appeared) to another. The secondary tumor contains cells that are like those in the original (primary) tumor.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"Yes","displayOrder":"0"}]},"Property":{"publicId":"3437695","version":"1","longName":"At Diagnosis Assessment Status","shortName":"C25427:C15220:C25217:C25688","definition":"Used to indicate position, location, or state.:The investigation, analysis and recognition of the presence and nature of disease, condition, or injury from expressed signs and symptoms; also, the scientific determination of any kind; the concise results of such an investigation.:Having determined the value, significance, or extent of.:A condition or state at a particular time.","context":"NCIP","origin":null,"workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2012-04-18","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"COOPERM","dateCreated":"2012-04-18","modifiedBy":"ONEDATA","dateModified":"2012-04-18","Concepts":[{"longName":"Status","conceptCode":"C25688","definition":"A condition or state at a particular time.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"Yes","displayOrder":"0"},{"longName":"Assessment","conceptCode":"C25217","definition":"The final result of a determination of the value, significance, or extent of.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"No","displayOrder":"1"},{"longName":"Diagnosis","conceptCode":"C15220","definition":"The investigation, analysis and recognition of the presence and nature of disease, condition, or injury from expressed signs and symptoms; also, the scientific determination of any kind; the concise results of such an investigation.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"No","displayOrder":"2"},{"longName":"At","conceptCode":"C25427","definition":"Used to indicate position, location, or state.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"No","displayOrder":"3"}]},"ConceptualDomain":{"publicId":"2008537","version":"1","longName":"Diagnosis","shortName":"DX","definition":"the process of identifying a disease by the signs and symptoms (NCI Glossary).","context":"CTEP","origin":null,"workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2002-12-17","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"MSUPLEY","dateCreated":"2002-12-17","modifiedBy":"SBR","dateModified":"2003-10-29"}},"ValueDomain":{"publicId":"3438541","version":"1","longName":"Metastasis Status","shortName":"3438541v1.0","definition":"Cancer that has spread from the organ in which it first appeared to another organ. For example, breast cancer cells may spread (metastasize) to the lungs and cause the growth of a new tumor. When this happens, the disease is called metastatic breast cancer._A condition or state at a particular time.","context":"NCIP","type":"Enumerated","dataType":"CHARACTER","minLength":null,"maxLength":"30","minValue":null,"maxValue":null,"decimalPlace":null,"origin":null,"workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2012-04-18","endDate":null,"changeDescription":"Created for TARGET per request by T.Davidsen and approved for release by D.Barkauskas. mc 4/24/12","administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"COOPERM","dateCreated":"2012-04-18","modifiedBy":"COOPERM","dateModified":"2019-05-29","PermissibleValues":[{"value":"Non-metastatic (unconfirmed)","valueDescription":"Non Metastatic Unconfirmed","origin":null,"beginDate":"2012-04-18","endDate":null,"deletedIndicator":"No","createdBy":"COOPERM","dateCreated":"2012-04-18","modifiedBy":"ONEDATA","dateModified":"2012-04-18","ValueMeaning":{"publicId":"3438542","version":"1","longName":"Non Metastatic Unconfirmed","shortName":"3438542","definition":"An operation in which a term denies or inverts the meaning of another term or construction.: A term referring to the clinical or pathologic observation of a tumor extension from its original site of growth to another anatomic site.: An operation in which a term denies or inverts the meaning of another term or construction.: Confirmed; having been established or verified.","context":"NCIP","origin":null,"workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2012-04-18","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"COOPERM","dateCreated":"2012-04-18","modifiedBy":"SBR","dateModified":"2018-01-19","Concepts":[{"longName":"Confirmation","conceptCode":"C25458","definition":"Having been established or verified.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"Yes","displayOrder":"0"},{"longName":"Negation","conceptCode":"C25594","definition":"An operation in which a term denies or inverts the meaning of another term or construction.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"No","displayOrder":"1"},{"longName":"Metastatic","conceptCode":"C14174","definition":"A term referring to the clinical or pathologic observation of a tumor extension from its original site of growth to another anatomic site.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"No","displayOrder":"2"},{"longName":"Negation","conceptCode":"C25594","definition":"An operation in which a term denies or inverts the meaning of another term or construction.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"No","displayOrder":"3"}]}},{"value":"Non-metastatic (confirmed)","valueDescription":"Non Metastatic Confirmed","origin":null,"beginDate":"2012-04-18","endDate":null,"deletedIndicator":"No","createdBy":"COOPERM","dateCreated":"2012-04-18","modifiedBy":"ONEDATA","dateModified":"2012-04-18","ValueMeaning":{"publicId":"3438543","version":"1","longName":"Non Metastatic Confirmed","shortName":"3438543","definition":"An operation in which a term denies or inverts the meaning of another term or construction.: A term referring to the clinical or pathologic observation of a tumor extension from its original site of growth to another anatomic site.: Confirmed; having been established or verified.","context":"NCIP","origin":null,"workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2012-04-18","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"COOPERM","dateCreated":"2012-04-18","modifiedBy":"SBR","dateModified":"2018-01-19","Concepts":[{"longName":"Confirmation","conceptCode":"C25458","definition":"Having been established or verified.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"Yes","displayOrder":"0"},{"longName":"Metastatic","conceptCode":"C14174","definition":"A term referring to the clinical or pathologic observation of a tumor extension from its original site of growth to another anatomic site.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"No","displayOrder":"1"},{"longName":"Negation","conceptCode":"C25594","definition":"An operation in which a term denies or inverts the meaning of another term or construction.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"No","displayOrder":"2"}]}},{"value":"Metastatic","valueDescription":"Metastatic","origin":null,"beginDate":"2012-04-18","endDate":null,"deletedIndicator":"No","createdBy":"COOPERM","dateCreated":"2012-04-18","modifiedBy":"ONEDATA","dateModified":"2012-04-18","ValueMeaning":{"publicId":"3438544","version":"1","longName":"Metastatic","shortName":"3438544","definition":"A term referring to the clinical or pathologic observation of a tumor extension from its original site of growth to another anatomic site.","context":"NCIP","origin":null,"workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2012-04-18","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"COOPERM","dateCreated":"2012-04-18","modifiedBy":"SBR","dateModified":"2018-01-19","Concepts":[{"longName":"Metastatic","conceptCode":"C14174","definition":"A term referring to the clinical or pathologic observation of a tumor extension from its original site of growth to another anatomic site.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"Yes","displayOrder":"0"}]}},{"value":"Unknown","valueDescription":"Unknown","origin":null,"beginDate":"2019-05-29","endDate":null,"deletedIndicator":"No","createdBy":"COOPERM","dateCreated":"2019-05-29","modifiedBy":"ONEDATA","dateModified":"2019-05-29","ValueMeaning":{"publicId":"3104212","version":"1","longName":"Unknown","shortName":"3104212v1.00","definition":"Not known, observed, recorded; or reported as unknown by the data contributor.","context":"NCIP","origin":null,"workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2010-06-01","endDate":null,"changeDescription":"Concept annotated for UPitt/TCGA.  Ylu, 01/30/2015.","administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"REEVESD","dateCreated":"2010-06-01","modifiedBy":"FINCHAMB","dateModified":"2024-01-19","Concepts":[{"longName":"Unknown","conceptCode":"C17998","definition":"Not known, observed, recorded; or reported as unknown by the data contributor.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"Yes","displayOrder":"0"}]}}],"ConceptualDomain":{"publicId":"2008549","version":"1","longName":"Involvement and Extent of Disease","shortName":"INV_AND_EXT_OF_DZ","definition":"indication of the presence and extent of disease.","context":"CTEP","origin":null,"workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2002-12-19","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"MSUPLEY","dateCreated":"2002-12-19","modifiedBy":"SBR","dateModified":"2003-10-29"},"RepresentationTerm":{"publicId":"3438540","version":"1","longName":"Metastasis Status","shortName":"C19151:C25688","definition":"Cancer that has spread from the organ in which it first appeared to another organ. For example, breast cancer cells may spread (metastasize) to the lungs and cause the growth of a new tumor. When this happens, the disease is called metastatic breast cancer.:A condition or state at a particular time.","context":"NCIP","origin":null,"workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2012-04-18","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"COOPERM","dateCreated":"2012-04-18","modifiedBy":"ONEDATA","dateModified":"2012-04-18","Concepts":[{"longName":"Status","conceptCode":"C25688","definition":"A condition or state at a particular time.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"Yes","displayOrder":"0"},{"longName":"Metastasis","conceptCode":"C19151","definition":"The spread or migration of cancer cells from one part of the body (the organ in which it first appeared) to another. The secondary tumor contains cells that are like those in the original (primary) tumor.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"No","displayOrder":"1"}]}},"ClassificationSchemes":[{"publicId":"5650570","version":"1","longName":"TARGET","context":"OCG","ClassificationSchemeItems":[{"publicId":"5650575","version":"1","longName":"OS","context":"OCG"}]}],"AlternateNames":[{"name":"OCG","type":"USED_BY","context":"OCG"},{"name":"Metastasis_Status_at_Diagnosis","type":"HCMI Name","context":"OCG"}],"ReferenceDocuments":[{"documentName":"Disease at diagnosis","documentText":"Disease at diagnosis","documentType":"Preferred Question Text","url":null,"context":"NCIP"},{"documentName":"HCMI Question Text","documentText":"Metastasis status at diagnosis","documentType":"Alternate Question Text","url":null,"context":"OCG"}]}}
+{
+    "status": "success",
+    "message": "Record found.",
+    "DataElement": {
+        "publicId": "3438571",
+        "version": "1",
+        "longName": "Metastasis At Diagnosis Assessment Status",
+        "shortName": "3437694v1.0:3438541v1.0",
+        "definition": "Text term to describe the state of metastatic disease at the time of primary tumor diagnosis.",
+        "context": "NCIP",
+        "origin": null,
+        "workflowStatus": "RELEASED",
+        "registrationStatus": "Application",
+        "latestVersionIndicator": "Yes",
+        "beginDate": "2012-04-18",
+        "endDate": null,
+        "changeDescription": "Created for TARGET per request by T.Davidsen and approved for release by D.Barkauskas. mc 4/24/12",
+        "administrativeNotes": null,
+        "unresolvedIssues": null,
+        "deletedIndicator": "No",
+        "createdBy": "COOPERM",
+        "dateCreated": "2012-04-18",
+        "modifiedBy": "COOPERM",
+        "dateModified": "2017-08-15",
+        "DataElementConcept": {
+            "publicId": "3437694",
+            "version": "1",
+            "longName": "Metastasis At Diagnosis Assessment Status",
+            "shortName": "2761292v1.0:3437695v1.0",
+            "definition": "Cancer that has spread from the organ in which it first appeared to another organ. For example, breast cancer cells may spread (metastasize) to the lungs and cause the growth of a new tumor. When this happens, the disease is called metastatic breast cancer._Used to indicate position, location, or state._The investigation, analysis and recognition of the presence and nature of disease, condition, or injury from expressed signs and symptoms; also, the scientific determination of any kind; the concise results of such an investigation._Having determined the value, significance, or extent of._A condition or state at a particular time.",
+            "context": "NCIP",
+            "origin": null,
+            "workflowStatus": "RELEASED",
+            "registrationStatus": "Application",
+            "latestVersionIndicator": "Yes",
+            "beginDate": "2012-04-18",
+            "endDate": null,
+            "changeDescription": "Created for TARGET per request by T.Davidsen and approved for release by D.Barkauskas. mc 4/24/12",
+            "administrativeNotes": null,
+            "unresolvedIssues": null,
+            "deletedIndicator": "No",
+            "createdBy": "COOPERM",
+            "dateCreated": "2012-04-18",
+            "modifiedBy": "SBR",
+            "dateModified": "2016-06-06",
+            "ObjectClass": {
+                "publicId": "2761292",
+                "version": "1",
+                "longName": "Metastasis",
+                "shortName": "C19151",
+                "definition": "Cancer that has spread from the organ in which it first appeared to another organ. For example, breast cancer cells may spread (metastasize) to the lungs and cause the growth of a new tumor. When this happens, the disease is called metastatic breast cancer.",
+                "context": "NCIP",
+                "origin": "NCI Thesaurus",
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2008-06-26",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "CAMPBELB",
+                "dateCreated": "2008-06-26",
+                "modifiedBy": "ONEDATA",
+                "dateModified": "2008-06-26",
+                "Concepts": [
+                    {
+                        "longName": "Metastasis",
+                        "conceptCode": "C19151",
+                        "definition": "The spread or migration of cancer cells from one part of the body (the organ in which it first appeared) to another. The secondary tumor contains cells that are like those in the original (primary) tumor.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "Yes",
+                        "displayOrder": "0"
+                    }
+                ]
+            },
+            "Property": {
+                "publicId": "3437695",
+                "version": "1",
+                "longName": "At Diagnosis Assessment Status",
+                "shortName": "C25427:C15220:C25217:C25688",
+                "definition": "Used to indicate position, location, or state.:The investigation, analysis and recognition of the presence and nature of disease, condition, or injury from expressed signs and symptoms; also, the scientific determination of any kind; the concise results of such an investigation.:Having determined the value, significance, or extent of.:A condition or state at a particular time.",
+                "context": "NCIP",
+                "origin": null,
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2012-04-18",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "COOPERM",
+                "dateCreated": "2012-04-18",
+                "modifiedBy": "ONEDATA",
+                "dateModified": "2012-04-18",
+                "Concepts": [
+                    {
+                        "longName": "Status",
+                        "conceptCode": "C25688",
+                        "definition": "A condition or state at a particular time.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "Yes",
+                        "displayOrder": "0"
+                    },
+                    {
+                        "longName": "Assessment",
+                        "conceptCode": "C25217",
+                        "definition": "The final result of a determination of the value, significance, or extent of.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "No",
+                        "displayOrder": "1"
+                    },
+                    {
+                        "longName": "Diagnosis",
+                        "conceptCode": "C15220",
+                        "definition": "The investigation, analysis and recognition of the presence and nature of disease, condition, or injury from expressed signs and symptoms; also, the scientific determination of any kind; the concise results of such an investigation.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "No",
+                        "displayOrder": "2"
+                    },
+                    {
+                        "longName": "At",
+                        "conceptCode": "C25427",
+                        "definition": "Used to indicate position, location, or state.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "No",
+                        "displayOrder": "3"
+                    }
+                ]
+            },
+            "ConceptualDomain": {
+                "publicId": "2008537",
+                "version": "1",
+                "longName": "Diagnosis",
+                "shortName": "DX",
+                "definition": "the process of identifying a disease by the signs and symptoms (NCI Glossary).",
+                "context": "CTEP",
+                "origin": null,
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2002-12-17",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "MSUPLEY",
+                "dateCreated": "2002-12-17",
+                "modifiedBy": "SBR",
+                "dateModified": "2003-10-29"
+            }
+        },
+        "ValueDomain": {
+            "publicId": "3438541",
+            "version": "1",
+            "longName": "Metastasis Status",
+            "shortName": "3438541v1.0",
+            "definition": "Cancer that has spread from the organ in which it first appeared to another organ. For example, breast cancer cells may spread (metastasize) to the lungs and cause the growth of a new tumor. When this happens, the disease is called metastatic breast cancer._A condition or state at a particular time.",
+            "context": "NCIP",
+            "type": "Enumerated",
+            "dataType": "CHARACTER",
+            "minLength": null,
+            "maxLength": "30",
+            "minValue": null,
+            "maxValue": null,
+            "decimalPlace": null,
+            "origin": null,
+            "workflowStatus": "RELEASED",
+            "registrationStatus": "Application",
+            "latestVersionIndicator": "Yes",
+            "beginDate": "2012-04-18",
+            "endDate": null,
+            "changeDescription": "Created for TARGET per request by T.Davidsen and approved for release by D.Barkauskas. mc 4/24/12",
+            "administrativeNotes": null,
+            "unresolvedIssues": null,
+            "deletedIndicator": "No",
+            "createdBy": "COOPERM",
+            "dateCreated": "2012-04-18",
+            "modifiedBy": "COOPERM",
+            "dateModified": "2019-05-29",
+            "PermissibleValues": [
+                {
+                    "value": "Non-metastatic (unconfirmed)",
+                    "valueDescription": "Non Metastatic Unconfirmed",
+                    "origin": null,
+                    "beginDate": "2012-04-18",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "COOPERM",
+                    "dateCreated": "2012-04-18",
+                    "modifiedBy": "ONEDATA",
+                    "dateModified": "2012-04-18",
+                    "ValueMeaning": {
+                        "publicId": "3438542",
+                        "version": "1",
+                        "longName": "Non Metastatic Unconfirmed",
+                        "shortName": "3438542",
+                        "definition": "An operation in which a term denies or inverts the meaning of another term or construction.: A term referring to the clinical or pathologic observation of a tumor extension from its original site of growth to another anatomic site.: An operation in which a term denies or inverts the meaning of another term or construction.: Confirmed; having been established or verified.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2012-04-18",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": null,
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "COOPERM",
+                        "dateCreated": "2012-04-18",
+                        "modifiedBy": "SBR",
+                        "dateModified": "2018-01-19",
+                        "Concepts": [
+                            {
+                                "longName": "Confirmation",
+                                "conceptCode": "C25458",
+                                "definition": "Having been established or verified.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            },
+                            {
+                                "longName": "Negation",
+                                "conceptCode": "C25594",
+                                "definition": "An operation in which a term denies or inverts the meaning of another term or construction.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "No",
+                                "displayOrder": "1"
+                            },
+                            {
+                                "longName": "Metastatic",
+                                "conceptCode": "C14174",
+                                "definition": "A term referring to the clinical or pathologic observation of a tumor extension from its original site of growth to another anatomic site.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "No",
+                                "displayOrder": "2"
+                            },
+                            {
+                                "longName": "Negation",
+                                "conceptCode": "C25594",
+                                "definition": "An operation in which a term denies or inverts the meaning of another term or construction.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "No",
+                                "displayOrder": "3"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "value": "Non-metastatic (confirmed)",
+                    "valueDescription": "Non Metastatic Confirmed",
+                    "origin": null,
+                    "beginDate": "2012-04-18",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "COOPERM",
+                    "dateCreated": "2012-04-18",
+                    "modifiedBy": "ONEDATA",
+                    "dateModified": "2012-04-18",
+                    "ValueMeaning": {
+                        "publicId": "3438543",
+                        "version": "1",
+                        "longName": "Non Metastatic Confirmed",
+                        "shortName": "3438543",
+                        "definition": "An operation in which a term denies or inverts the meaning of another term or construction.: A term referring to the clinical or pathologic observation of a tumor extension from its original site of growth to another anatomic site.: Confirmed; having been established or verified.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2012-04-18",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": null,
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "COOPERM",
+                        "dateCreated": "2012-04-18",
+                        "modifiedBy": "SBR",
+                        "dateModified": "2018-01-19",
+                        "Concepts": [
+                            {
+                                "longName": "Confirmation",
+                                "conceptCode": "C25458",
+                                "definition": "Having been established or verified.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            },
+                            {
+                                "longName": "Metastatic",
+                                "conceptCode": "C14174",
+                                "definition": "A term referring to the clinical or pathologic observation of a tumor extension from its original site of growth to another anatomic site.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "No",
+                                "displayOrder": "1"
+                            },
+                            {
+                                "longName": "Negation",
+                                "conceptCode": "C25594",
+                                "definition": "An operation in which a term denies or inverts the meaning of another term or construction.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "No",
+                                "displayOrder": "2"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "value": "Metastatic",
+                    "valueDescription": "Metastatic",
+                    "origin": null,
+                    "beginDate": "2012-04-18",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "COOPERM",
+                    "dateCreated": "2012-04-18",
+                    "modifiedBy": "ONEDATA",
+                    "dateModified": "2012-04-18",
+                    "ValueMeaning": {
+                        "publicId": "3438544",
+                        "version": "1",
+                        "longName": "Metastatic",
+                        "shortName": "3438544",
+                        "definition": "A term referring to the clinical or pathologic observation of a tumor extension from its original site of growth to another anatomic site.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2012-04-18",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": null,
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "COOPERM",
+                        "dateCreated": "2012-04-18",
+                        "modifiedBy": "SBR",
+                        "dateModified": "2018-01-19",
+                        "Concepts": [
+                            {
+                                "longName": "Metastatic",
+                                "conceptCode": "C14174",
+                                "definition": "A term referring to the clinical or pathologic observation of a tumor extension from its original site of growth to another anatomic site.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "value": "Unknown",
+                    "valueDescription": "Unknown",
+                    "origin": null,
+                    "beginDate": "2019-05-29",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "COOPERM",
+                    "dateCreated": "2019-05-29",
+                    "modifiedBy": "ONEDATA",
+                    "dateModified": "2019-05-29",
+                    "ValueMeaning": {
+                        "publicId": "3104212",
+                        "version": "1",
+                        "longName": "Unknown",
+                        "shortName": "3104212v1.00",
+                        "definition": "Not known, observed, recorded; or reported as unknown by the data contributor.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2010-06-01",
+                        "endDate": null,
+                        "changeDescription": "Concept annotated for UPitt/TCGA.  Ylu, 01/30/2015.",
+                        "administrativeNotes": null,
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "REEVESD",
+                        "dateCreated": "2010-06-01",
+                        "modifiedBy": "FINCHAMB",
+                        "dateModified": "2024-01-19",
+                        "Concepts": [
+                            {
+                                "longName": "Unknown",
+                                "conceptCode": "C17998",
+                                "definition": "Not known, observed, recorded; or reported as unknown by the data contributor.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "ConceptualDomain": {
+                "publicId": "2008549",
+                "version": "1",
+                "longName": "Involvement and Extent of Disease",
+                "shortName": "INV_AND_EXT_OF_DZ",
+                "definition": "indication of the presence and extent of disease.",
+                "context": "CTEP",
+                "origin": null,
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2002-12-19",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "MSUPLEY",
+                "dateCreated": "2002-12-19",
+                "modifiedBy": "SBR",
+                "dateModified": "2003-10-29"
+            },
+            "RepresentationTerm": {
+                "publicId": "3438540",
+                "version": "1",
+                "longName": "Metastasis Status",
+                "shortName": "C19151:C25688",
+                "definition": "Cancer that has spread from the organ in which it first appeared to another organ. For example, breast cancer cells may spread (metastasize) to the lungs and cause the growth of a new tumor. When this happens, the disease is called metastatic breast cancer.:A condition or state at a particular time.",
+                "context": "NCIP",
+                "origin": null,
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2012-04-18",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "COOPERM",
+                "dateCreated": "2012-04-18",
+                "modifiedBy": "ONEDATA",
+                "dateModified": "2012-04-18",
+                "Concepts": [
+                    {
+                        "longName": "Status",
+                        "conceptCode": "C25688",
+                        "definition": "A condition or state at a particular time.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "Yes",
+                        "displayOrder": "0"
+                    },
+                    {
+                        "longName": "Metastasis",
+                        "conceptCode": "C19151",
+                        "definition": "The spread or migration of cancer cells from one part of the body (the organ in which it first appeared) to another. The secondary tumor contains cells that are like those in the original (primary) tumor.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "No",
+                        "displayOrder": "1"
+                    }
+                ]
+            }
+        },
+        "ClassificationSchemes": [
+            {
+                "publicId": "5650570",
+                "version": "1",
+                "longName": "TARGET",
+                "context": "OCG",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "5650575",
+                        "version": "1",
+                        "longName": "OS",
+                        "context": "OCG"
+                    }
+                ]
+            }
+        ],
+        "AlternateNames": [
+            {
+                "name": "OCG",
+                "type": "USED_BY",
+                "context": "OCG"
+            },
+            {
+                "name": "Metastasis_Status_at_Diagnosis",
+                "type": "HCMI Name",
+                "context": "OCG"
+            }
+        ],
+        "ReferenceDocuments": [
+            {
+                "documentName": "Disease at diagnosis",
+                "documentText": "Disease at diagnosis",
+                "documentType": "Preferred Question Text",
+                "url": null,
+                "context": "NCIP"
+            },
+            {
+                "documentName": "HCMI Question Text",
+                "documentText": "Metastasis status at diagnosis",
+                "documentType": "Alternate Question Text",
+                "url": null,
+                "context": "OCG"
+            }
+        ]
+    }
+}

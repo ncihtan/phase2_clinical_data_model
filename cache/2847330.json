@@ -1,1 +1,1201 @@
-{"status":"success","message":"Record found.","DataElement":{"publicId":"2847330","version":"1","longName":"Participant Vital Status Type","shortName":"PART_VITAL_STAT_TP","definition":"The response to a question that describes a participant's survival status.","context":"NCI Standards","origin":null,"workflowStatus":"RELEASED","registrationStatus":"Standard","latestVersionIndicator":"Yes","beginDate":"2009-03-09","endDate":null,"changeDescription":"3/1/22 jk Designated, added CDS alt name and CSI. 7/19/17 jk Transferred context; updated question text, reg status, CSIs  per Round 5 finalization task.  5/28/16 jk added to MCL context CSI.  12/11/14 jc added Exceptional Responder CSI.  Reused DEC from caTissue/caElmir and created new VD. Definition per Outcomes group consensus. Classified with Standard CRFs. 4/2009 mcooper","administrativeNotes":"2/13/25 added RCI AQT and CSI RCI Follow Up. sl;\r\n3/15/24 Added CTDC Model Clinical CSI. mr; \r\n12/31/23 Added CDS Imaging CSI. jk;  9/18/23 Removed CRDC|Treatment CSI. mr;  5/4/23:classified and added CTDC ALTname for ECOG/DD. LS 4/6/23 Added PCDC Demographics parent CSI. mr; 1/19/23 Updated alt def, added ref doc EXAMPLE per metadata template. mr 11/1/22 Removed CS/CSI for CRDC CDS per CDS submission metadata template. mr","unresolvedIssues":null,"deletedIndicator":"No","createdBy":"COOPERM","dateCreated":"2009-03-09","modifiedBy":"SLAUER","dateModified":"2025-02-13","DataElementConcept":{"publicId":"2553206","version":"1","longName":"Participant Vital Status","shortName":"2407061v1.0:2553150v1.0","definition":"Someone who takes part in an activity._The state or condition of being living or deceased; also includes the case where the vital status is unknown.","context":"NCI Standards","origin":null,"workflowStatus":"RELEASED","registrationStatus":"Standard","latestVersionIndicator":"Yes","beginDate":"2006-12-13","endDate":null,"changeDescription":"7/19/17 jk Transferred context, added CSI and reg status, released per Round 5 finalization task.","administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"UMLLOADER_CATISSUE","dateCreated":"2006-12-13","modifiedBy":"HARTLEYG","dateModified":"2018-06-06","ObjectClass":{"publicId":"2407061","version":"1","longName":"Participant","shortName":"C29867","definition":"Someone who takes part in an activity.","context":"NCIP","origin":"NCI Thesaurus","workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2005-09-21","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"MAESKEB","dateCreated":"2005-09-21","modifiedBy":"ONEDATA","dateModified":"2005-09-21","Concepts":[{"longName":"Participant","conceptCode":"C29867","definition":"Someone who takes part in an activity.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"Yes","displayOrder":"0"}]},"Property":{"publicId":"2553150","version":"1","longName":"Vital Status","shortName":"C25717","definition":"The state or condition of being living or deceased; also includes the case where the vital status is unknown.","context":"NCIP","origin":"NCI Thesaurus","workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2006-12-13","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"UMLLOADER_CATISSUE","dateCreated":"2006-12-13","modifiedBy":"SBREXT","dateModified":"2007-11-07","Concepts":[{"longName":"Vital Status","conceptCode":"C25717","definition":"The state or condition of being living or deceased; also includes the case where the vital status is unknown.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"Yes","displayOrder":"0"}]},"ConceptualDomain":{"publicId":"2222502","version":"1","longName":"UML DEFAULT CD","shortName":"UML DEFAULT CD","definition":"Default Conceptual Domain for UML Loader","context":"caCORE","origin":null,"workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2005-04-29","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"SBREXT","dateCreated":"2005-04-29","modifiedBy":"DWARZEL","dateModified":"2021-04-08"}},"ValueDomain":{"publicId":"2847327","version":"1","longName":"Vital Status Type","shortName":"VITAL_ST_TP","definition":"The subdivisions of responses that describe whether an individual is alive, dead or if their status is unknown or unspecified.","context":"NCI Standards","type":"Enumerated","dataType":"CHARACTER","minLength":null,"maxLength":"11","minValue":null,"maxValue":null,"decimalPlace":null,"origin":null,"workflowStatus":"RELEASED","registrationStatus":"Standard","latestVersionIndicator":"Yes","beginDate":"2009-03-09","endDate":null,"changeDescription":"12/29/20 jk per Brenda D, added \"Not reported\" PV for MCL reuse.  7/19/17 jk Transferred context, added CSI and reg status, released per Round 5 finalization task.","administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"COOPERM","dateCreated":"2009-03-09","modifiedBy":"KNABLEJ","dateModified":"2020-12-29","PermissibleValues":[{"value":"Unspecified","valueDescription":"Unspecified","origin":null,"beginDate":"2009-03-09","endDate":null,"deletedIndicator":"No","createdBy":"COOPERM","dateCreated":"2009-03-09","modifiedBy":"ONEDATA","dateModified":"2009-03-09","ValueMeaning":{"publicId":"2573360","version":"1","longName":"Unspecified","shortName":"2573360v1.00","definition":"Not stated explicitly or in detail.","context":"NCIP","origin":null,"workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2005-06-15","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"KLINGERK","dateCreated":"2005-03-06","modifiedBy":"MMADDINENI","dateModified":"2024-11-18","Concepts":[{"longName":"Unspecified","conceptCode":"C38046","definition":"Not stated explicitly or in detail.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"Yes","displayOrder":"0"}]}},{"value":"Unknown","valueDescription":"Unknown","origin":null,"beginDate":"2009-03-09","endDate":null,"deletedIndicator":"No","createdBy":"COOPERM","dateCreated":"2009-03-09","modifiedBy":"ONEDATA","dateModified":"2009-03-09","ValueMeaning":{"publicId":"2575365","version":"1","longName":"Unknown","shortName":"2575365","definition":"Not known, not observed, not recorded, or refused.","context":"NCIP","origin":null,"workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2005-06-15","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"SBR","dateCreated":"2002-02-13","modifiedBy":"MMADDINENI","dateModified":"2024-05-31","Concepts":[{"longName":"Unknown","conceptCode":"C17998","definition":"Not known, observed, recorded; or reported as unknown by the data contributor.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"Yes","displayOrder":"0"}]}},{"value":"Dead","valueDescription":"Death","origin":null,"beginDate":"2009-03-09","endDate":null,"deletedIndicator":"No","createdBy":"COOPERM","dateCreated":"2009-03-09","modifiedBy":"ONEDATA","dateModified":"2009-03-09","ValueMeaning":{"publicId":"2847328","version":"1","longName":"Death","shortName":"2847328","definition":"The absence of life or state of being dead.","context":"NCIP","origin":null,"workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2009-03-09","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"COOPERM","dateCreated":"2009-03-09","modifiedBy":"SBR","dateModified":"2018-01-19","Concepts":[{"longName":"Dead","conceptCode":"C28554","definition":"The cessation of life.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"Yes","displayOrder":"0"}]}},{"value":"Alive","valueDescription":"Life","origin":null,"beginDate":"2009-03-09","endDate":null,"deletedIndicator":"No","createdBy":"COOPERM","dateCreated":"2009-03-09","modifiedBy":"ONEDATA","dateModified":"2009-03-09","ValueMeaning":{"publicId":"2580948","version":"1","longName":"Alive","shortName":"2580948","definition":"Showing characteristics of life; displaying signs of life.","context":"NCIP","origin":null,"workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2006-09-23","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"ALAIS","dateCreated":"2006-09-23","modifiedBy":"ZHWENDY","dateModified":"2023-04-06","Concepts":[{"longName":"Alive","conceptCode":"C37987","definition":"Showing characteristics of life; displaying signs of life.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"Yes","displayOrder":"0"}]}},{"value":"Not reported","valueDescription":"Not Reported","origin":null,"beginDate":"2020-12-29","endDate":null,"deletedIndicator":"No","createdBy":"KNABLEJ","dateCreated":"2020-12-29","modifiedBy":"ONEDATA","dateModified":"2020-12-29","ValueMeaning":{"publicId":"2572231","version":"1","longName":"Not Reported","shortName":"2572231","definition":"Not provided or available.","context":"NCIP","origin":null,"workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2004-11-16","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"MAESKEB","dateCreated":"2004-11-16","modifiedBy":"CLOHNES","dateModified":"2023-11-09","Concepts":[{"longName":"Not Reported","conceptCode":"C43234","definition":"Not provided or available.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"Yes","displayOrder":"0"}]}}],"ConceptualDomain":{"publicId":"2008551","version":"1","longName":"Assessments","shortName":"ASSESS","definition":"evaluations of the patient and the patient's disease.","context":"CTEP","origin":null,"workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2002-12-19","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"MSUPLEY","dateCreated":"2002-12-19","modifiedBy":"SBR","dateModified":"2003-10-29"},"RepresentationTerm":{"publicId":"2847326","version":"1","longName":"Vital Status Type","shortName":"C25717:C25284","definition":"Vital Status; whether a person is alive or dead (or unknown).:Type; a subdivision of a particular kind of thing.","context":"NCIP","origin":null,"workflowStatus":"RELEASED","registrationStatus":"Application","latestVersionIndicator":"Yes","beginDate":"2009-03-09","endDate":null,"changeDescription":null,"administrativeNotes":null,"unresolvedIssues":null,"deletedIndicator":"No","createdBy":"COOPERM","dateCreated":"2009-03-09","modifiedBy":"ONEDATA","dateModified":"2009-03-09","Concepts":[{"longName":"Type","conceptCode":"C25284","definition":"Something distinguishable as an identifiable class based on common qualities.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"Yes","displayOrder":"0"},{"longName":"Vital Status","conceptCode":"C25717","definition":"The state or condition of being living or deceased; also includes the case where the vital status is unknown.","evsSource":"NCI_CONCEPT_CODE","primaryIndicator":"No","displayOrder":"1"}]}},"ClassificationSchemes":[{"publicId":"10466051","version":"1","longName":"All CRDC Standard CDEs","context":"CRDC","ClassificationSchemeItems":[{"publicId":"14193212","version":"1","longName":"Clinical Observation","context":"CRDC"}]},{"publicId":"11518160","version":"1","longName":"CTDC (Clinical and Translational Data Commons)","context":"CRDC","ClassificationSchemeItems":[{"publicId":"13484613","version":"1","longName":"MATCHBox","context":"CRDC"},{"publicId":"14413707","version":"1","longName":"CTDC Model","context":"CRDC"},{"publicId":"14413712","version":"1","longName":"Clinical","context":"CRDC"}]},{"publicId":"12173174","version":"1","longName":"PCDC (Pediatric Cancer Data Commons Aggregated Dictionary)","context":"Pediatric Cancer","ClassificationSchemeItems":[{"publicId":"12173189","version":"1","longName":"Survival Characteristics","context":"Pediatric Cancer"},{"publicId":"12173176","version":"1","longName":"Demographics","context":"Pediatric Cancer"}]},{"publicId":"13574489","version":"1","longName":"CCDI (Childhood Cancer Data Initiative)","context":"Pediatric Cancer","ClassificationSchemeItems":[{"publicId":"13594093","version":"1","longName":"Sample","context":"Pediatric Cancer"},{"publicId":"13596241","version":"1","longName":"Diagnosis","context":"Pediatric Cancer"},{"publicId":"13594092","version":"1","longName":"Participant","context":"Pediatric Cancer"},{"publicId":"13596245","version":"1","longName":"Follow Up","context":"Pediatric Cancer"}]},{"publicId":"13954629","version":"1","longName":"NCCR (National Childhood Cancer Registry)","context":"Pediatric Cancer","ClassificationSchemeItems":[{"publicId":"14737351","version":"1","longName":"Diagnosis","context":"Pediatric Cancer"}]},{"publicId":"13954630","version":"1","longName":"All Pediatric Core CDEs","context":"Pediatric Cancer","ClassificationSchemeItems":[{"publicId":"14599256","version":"1","longName":"Clinical Observation","context":"Pediatric Cancer"}]},{"publicId":"14733231","version":"1","longName":"CCDI Federation CDEs","context":"Pediatric Cancer","ClassificationSchemeItems":[{"publicId":"14781946","version":"1","longName":"Demographics","context":"Pediatric Cancer"}]},{"publicId":"15711259","version":"1","longName":"RCI (Rare Cancer Initiative)","context":"Pediatric Cancer","ClassificationSchemeItems":[{"publicId":"15714303","version":"1","longName":"Follow Up","context":"Pediatric Cancer"}]},{"publicId":"2008589","version":"2","longName":"Type of Category","context":"CTEP","ClassificationSchemeItems":[{"publicId":"2811963","version":"1","longName":"Treatment","context":"CTEP"}]},{"publicId":"2183535","version":"1","longName":"Clinical Trial Mgmt Systems","context":"NCIP","ClassificationSchemeItems":[{"publicId":"2812625","version":"1","longName":"CTMS C3D Adopter Sites","context":"NCIP"},{"publicId":"2992453","version":"1","longName":"Candidate Reuse","context":"NCIP"}]},{"publicId":"2192345","version":"1","longName":"Data Standards","context":"NCIP","ClassificationSchemeItems":[{"publicId":"2859963","version":"1","longName":"Standard CRFs","context":"NCIP"},{"publicId":"3943912","version":"1","longName":"All Mandatory CRF CDEs","context":"NCIP"},{"publicId":"3828994","version":"1","longName":"Survival CRF","context":"NCIP"}]},{"publicId":"3234177","version":"1","longName":"Patient Outcomes Data System (PODS)","context":"NCIP","ClassificationSchemeItems":[{"publicId":"3234178","version":"1","longName":"PODS Elements","context":"NCIP"}]},{"publicId":"3314482","version":"1","longName":"Type of Category","context":"ECOG-ACRIN","ClassificationSchemeItems":[{"publicId":"3314493","version":"1","longName":"Follow-up","context":"ECOG-ACRIN"}]},{"publicId":"3896529","version":"1","longName":"Consortia 2012 Studies","context":"DCP","ClassificationSchemeItems":[{"publicId":"4528052","version":"1","longName":"MAY2013-02-01","context":"DCP"},{"publicId":"4528051","version":"1","longName":"MAY2013-02-02","context":"DCP"},{"publicId":"5592146","version":"1","longName":"MAY2015-05-01","context":"DCP"},{"publicId":"5612586","version":"1","longName":"MAY2016-07-01","context":"DCP"}]},{"publicId":"4057943","version":"1","longName":"Disease Site","context":"NRG","ClassificationSchemeItems":[{"publicId":"4104890","version":"1","longName":"GOG-0229L","context":"NRG"},{"publicId":"4104994","version":"1","longName":"RTOG-1201","context":"NRG"},{"publicId":"4104933","version":"1","longName":"RTOG-1308","context":"NRG"},{"publicId":"4104935","version":"1","longName":"RTOG-1221","context":"NRG"},{"publicId":"4104937","version":"1","longName":"RTOG-1306","context":"NRG"},{"publicId":"4104934","version":"1","longName":"RTOG-1216","context":"NRG"}]},{"publicId":"4631580","version":"1","longName":"Exceptional Responder CDEs","context":"CTEP","ClassificationSchemeItems":[{"publicId":"4631582","version":"1","longName":"Exceptional Responder CDEs","context":"CTEP"}]},{"publicId":"5271073","version":"1","longName":"MCL Core","context":"MCL","ClassificationSchemeItems":[{"publicId":"7537143","version":"1","longName":"Clinical Core","context":"MCL"}]},{"publicId":"5506111","version":"1","longName":"Lung","context":"MCL","ClassificationSchemeItems":[{"publicId":"5506169","version":"1","longName":"Lung-Vanderbilt","context":"MCL"},{"publicId":"5506172","version":"1","longName":"Clinical","context":"MCL"}]},{"publicId":"5506115","version":"1","longName":"Imaging","context":"MCL","ClassificationSchemeItems":[{"publicId":"5983666","version":"1","longName":"Vanderbilt Image Archive","context":"MCL"}]},{"publicId":"5635298","version":"1","longName":"All Mandatory CRF CDEs","context":"NCI Standards","ClassificationSchemeItems":[{"publicId":"5635299","version":"1","longName":"Mandatory CRF CDEs","context":"NCI Standards"}]},{"publicId":"5635300","version":"1","longName":"Case Report Form (CRF) Modules","context":"NCI Standards","ClassificationSchemeItems":[{"publicId":"5874149","version":"1","longName":"Survival and Follow-Up","context":"NCI Standards"}]},{"publicId":"5650570","version":"1","longName":"TARGET","context":"OCG","ClassificationSchemeItems":[{"publicId":"5650571","version":"1","longName":"ALL","context":"OCG"},{"publicId":"5650572","version":"1","longName":"AML","context":"OCG"},{"publicId":"5650573","version":"1","longName":"Kidney Tumors","context":"OCG"},{"publicId":"5650574","version":"1","longName":"NBL","context":"OCG"},{"publicId":"5650575","version":"1","longName":"OS","context":"OCG"}]},{"publicId":"5655939","version":"1","longName":"BLGSP (Burkitt Lymphoma Genome Sequencing Project)","context":"OCG","ClassificationSchemeItems":[{"publicId":"10000268","version":"1","longName":"Initial Treatment and Followup Form","context":"OCG"}]},{"publicId":"6305258","version":"1","longName":"TCIA (The Cancer Imaging Archive)","context":"CIP","ClassificationSchemeItems":[{"publicId":"14928803","version":"1","longName":"Yale Glioma","context":"CIP"}]},{"publicId":"8064110","version":"1","longName":"CDS (Cancer Data Service)","context":"CRDC","ClassificationSchemeItems":[{"publicId":"14470388","version":"1","longName":"Imaging","context":"CRDC"},{"publicId":"12177497","version":"1","longName":"Diagnosis","context":"CRDC"}]}],"AlternateNames":[{"name":"AECC","type":"USED_BY","context":"AECC"},{"name":"SWOG","type":"USED_BY","context":"SWOG"},{"name":"STATUS","type":"OID, SWOG","context":"SWOG"},{"name":"PART_VITAL_STAT_TP","type":"USED_BY","context":"AECC"},{"name":"ECOG-ACRIN","type":"USED_BY","context":"ECOG-ACRIN"},{"name":"CTEP","type":"USED_BY","context":"CTEP"},{"name":"PART_VITAL_STAT_TP","type":"USED_BY","context":"NRG"},{"name":"PART_VITAL_STAT_TP","type":"USED_BY","context":"CTEP"},{"name":"PART_VITAL_STAT_TP","type":"USED_BY","context":"Alliance"},{"name":"PART_VITAL_STAT_TP","type":"USED_BY","context":"SWOG"},{"name":"DCP","type":"USED_BY","context":"DCP"},{"name":"PART_VITAL_STAT_TP","type":"USED_BY","context":"OHSU Knight"},{"name":"MCL","type":"USED_BY","context":"MCL"},{"name":"OCG","type":"USED_BY","context":"OCG"},{"name":"COG","type":"USED_BY","context":"COG"},{"name":"PART_VITAL_STAT_TP","type":"USED_BY","context":"CCTG"},{"name":"vital_status","type":"MCL Alt Name","context":"MCL"},{"name":"CRDC","type":"USED_BY","context":"CRDC"},{"name":"vital_status","type":"CDS Alt Name","context":"CRDC"},{"name":"LKSS","type":"PCDC Alt Name","context":"Pediatric Cancer"},{"name":"survival_status","type":"CTDC Alt Name","context":"CRDC"},{"name":"Vital Status","type":"CRDC Alt Name","context":"CRDC"},{"name":"vital_status","type":"CTDC Alt Name","context":"CRDC"},{"name":"vital_status","type":"CCDI Alt Name","context":"Pediatric Cancer"},{"name":"Vital Status","type":"Ped Cancer Alt Name","context":"Pediatric Cancer"},{"name":"Vital Status","type":"NCCR Alt Name","context":"Pediatric Cancer"},{"name":"Vital Status","type":"TCIA Alt Name","context":"CIP"},{"name":"Vital status","type":"CCDI-Fed Alt Name","context":"Pediatric Cancer"},{"name":"survival_status","type":"CTDC Table","context":"CRDC"},{"name":"survival","type":"CCDI Table","context":"Pediatric Cancer"},{"name":"last_known_survival_status","type":"CCDI Alt Name","context":"Pediatric Cancer"}],"ReferenceDocuments":[{"documentName":"Participant vital status","documentText":"Participant vital status","documentType":"Preferred Question Text","url":null,"context":"NCI Standards"},{"documentName":"TARGET CRF Text","documentText":"Vital Status","documentType":"Alternate Question Text","url":null,"context":"NCIP"},{"documentName":"TARGET NBL Text","documentText":"Outcome of event after primary diagnosis","documentType":"Alternate Question Text","url":null,"context":"NCIP"},{"documentName":"ECOG CRF # 1","documentText":"Patient's Vital Status","documentType":"Alternate Question Text","url":null,"context":"ECOG-ACRIN"},{"documentName":"CRF Text 2","documentText":"Patient's current status","documentType":"Alternate Question Text","url":null,"context":"CTEP"},{"documentName":"ACRIN 6702","documentText":"Participant vital status","documentType":"Alternate Question Text","url":null,"context":"ECOG-ACRIN"},{"documentName":"COG CRF Text 2","documentText":"Vital status:","documentType":"Alternate Question Text","url":null,"context":"COG"},{"documentName":"COG CRF Text 1","documentText":"Is patient living?","documentType":"Alternate Question Text","url":null,"context":"COG"},{"documentName":"Prior Question Text","documentText":"Participant Vital Status","documentType":"Alternate Question Text","url":null,"context":"NCI Standards"},{"documentName":"MCL-Lung-1","documentText":"Living status: Alive/ Deceased","documentType":"Alternate Question Text","url":null,"context":"MCL"},{"documentName":"MCL-Template Name","documentText":"clinicalcore_v0-1_template-1","documentType":"Data Collection Template","url":"https://mcl.nci.nih.gov/resources/standards/mcl-cdes","context":"MCL"},{"documentName":"CDS","documentText":"Alive, Deceased, Unknown","documentType":"EXAMPLE","url":null,"context":"CRDC"},{"documentName":"PCDC Description","documentText":"The last known survival status of the subject.","documentType":"DESCRIPTION","url":null,"context":"Pediatric Cancer"},{"documentName":"Ped Core Tier","documentText":"Mandatory","documentType":"Tier","url":null,"context":"Pediatric Cancer"},{"documentName":"RCI Question","documentText":"What is the patient’s status? Alive, dead","documentType":"Alternate Question Text","url":null,"context":"Pediatric Cancer"}]}}
+{
+    "status": "success",
+    "message": "Record found.",
+    "DataElement": {
+        "publicId": "2847330",
+        "version": "1",
+        "longName": "Participant Vital Status Type",
+        "shortName": "PART_VITAL_STAT_TP",
+        "definition": "The response to a question that describes a participant's survival status.",
+        "context": "NCI Standards",
+        "origin": null,
+        "workflowStatus": "RELEASED",
+        "registrationStatus": "Standard",
+        "latestVersionIndicator": "Yes",
+        "beginDate": "2009-03-09",
+        "endDate": null,
+        "changeDescription": "3/1/22 jk Designated, added CDS alt name and CSI. 7/19/17 jk Transferred context; updated question text, reg status, CSIs  per Round 5 finalization task.  5/28/16 jk added to MCL context CSI.  12/11/14 jc added Exceptional Responder CSI.  Reused DEC from caTissue/caElmir and created new VD. Definition per Outcomes group consensus. Classified with Standard CRFs. 4/2009 mcooper",
+        "administrativeNotes": "2/13/25 added RCI AQT and CSI RCI Follow Up. sl;\r\n3/15/24 Added CTDC Model Clinical CSI. mr; \r\n12/31/23 Added CDS Imaging CSI. jk;  9/18/23 Removed CRDC|Treatment CSI. mr;  5/4/23:classified and added CTDC ALTname for ECOG/DD. LS 4/6/23 Added PCDC Demographics parent CSI. mr; 1/19/23 Updated alt def, added ref doc EXAMPLE per metadata template. mr 11/1/22 Removed CS/CSI for CRDC CDS per CDS submission metadata template. mr",
+        "unresolvedIssues": null,
+        "deletedIndicator": "No",
+        "createdBy": "COOPERM",
+        "dateCreated": "2009-03-09",
+        "modifiedBy": "SLAUER",
+        "dateModified": "2025-02-13",
+        "DataElementConcept": {
+            "publicId": "2553206",
+            "version": "1",
+            "longName": "Participant Vital Status",
+            "shortName": "2407061v1.0:2553150v1.0",
+            "definition": "Someone who takes part in an activity._The state or condition of being living or deceased; also includes the case where the vital status is unknown.",
+            "context": "NCI Standards",
+            "origin": null,
+            "workflowStatus": "RELEASED",
+            "registrationStatus": "Standard",
+            "latestVersionIndicator": "Yes",
+            "beginDate": "2006-12-13",
+            "endDate": null,
+            "changeDescription": "7/19/17 jk Transferred context, added CSI and reg status, released per Round 5 finalization task.",
+            "administrativeNotes": null,
+            "unresolvedIssues": null,
+            "deletedIndicator": "No",
+            "createdBy": "UMLLOADER_CATISSUE",
+            "dateCreated": "2006-12-13",
+            "modifiedBy": "HARTLEYG",
+            "dateModified": "2018-06-06",
+            "ObjectClass": {
+                "publicId": "2407061",
+                "version": "1",
+                "longName": "Participant",
+                "shortName": "C29867",
+                "definition": "Someone who takes part in an activity.",
+                "context": "NCIP",
+                "origin": "NCI Thesaurus",
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2005-09-21",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "MAESKEB",
+                "dateCreated": "2005-09-21",
+                "modifiedBy": "ONEDATA",
+                "dateModified": "2005-09-21",
+                "Concepts": [
+                    {
+                        "longName": "Participant",
+                        "conceptCode": "C29867",
+                        "definition": "Someone who takes part in an activity.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "Yes",
+                        "displayOrder": "0"
+                    }
+                ]
+            },
+            "Property": {
+                "publicId": "2553150",
+                "version": "1",
+                "longName": "Vital Status",
+                "shortName": "C25717",
+                "definition": "The state or condition of being living or deceased; also includes the case where the vital status is unknown.",
+                "context": "NCIP",
+                "origin": "NCI Thesaurus",
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2006-12-13",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "UMLLOADER_CATISSUE",
+                "dateCreated": "2006-12-13",
+                "modifiedBy": "SBREXT",
+                "dateModified": "2007-11-07",
+                "Concepts": [
+                    {
+                        "longName": "Vital Status",
+                        "conceptCode": "C25717",
+                        "definition": "The state or condition of being living or deceased; also includes the case where the vital status is unknown.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "Yes",
+                        "displayOrder": "0"
+                    }
+                ]
+            },
+            "ConceptualDomain": {
+                "publicId": "2222502",
+                "version": "1",
+                "longName": "UML DEFAULT CD",
+                "shortName": "UML DEFAULT CD",
+                "definition": "Default Conceptual Domain for UML Loader",
+                "context": "caCORE",
+                "origin": null,
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2005-04-29",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "SBREXT",
+                "dateCreated": "2005-04-29",
+                "modifiedBy": "DWARZEL",
+                "dateModified": "2021-04-08"
+            }
+        },
+        "ValueDomain": {
+            "publicId": "2847327",
+            "version": "1",
+            "longName": "Vital Status Type",
+            "shortName": "VITAL_ST_TP",
+            "definition": "The subdivisions of responses that describe whether an individual is alive, dead or if their status is unknown or unspecified.",
+            "context": "NCI Standards",
+            "type": "Enumerated",
+            "dataType": "CHARACTER",
+            "minLength": null,
+            "maxLength": "11",
+            "minValue": null,
+            "maxValue": null,
+            "decimalPlace": null,
+            "origin": null,
+            "workflowStatus": "RELEASED",
+            "registrationStatus": "Standard",
+            "latestVersionIndicator": "Yes",
+            "beginDate": "2009-03-09",
+            "endDate": null,
+            "changeDescription": "12/29/20 jk per Brenda D, added \"Not reported\" PV for MCL reuse.  7/19/17 jk Transferred context, added CSI and reg status, released per Round 5 finalization task.",
+            "administrativeNotes": null,
+            "unresolvedIssues": null,
+            "deletedIndicator": "No",
+            "createdBy": "COOPERM",
+            "dateCreated": "2009-03-09",
+            "modifiedBy": "KNABLEJ",
+            "dateModified": "2020-12-29",
+            "PermissibleValues": [
+                {
+                    "value": "Unspecified",
+                    "valueDescription": "Unspecified",
+                    "origin": null,
+                    "beginDate": "2009-03-09",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "COOPERM",
+                    "dateCreated": "2009-03-09",
+                    "modifiedBy": "ONEDATA",
+                    "dateModified": "2009-03-09",
+                    "ValueMeaning": {
+                        "publicId": "2573360",
+                        "version": "1",
+                        "longName": "Unspecified",
+                        "shortName": "2573360v1.00",
+                        "definition": "Not stated explicitly or in detail.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2005-06-15",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": null,
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "KLINGERK",
+                        "dateCreated": "2005-03-06",
+                        "modifiedBy": "MMADDINENI",
+                        "dateModified": "2024-11-18",
+                        "Concepts": [
+                            {
+                                "longName": "Unspecified",
+                                "conceptCode": "C38046",
+                                "definition": "Not stated explicitly or in detail.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "value": "Unknown",
+                    "valueDescription": "Unknown",
+                    "origin": null,
+                    "beginDate": "2009-03-09",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "COOPERM",
+                    "dateCreated": "2009-03-09",
+                    "modifiedBy": "ONEDATA",
+                    "dateModified": "2009-03-09",
+                    "ValueMeaning": {
+                        "publicId": "2575365",
+                        "version": "1",
+                        "longName": "Unknown",
+                        "shortName": "2575365",
+                        "definition": "Not known, not observed, not recorded, or refused.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2005-06-15",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": null,
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "SBR",
+                        "dateCreated": "2002-02-13",
+                        "modifiedBy": "MMADDINENI",
+                        "dateModified": "2024-05-31",
+                        "Concepts": [
+                            {
+                                "longName": "Unknown",
+                                "conceptCode": "C17998",
+                                "definition": "Not known, observed, recorded; or reported as unknown by the data contributor.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "value": "Dead",
+                    "valueDescription": "Death",
+                    "origin": null,
+                    "beginDate": "2009-03-09",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "COOPERM",
+                    "dateCreated": "2009-03-09",
+                    "modifiedBy": "ONEDATA",
+                    "dateModified": "2009-03-09",
+                    "ValueMeaning": {
+                        "publicId": "2847328",
+                        "version": "1",
+                        "longName": "Death",
+                        "shortName": "2847328",
+                        "definition": "The absence of life or state of being dead.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2009-03-09",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": null,
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "COOPERM",
+                        "dateCreated": "2009-03-09",
+                        "modifiedBy": "SBR",
+                        "dateModified": "2018-01-19",
+                        "Concepts": [
+                            {
+                                "longName": "Dead",
+                                "conceptCode": "C28554",
+                                "definition": "The cessation of life.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "value": "Alive",
+                    "valueDescription": "Life",
+                    "origin": null,
+                    "beginDate": "2009-03-09",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "COOPERM",
+                    "dateCreated": "2009-03-09",
+                    "modifiedBy": "ONEDATA",
+                    "dateModified": "2009-03-09",
+                    "ValueMeaning": {
+                        "publicId": "2580948",
+                        "version": "1",
+                        "longName": "Alive",
+                        "shortName": "2580948",
+                        "definition": "Showing characteristics of life; displaying signs of life.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2006-09-23",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": null,
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "ALAIS",
+                        "dateCreated": "2006-09-23",
+                        "modifiedBy": "ZHWENDY",
+                        "dateModified": "2023-04-06",
+                        "Concepts": [
+                            {
+                                "longName": "Alive",
+                                "conceptCode": "C37987",
+                                "definition": "Showing characteristics of life; displaying signs of life.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "value": "Not reported",
+                    "valueDescription": "Not Reported",
+                    "origin": null,
+                    "beginDate": "2020-12-29",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "KNABLEJ",
+                    "dateCreated": "2020-12-29",
+                    "modifiedBy": "ONEDATA",
+                    "dateModified": "2020-12-29",
+                    "ValueMeaning": {
+                        "publicId": "2572231",
+                        "version": "1",
+                        "longName": "Not Reported",
+                        "shortName": "2572231",
+                        "definition": "Not provided or available.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2004-11-16",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": null,
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "MAESKEB",
+                        "dateCreated": "2004-11-16",
+                        "modifiedBy": "CLOHNES",
+                        "dateModified": "2023-11-09",
+                        "Concepts": [
+                            {
+                                "longName": "Not Reported",
+                                "conceptCode": "C43234",
+                                "definition": "Not provided or available.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "ConceptualDomain": {
+                "publicId": "2008551",
+                "version": "1",
+                "longName": "Assessments",
+                "shortName": "ASSESS",
+                "definition": "evaluations of the patient and the patient's disease.",
+                "context": "CTEP",
+                "origin": null,
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2002-12-19",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "MSUPLEY",
+                "dateCreated": "2002-12-19",
+                "modifiedBy": "SBR",
+                "dateModified": "2003-10-29"
+            },
+            "RepresentationTerm": {
+                "publicId": "2847326",
+                "version": "1",
+                "longName": "Vital Status Type",
+                "shortName": "C25717:C25284",
+                "definition": "Vital Status; whether a person is alive or dead (or unknown).:Type; a subdivision of a particular kind of thing.",
+                "context": "NCIP",
+                "origin": null,
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2009-03-09",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "COOPERM",
+                "dateCreated": "2009-03-09",
+                "modifiedBy": "ONEDATA",
+                "dateModified": "2009-03-09",
+                "Concepts": [
+                    {
+                        "longName": "Type",
+                        "conceptCode": "C25284",
+                        "definition": "Something distinguishable as an identifiable class based on common qualities.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "Yes",
+                        "displayOrder": "0"
+                    },
+                    {
+                        "longName": "Vital Status",
+                        "conceptCode": "C25717",
+                        "definition": "The state or condition of being living or deceased; also includes the case where the vital status is unknown.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "No",
+                        "displayOrder": "1"
+                    }
+                ]
+            }
+        },
+        "ClassificationSchemes": [
+            {
+                "publicId": "10466051",
+                "version": "1",
+                "longName": "All CRDC Standard CDEs",
+                "context": "CRDC",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "14193212",
+                        "version": "1",
+                        "longName": "Clinical Observation",
+                        "context": "CRDC"
+                    }
+                ]
+            },
+            {
+                "publicId": "11518160",
+                "version": "1",
+                "longName": "CTDC (Clinical and Translational Data Commons)",
+                "context": "CRDC",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "13484613",
+                        "version": "1",
+                        "longName": "MATCHBox",
+                        "context": "CRDC"
+                    },
+                    {
+                        "publicId": "14413707",
+                        "version": "1",
+                        "longName": "CTDC Model",
+                        "context": "CRDC"
+                    },
+                    {
+                        "publicId": "14413712",
+                        "version": "1",
+                        "longName": "Clinical",
+                        "context": "CRDC"
+                    }
+                ]
+            },
+            {
+                "publicId": "12173174",
+                "version": "1",
+                "longName": "PCDC (Pediatric Cancer Data Commons Aggregated Dictionary)",
+                "context": "Pediatric Cancer",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "12173189",
+                        "version": "1",
+                        "longName": "Survival Characteristics",
+                        "context": "Pediatric Cancer"
+                    },
+                    {
+                        "publicId": "12173176",
+                        "version": "1",
+                        "longName": "Demographics",
+                        "context": "Pediatric Cancer"
+                    }
+                ]
+            },
+            {
+                "publicId": "13574489",
+                "version": "1",
+                "longName": "CCDI (Childhood Cancer Data Initiative)",
+                "context": "Pediatric Cancer",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "13594093",
+                        "version": "1",
+                        "longName": "Sample",
+                        "context": "Pediatric Cancer"
+                    },
+                    {
+                        "publicId": "13596241",
+                        "version": "1",
+                        "longName": "Diagnosis",
+                        "context": "Pediatric Cancer"
+                    },
+                    {
+                        "publicId": "13594092",
+                        "version": "1",
+                        "longName": "Participant",
+                        "context": "Pediatric Cancer"
+                    },
+                    {
+                        "publicId": "13596245",
+                        "version": "1",
+                        "longName": "Follow Up",
+                        "context": "Pediatric Cancer"
+                    }
+                ]
+            },
+            {
+                "publicId": "13954629",
+                "version": "1",
+                "longName": "NCCR (National Childhood Cancer Registry)",
+                "context": "Pediatric Cancer",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "14737351",
+                        "version": "1",
+                        "longName": "Diagnosis",
+                        "context": "Pediatric Cancer"
+                    }
+                ]
+            },
+            {
+                "publicId": "13954630",
+                "version": "1",
+                "longName": "All Pediatric Core CDEs",
+                "context": "Pediatric Cancer",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "14599256",
+                        "version": "1",
+                        "longName": "Clinical Observation",
+                        "context": "Pediatric Cancer"
+                    }
+                ]
+            },
+            {
+                "publicId": "14733231",
+                "version": "1",
+                "longName": "CCDI Federation CDEs",
+                "context": "Pediatric Cancer",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "14781946",
+                        "version": "1",
+                        "longName": "Demographics",
+                        "context": "Pediatric Cancer"
+                    }
+                ]
+            },
+            {
+                "publicId": "15711259",
+                "version": "1",
+                "longName": "RCI (Rare Cancer Initiative)",
+                "context": "Pediatric Cancer",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "15714303",
+                        "version": "1",
+                        "longName": "Follow Up",
+                        "context": "Pediatric Cancer"
+                    }
+                ]
+            },
+            {
+                "publicId": "2008589",
+                "version": "2",
+                "longName": "Type of Category",
+                "context": "CTEP",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "2811963",
+                        "version": "1",
+                        "longName": "Treatment",
+                        "context": "CTEP"
+                    }
+                ]
+            },
+            {
+                "publicId": "2183535",
+                "version": "1",
+                "longName": "Clinical Trial Mgmt Systems",
+                "context": "NCIP",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "2812625",
+                        "version": "1",
+                        "longName": "CTMS C3D Adopter Sites",
+                        "context": "NCIP"
+                    },
+                    {
+                        "publicId": "2992453",
+                        "version": "1",
+                        "longName": "Candidate Reuse",
+                        "context": "NCIP"
+                    }
+                ]
+            },
+            {
+                "publicId": "2192345",
+                "version": "1",
+                "longName": "Data Standards",
+                "context": "NCIP",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "2859963",
+                        "version": "1",
+                        "longName": "Standard CRFs",
+                        "context": "NCIP"
+                    },
+                    {
+                        "publicId": "3943912",
+                        "version": "1",
+                        "longName": "All Mandatory CRF CDEs",
+                        "context": "NCIP"
+                    },
+                    {
+                        "publicId": "3828994",
+                        "version": "1",
+                        "longName": "Survival CRF",
+                        "context": "NCIP"
+                    }
+                ]
+            },
+            {
+                "publicId": "3234177",
+                "version": "1",
+                "longName": "Patient Outcomes Data System (PODS)",
+                "context": "NCIP",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "3234178",
+                        "version": "1",
+                        "longName": "PODS Elements",
+                        "context": "NCIP"
+                    }
+                ]
+            },
+            {
+                "publicId": "3314482",
+                "version": "1",
+                "longName": "Type of Category",
+                "context": "ECOG-ACRIN",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "3314493",
+                        "version": "1",
+                        "longName": "Follow-up",
+                        "context": "ECOG-ACRIN"
+                    }
+                ]
+            },
+            {
+                "publicId": "3896529",
+                "version": "1",
+                "longName": "Consortia 2012 Studies",
+                "context": "DCP",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "4528052",
+                        "version": "1",
+                        "longName": "MAY2013-02-01",
+                        "context": "DCP"
+                    },
+                    {
+                        "publicId": "4528051",
+                        "version": "1",
+                        "longName": "MAY2013-02-02",
+                        "context": "DCP"
+                    },
+                    {
+                        "publicId": "5592146",
+                        "version": "1",
+                        "longName": "MAY2015-05-01",
+                        "context": "DCP"
+                    },
+                    {
+                        "publicId": "5612586",
+                        "version": "1",
+                        "longName": "MAY2016-07-01",
+                        "context": "DCP"
+                    }
+                ]
+            },
+            {
+                "publicId": "4057943",
+                "version": "1",
+                "longName": "Disease Site",
+                "context": "NRG",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "4104890",
+                        "version": "1",
+                        "longName": "GOG-0229L",
+                        "context": "NRG"
+                    },
+                    {
+                        "publicId": "4104994",
+                        "version": "1",
+                        "longName": "RTOG-1201",
+                        "context": "NRG"
+                    },
+                    {
+                        "publicId": "4104933",
+                        "version": "1",
+                        "longName": "RTOG-1308",
+                        "context": "NRG"
+                    },
+                    {
+                        "publicId": "4104935",
+                        "version": "1",
+                        "longName": "RTOG-1221",
+                        "context": "NRG"
+                    },
+                    {
+                        "publicId": "4104937",
+                        "version": "1",
+                        "longName": "RTOG-1306",
+                        "context": "NRG"
+                    },
+                    {
+                        "publicId": "4104934",
+                        "version": "1",
+                        "longName": "RTOG-1216",
+                        "context": "NRG"
+                    }
+                ]
+            },
+            {
+                "publicId": "4631580",
+                "version": "1",
+                "longName": "Exceptional Responder CDEs",
+                "context": "CTEP",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "4631582",
+                        "version": "1",
+                        "longName": "Exceptional Responder CDEs",
+                        "context": "CTEP"
+                    }
+                ]
+            },
+            {
+                "publicId": "5271073",
+                "version": "1",
+                "longName": "MCL Core",
+                "context": "MCL",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "7537143",
+                        "version": "1",
+                        "longName": "Clinical Core",
+                        "context": "MCL"
+                    }
+                ]
+            },
+            {
+                "publicId": "5506111",
+                "version": "1",
+                "longName": "Lung",
+                "context": "MCL",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "5506169",
+                        "version": "1",
+                        "longName": "Lung-Vanderbilt",
+                        "context": "MCL"
+                    },
+                    {
+                        "publicId": "5506172",
+                        "version": "1",
+                        "longName": "Clinical",
+                        "context": "MCL"
+                    }
+                ]
+            },
+            {
+                "publicId": "5506115",
+                "version": "1",
+                "longName": "Imaging",
+                "context": "MCL",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "5983666",
+                        "version": "1",
+                        "longName": "Vanderbilt Image Archive",
+                        "context": "MCL"
+                    }
+                ]
+            },
+            {
+                "publicId": "5635298",
+                "version": "1",
+                "longName": "All Mandatory CRF CDEs",
+                "context": "NCI Standards",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "5635299",
+                        "version": "1",
+                        "longName": "Mandatory CRF CDEs",
+                        "context": "NCI Standards"
+                    }
+                ]
+            },
+            {
+                "publicId": "5635300",
+                "version": "1",
+                "longName": "Case Report Form (CRF) Modules",
+                "context": "NCI Standards",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "5874149",
+                        "version": "1",
+                        "longName": "Survival and Follow-Up",
+                        "context": "NCI Standards"
+                    }
+                ]
+            },
+            {
+                "publicId": "5650570",
+                "version": "1",
+                "longName": "TARGET",
+                "context": "OCG",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "5650571",
+                        "version": "1",
+                        "longName": "ALL",
+                        "context": "OCG"
+                    },
+                    {
+                        "publicId": "5650572",
+                        "version": "1",
+                        "longName": "AML",
+                        "context": "OCG"
+                    },
+                    {
+                        "publicId": "5650573",
+                        "version": "1",
+                        "longName": "Kidney Tumors",
+                        "context": "OCG"
+                    },
+                    {
+                        "publicId": "5650574",
+                        "version": "1",
+                        "longName": "NBL",
+                        "context": "OCG"
+                    },
+                    {
+                        "publicId": "5650575",
+                        "version": "1",
+                        "longName": "OS",
+                        "context": "OCG"
+                    }
+                ]
+            },
+            {
+                "publicId": "5655939",
+                "version": "1",
+                "longName": "BLGSP (Burkitt Lymphoma Genome Sequencing Project)",
+                "context": "OCG",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "10000268",
+                        "version": "1",
+                        "longName": "Initial Treatment and Followup Form",
+                        "context": "OCG"
+                    }
+                ]
+            },
+            {
+                "publicId": "6305258",
+                "version": "1",
+                "longName": "TCIA (The Cancer Imaging Archive)",
+                "context": "CIP",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "14928803",
+                        "version": "1",
+                        "longName": "Yale Glioma",
+                        "context": "CIP"
+                    }
+                ]
+            },
+            {
+                "publicId": "8064110",
+                "version": "1",
+                "longName": "CDS (Cancer Data Service)",
+                "context": "CRDC",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "14470388",
+                        "version": "1",
+                        "longName": "Imaging",
+                        "context": "CRDC"
+                    },
+                    {
+                        "publicId": "12177497",
+                        "version": "1",
+                        "longName": "Diagnosis",
+                        "context": "CRDC"
+                    }
+                ]
+            }
+        ],
+        "AlternateNames": [
+            {
+                "name": "AECC",
+                "type": "USED_BY",
+                "context": "AECC"
+            },
+            {
+                "name": "SWOG",
+                "type": "USED_BY",
+                "context": "SWOG"
+            },
+            {
+                "name": "STATUS",
+                "type": "OID, SWOG",
+                "context": "SWOG"
+            },
+            {
+                "name": "PART_VITAL_STAT_TP",
+                "type": "USED_BY",
+                "context": "AECC"
+            },
+            {
+                "name": "ECOG-ACRIN",
+                "type": "USED_BY",
+                "context": "ECOG-ACRIN"
+            },
+            {
+                "name": "CTEP",
+                "type": "USED_BY",
+                "context": "CTEP"
+            },
+            {
+                "name": "PART_VITAL_STAT_TP",
+                "type": "USED_BY",
+                "context": "NRG"
+            },
+            {
+                "name": "PART_VITAL_STAT_TP",
+                "type": "USED_BY",
+                "context": "CTEP"
+            },
+            {
+                "name": "PART_VITAL_STAT_TP",
+                "type": "USED_BY",
+                "context": "Alliance"
+            },
+            {
+                "name": "PART_VITAL_STAT_TP",
+                "type": "USED_BY",
+                "context": "SWOG"
+            },
+            {
+                "name": "DCP",
+                "type": "USED_BY",
+                "context": "DCP"
+            },
+            {
+                "name": "PART_VITAL_STAT_TP",
+                "type": "USED_BY",
+                "context": "OHSU Knight"
+            },
+            {
+                "name": "MCL",
+                "type": "USED_BY",
+                "context": "MCL"
+            },
+            {
+                "name": "OCG",
+                "type": "USED_BY",
+                "context": "OCG"
+            },
+            {
+                "name": "COG",
+                "type": "USED_BY",
+                "context": "COG"
+            },
+            {
+                "name": "PART_VITAL_STAT_TP",
+                "type": "USED_BY",
+                "context": "CCTG"
+            },
+            {
+                "name": "vital_status",
+                "type": "MCL Alt Name",
+                "context": "MCL"
+            },
+            {
+                "name": "CRDC",
+                "type": "USED_BY",
+                "context": "CRDC"
+            },
+            {
+                "name": "vital_status",
+                "type": "CDS Alt Name",
+                "context": "CRDC"
+            },
+            {
+                "name": "LKSS",
+                "type": "PCDC Alt Name",
+                "context": "Pediatric Cancer"
+            },
+            {
+                "name": "survival_status",
+                "type": "CTDC Alt Name",
+                "context": "CRDC"
+            },
+            {
+                "name": "Vital Status",
+                "type": "CRDC Alt Name",
+                "context": "CRDC"
+            },
+            {
+                "name": "vital_status",
+                "type": "CTDC Alt Name",
+                "context": "CRDC"
+            },
+            {
+                "name": "vital_status",
+                "type": "CCDI Alt Name",
+                "context": "Pediatric Cancer"
+            },
+            {
+                "name": "Vital Status",
+                "type": "Ped Cancer Alt Name",
+                "context": "Pediatric Cancer"
+            },
+            {
+                "name": "Vital Status",
+                "type": "NCCR Alt Name",
+                "context": "Pediatric Cancer"
+            },
+            {
+                "name": "Vital Status",
+                "type": "TCIA Alt Name",
+                "context": "CIP"
+            },
+            {
+                "name": "Vital status",
+                "type": "CCDI-Fed Alt Name",
+                "context": "Pediatric Cancer"
+            },
+            {
+                "name": "survival_status",
+                "type": "CTDC Table",
+                "context": "CRDC"
+            },
+            {
+                "name": "survival",
+                "type": "CCDI Table",
+                "context": "Pediatric Cancer"
+            },
+            {
+                "name": "last_known_survival_status",
+                "type": "CCDI Alt Name",
+                "context": "Pediatric Cancer"
+            }
+        ],
+        "ReferenceDocuments": [
+            {
+                "documentName": "Participant vital status",
+                "documentText": "Participant vital status",
+                "documentType": "Preferred Question Text",
+                "url": null,
+                "context": "NCI Standards"
+            },
+            {
+                "documentName": "TARGET CRF Text",
+                "documentText": "Vital Status",
+                "documentType": "Alternate Question Text",
+                "url": null,
+                "context": "NCIP"
+            },
+            {
+                "documentName": "TARGET NBL Text",
+                "documentText": "Outcome of event after primary diagnosis",
+                "documentType": "Alternate Question Text",
+                "url": null,
+                "context": "NCIP"
+            },
+            {
+                "documentName": "ECOG CRF # 1",
+                "documentText": "Patient's Vital Status",
+                "documentType": "Alternate Question Text",
+                "url": null,
+                "context": "ECOG-ACRIN"
+            },
+            {
+                "documentName": "CRF Text 2",
+                "documentText": "Patient's current status",
+                "documentType": "Alternate Question Text",
+                "url": null,
+                "context": "CTEP"
+            },
+            {
+                "documentName": "ACRIN 6702",
+                "documentText": "Participant vital status",
+                "documentType": "Alternate Question Text",
+                "url": null,
+                "context": "ECOG-ACRIN"
+            },
+            {
+                "documentName": "COG CRF Text 2",
+                "documentText": "Vital status:",
+                "documentType": "Alternate Question Text",
+                "url": null,
+                "context": "COG"
+            },
+            {
+                "documentName": "COG CRF Text 1",
+                "documentText": "Is patient living?",
+                "documentType": "Alternate Question Text",
+                "url": null,
+                "context": "COG"
+            },
+            {
+                "documentName": "Prior Question Text",
+                "documentText": "Participant Vital Status",
+                "documentType": "Alternate Question Text",
+                "url": null,
+                "context": "NCI Standards"
+            },
+            {
+                "documentName": "MCL-Lung-1",
+                "documentText": "Living status: Alive/ Deceased",
+                "documentType": "Alternate Question Text",
+                "url": null,
+                "context": "MCL"
+            },
+            {
+                "documentName": "MCL-Template Name",
+                "documentText": "clinicalcore_v0-1_template-1",
+                "documentType": "Data Collection Template",
+                "url": "https://mcl.nci.nih.gov/resources/standards/mcl-cdes",
+                "context": "MCL"
+            },
+            {
+                "documentName": "CDS",
+                "documentText": "Alive, Deceased, Unknown",
+                "documentType": "EXAMPLE",
+                "url": null,
+                "context": "CRDC"
+            },
+            {
+                "documentName": "PCDC Description",
+                "documentText": "The last known survival status of the subject.",
+                "documentType": "DESCRIPTION",
+                "url": null,
+                "context": "Pediatric Cancer"
+            },
+            {
+                "documentName": "Ped Core Tier",
+                "documentText": "Mandatory",
+                "documentType": "Tier",
+                "url": null,
+                "context": "Pediatric Cancer"
+            },
+            {
+                "documentName": "RCI Question",
+                "documentText": "What is the patient\u2019s status? Alive, dead",
+                "documentType": "Alternate Question Text",
+                "url": null,
+                "context": "Pediatric Cancer"
+            }
+        ]
+    }
+}
