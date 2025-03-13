@@ -10,7 +10,6 @@ def replace_illegal_quoting(value):
     else:
         return value
 
-
 # Read in caDSR IDs
 id_list = []
 fd = open("config/ca_dsr.txt")
