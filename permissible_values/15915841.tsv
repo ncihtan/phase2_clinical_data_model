@@ -1,0 +1,13 @@
+PERMITTED_VALUE	LONG_NAME	DEFINITION
+1	One	The smallest natural number and quantity it denotes: a single entity, unit, or object.
+10	Ten	A natural number greater than 9 and less than 11 and the quantity that it denotes: the sum of nine and one.
+2	Two	A natural number greater than 1 and less than 3 and the quantity that it denotes: the sum of one and one.
+3	Three	A natural number greater than 2 and less than 4 and the quantity that it denotes: the sum of two and one.
+4	Four	A natural number greater than 3 and less than 5 and the quantity that it denotes: the sum of three and one.
+5	Five	A natural number greater than 4 and less than 6 and the quantity that it denotes: the sum of four and one.
+6	Six	A natural number greater than 5 and less than 7 and the quantity that it denotes: the sum of five and one.
+7	Seven	A natural number greater than 6 and less than 8 and the quantity that it denotes: the sum of six and one.
+8	Eight	A natural number greater than 7 and less than 9 and the quantity that it denotes: the sum of seven and one.
+9	Nine	A natural number greater than 8 and less than 10 and the quantity that it denotes: the sum of nine and one.
+Not Reported	Not Reported	Not provided or available.
+Unknown	Unknown	Not known, observed, recorded; or reported as unknown by the data contributor.

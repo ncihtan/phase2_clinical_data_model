@@ -1,6 +1,7 @@
 # Extract Diseases from NCI Thesaurus
 # Diseases are defined as any descendent of C2991
 
+for
 
 def node_descends_from(node_id, ancestor_id, parent_map):
     """Determines if node_id descends from ancestor_id."""
