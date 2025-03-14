@@ -1,0 +1,8 @@
+PERMITTED_VALUE	LONG_NAME	DEFINITION
+Benign	Variant Benign	A genetic variant that is known to not contribute to the development of a disease.
+Likely Benign	Variant Likely Benign	A genetic variant that is not expected to contribute to the development of a disease, but the scientific evidence may be insufficient to prove this conclusively.
+Likely Pathogenic	Variant Pathogenic/Likely Pathogenic	An ad hoc category that describes genetic variants with 90% or greater certainty of contributing to the development of a disease.
+Not Reported	Not Reported	Not provided or available.
+Pathogenic	Pathogenic Variant	A genetic variant that is known to directly contribute to the development of disease.
+Uncertain Significance	Variant of Unknown Significance	An indication that there is not enough information to support a more definitive classification of the pathogenicity of a genetic variant.
+Unknown	Unknown	Not known, observed, recorded; or reported as unknown by the data contributor.
